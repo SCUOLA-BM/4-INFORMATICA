@@ -1,0 +1,16 @@
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsEreditarietà-BertoldoMatteo\EsEreditarietà-BertoldoMatteo\obj\Debug\net10.0\EsEreditarietà-BertoldoMatteo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsEreditarietà-BertoldoMatteo\EsEreditarietà-BertoldoMatteo\obj\Debug\net10.0\EsEreditarietà-BertoldoMatteo.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsEreditarietà-BertoldoMatteo\EsEreditarietà-BertoldoMatteo\obj\Debug\net10.0\EsEreditarietà-BertoldoMatteo.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsEreditarietà-BertoldoMatteo\EsEreditarietà-BertoldoMatteo\obj\Debug\net10.0\EsEreditarietà-BertoldoMatteo.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsEreditarietà-BertoldoMatteo\EsEreditarietà-BertoldoMatteo\obj\Debug\net10.0\EsEreditarietà-BertoldoMatteo.sourcelink.json
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsEreditarietà-BertoldoMatteo\EsEreditarietà-BertoldoMatteo\bin\Debug\net10.0\EsEreditarietà-BertoldoMatteo.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsEreditarietà-BertoldoMatteo\EsEreditarietà-BertoldoMatteo\bin\Debug\net10.0\EsEreditarietà-BertoldoMatteo.deps.json
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsEreditarietà-BertoldoMatteo\EsEreditarietà-BertoldoMatteo\bin\Debug\net10.0\EsEreditarietà-BertoldoMatteo.runtimeconfig.json
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsEreditarietà-BertoldoMatteo\EsEreditarietà-BertoldoMatteo\bin\Debug\net10.0\EsEreditarietà-BertoldoMatteo.dll
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsEreditarietà-BertoldoMatteo\EsEreditarietà-BertoldoMatteo\bin\Debug\net10.0\EsEreditarietà-BertoldoMatteo.pdb
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsEreditarietà-BertoldoMatteo\EsEreditarietà-BertoldoMatteo\obj\Debug\net10.0\EsEreditarietà-BertoldoMatteo.dll
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsEreditarietà-BertoldoMatteo\EsEreditarietà-BertoldoMatteo\obj\Debug\net10.0\refint\EsEreditarietà-BertoldoMatteo.dll
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsEreditarietà-BertoldoMatteo\EsEreditarietà-BertoldoMatteo\obj\Debug\net10.0\EsEreditarietà-BertoldoMatteo.pdb
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsEreditarietà-BertoldoMatteo\EsEreditarietà-BertoldoMatteo\obj\Debug\net10.0\EsEreditarietà-BertoldoMatteo.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsEreditarietà-BertoldoMatteo\EsEreditarietà-BertoldoMatteo\obj\Debug\net10.0\ref\EsEreditarietà-BertoldoMatteo.dll
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsEreditarietà-BertoldoMatteo\EsEreditarietà-BertoldoMatteo\obj\Debug\net10.0\EsEredit.A1ADFB33.Up2Date

@@ -1,0 +1,16 @@
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRipasso2BertoldoMatteo\EsRipasso2BertoldoMatteo\bin\Debug\net10.0\EsRipasso2BertoldoMatteo.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRipasso2BertoldoMatteo\EsRipasso2BertoldoMatteo\bin\Debug\net10.0\EsRipasso2BertoldoMatteo.deps.json
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRipasso2BertoldoMatteo\EsRipasso2BertoldoMatteo\bin\Debug\net10.0\EsRipasso2BertoldoMatteo.runtimeconfig.json
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRipasso2BertoldoMatteo\EsRipasso2BertoldoMatteo\bin\Debug\net10.0\EsRipasso2BertoldoMatteo.dll
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRipasso2BertoldoMatteo\EsRipasso2BertoldoMatteo\bin\Debug\net10.0\EsRipasso2BertoldoMatteo.pdb
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRipasso2BertoldoMatteo\EsRipasso2BertoldoMatteo\obj\Debug\net10.0\EsRipasso2BertoldoMatteo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRipasso2BertoldoMatteo\EsRipasso2BertoldoMatteo\obj\Debug\net10.0\EsRipasso2BertoldoMatteo.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRipasso2BertoldoMatteo\EsRipasso2BertoldoMatteo\obj\Debug\net10.0\EsRipasso2BertoldoMatteo.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRipasso2BertoldoMatteo\EsRipasso2BertoldoMatteo\obj\Debug\net10.0\EsRipasso2BertoldoMatteo.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRipasso2BertoldoMatteo\EsRipasso2BertoldoMatteo\obj\Debug\net10.0\EsRipasso2BertoldoMatteo.sourcelink.json
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRipasso2BertoldoMatteo\EsRipasso2BertoldoMatteo\obj\Debug\net10.0\EsRipasso2BertoldoMatteo.dll
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRipasso2BertoldoMatteo\EsRipasso2BertoldoMatteo\obj\Debug\net10.0\refint\EsRipasso2BertoldoMatteo.dll
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRipasso2BertoldoMatteo\EsRipasso2BertoldoMatteo\obj\Debug\net10.0\EsRipasso2BertoldoMatteo.pdb
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRipasso2BertoldoMatteo\EsRipasso2BertoldoMatteo\obj\Debug\net10.0\EsRipasso2BertoldoMatteo.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRipasso2BertoldoMatteo\EsRipasso2BertoldoMatteo\obj\Debug\net10.0\ref\EsRipasso2BertoldoMatteo.dll
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRipasso2BertoldoMatteo\EsRipasso2BertoldoMatteo\obj\Debug\net10.0\EsRipass.06B9ECEF.Up2Date

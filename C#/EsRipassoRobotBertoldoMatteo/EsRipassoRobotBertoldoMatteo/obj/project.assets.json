@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_QUARTA\\C#\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo.csproj",
       "projectName": "EsRipassoRobotBertoldoMatteo",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_QUARTA\\C#\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_QUARTA\\C#\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

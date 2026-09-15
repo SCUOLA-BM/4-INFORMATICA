@@ -1,16 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_QUARTA\\C#\\EsRipassoRobotBertoldoMatteo\\",
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRipassoRobotBertoldoMatteo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.312\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE55B957-969D-8DDC-B2EA-50476AB9A435}|EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\informatica_quarta\\c#\\esripassorobotbertoldomatteo\\esripassorobotbertoldomatteo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE55B957-969D-8DDC-B2EA-50476AB9A435}|EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esripassorobotbertoldomatteo\\esripassorobotbertoldomatteo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE55B957-969D-8DDC-B2EA-50476AB9A435}|EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo.csproj|solutionrelative:esripassorobotbertoldomatteo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE55B957-969D-8DDC-B2EA-50476AB9A435}|EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\informatica_quarta\\c#\\esripassorobotbertoldomatteo\\esripassorobotbertoldomatteo\\crobot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE55B957-969D-8DDC-B2EA-50476AB9A435}|EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esripassorobotbertoldomatteo\\esripassorobotbertoldomatteo\\crobot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE55B957-969D-8DDC-B2EA-50476AB9A435}|EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo.csproj|solutionrelative:esripassorobotbertoldomatteo\\crobot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -21,43 +18,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Microsoft.NET.TargetFrameworkInference.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.312\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.312\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.312\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.312\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAAwKoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-09-11T13:44:20.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CRobot.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_QUARTA\\C#\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo\\CRobot.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo\\CRobot.cs",
               "RelativeDocumentMoniker": "EsRipassoRobotBertoldoMatteo\\CRobot.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_QUARTA\\C#\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo\\CRobot.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo\\CRobot.cs",
               "RelativeToolTip": "EsRipassoRobotBertoldoMatteo\\CRobot.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T13:27:33.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-11T13:27:33.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_QUARTA\\C#\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo\\Program.cs",
               "RelativeDocumentMoniker": "EsRipassoRobotBertoldoMatteo\\Program.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_QUARTA\\C#\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRipassoRobotBertoldoMatteo\\EsRipassoRobotBertoldoMatteo\\Program.cs",
               "RelativeToolTip": "EsRipassoRobotBertoldoMatteo\\Program.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAkwIUAAABiAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T13:27:30.808Z",
               "EditorCaption": ""

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRipasso2BertoldoMatteo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22CD1DE7-8657-4B64-8ED7-4FBB26D07CC5}|EsRipasso2BertoldoMatteo\\EsRipasso2BertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esripasso2bertoldomatteo\\esripasso2bertoldomatteo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CD1DE7-8657-4B64-8ED7-4FBB26D07CC5}|EsRipasso2BertoldoMatteo\\EsRipasso2BertoldoMatteo.csproj|solutionrelative:esripasso2bertoldomatteo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRipasso2BertoldoMatteo\\EsRipasso2BertoldoMatteo\\Program.cs",
+              "RelativeDocumentMoniker": "EsRipasso2BertoldoMatteo\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRipasso2BertoldoMatteo\\EsRipasso2BertoldoMatteo\\Program.cs",
+              "RelativeToolTip": "EsRipasso2BertoldoMatteo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T09:14:31.501Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
