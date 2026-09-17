@@ -5,10 +5,7 @@
         static void Main(string[] args)
         {
             int max;
-
             int scelta = 0;
-
-
             Console.WriteLine("BENVENUTO NEL MIO PROGRAMMA GESTIONE SCOLASTICA");
             //chiedi quante persone si vuole inserire e fai for inserimento persone specificando il tipo di persona con try catch e alla fine stampa elenco
             do
