@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EsEreditarietàPersone-BertoldoMatteo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c30eb1a2f1873fe28b8206266d2706859d8ae309")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+776651a2f90839a298a96a9450372f293dbab4f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("EsEreditarietàPersone-BertoldoMatteo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EsEreditarietàPersone-BertoldoMatteo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

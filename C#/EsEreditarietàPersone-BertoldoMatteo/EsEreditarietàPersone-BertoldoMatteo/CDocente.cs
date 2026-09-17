@@ -7,24 +7,41 @@ namespace EsEreditarietàPersone_BertoldoMatteo
 {
     internal class CDocente : CPersona
     {
-        protected string Materia { get; set; }
-        public double Salario { get; set; }
+        private string materia;
+        private float salario;
+        public string Materia
+        {
+            get { return materia; }
+            set { 
+                if (!string.IsNullOrWhiteSpace(value)) materia = value;
+                else throw new ArgumentException("Materia non inserita\n");
+            }
+        }
+        public float Salario
+        {
+            get { return salario; }
+            set
+            {
+                if (value > 0.0f) salario = value;
+                else throw new ArgumentException("Salario < 0\n");
+            }
+        }
 
         public CDocente() : base()
         {
-            Materia = "";
-            Salario = 0;
+            materia = "";
+            salario = 0;
         }
 
-        public CDocente(string codfiscale, string nome, string cognome, string materia, double salario) : base(codfiscale, nome, cognome)
+        public CDocente(string codfiscale, string nome, string cognome, string mat, float sal) : base(codfiscale, nome, cognome)
         {
-            Materia = materia;
-            Salario = salario;
+            materia = mat;
+            salario = sal;
         }
 
-        public new string Print()
+        public override string Print()
         {
-            return base.Print() + "\nMatricola : " + this.Materia + "\nUniversità : " + this.Salario;
+            return base.Print() + "\nMateria : " + this.Materia + "\nSalario : " + this.Salario;
         }
 
     }

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "EsEreditarietàPersone-BertoldoMatteo/1.0.0": {
+        "runtime": {
+          "EsEreditarietàPersone-BertoldoMatteo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EsEreditarietàPersone-BertoldoMatteo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Runtime.Versioning;
 using System.Text;
 
@@ -7,24 +8,36 @@ namespace EsEreditarietàPersone_BertoldoMatteo
 {
     internal class CElencoPersone
     {
-        protected List<CPersona> ListaPersone { get; set; }
-        protected const int max = 10;
+        private List<CPersona> listaPersone;
+        public List<CPersona> ListaPersone
+        {
+            get {  return new List<CPersona>();}
+            set
+            {
+                if (value != null) listaPersone = value;
+                else throw new ArgumentException("Elenco persone non valida\n");
+            }
+        }
+        
+        protected int max;
 
         public CElencoPersone(int n)
         {
-            ListaPersone = new List<CPersona>();
+            listaPersone = new List<CPersona>();
+            max = n;
         }
 
-        public CElencoPersone(List<CPersona> listaPersone)
+        public CElencoPersone(List<CPersona> listPersone, int n)
         {
-            ListaPersone = listaPersone;
+            listaPersone = listPersone;
+            max = n;
         }
 
         public string Add(CPersona persona)
         {
             if (ListaPersone.Count != max)
             {
-                ListaPersone.Add(persona);
+                listaPersone.Add(persona);
                 return "AGGIUNTO CON SUCCESSO";
             }
             else return "RAGGIUNTO LIMITE PERONE";
@@ -33,17 +46,19 @@ namespace EsEreditarietàPersone_BertoldoMatteo
         public string Print()
         {
             string str = "ELENCO PERSONE :\n";
-            foreach(CPersona p in ListaPersone)
+            int count = 1;
+            foreach(var p in listaPersone)
             {
-                str += p.Print() + "\n";
+                str +="\nSTUDENTE N°"+count+ p.Print() + "\n";
+                count++;
             }
             return str;
         }
 
-        public int ConsaStudenti()
+        public int ContaStudenti()
         {
             int n = 0;
-            foreach (CPersona p in ListaPersone)
+            foreach (var p in listaPersone)
             {
                 if (p is CStudente) n++;
             }
@@ -52,8 +67,8 @@ namespace EsEreditarietàPersone_BertoldoMatteo
 
         public string StampaDocentiConStipendioAlto(double soglia)
         {
-            string str = "ELENCO DOCENTI CON STIPENDIO > "+soglia+ "\n";
-            foreach (CPersona p in ListaPersone)
+            string str = "ELENCO DOCENTI CON STIPENDIO > "+soglia+ ": \n";
+            foreach (CPersona p in listaPersone)
             {
                 if(p is CDocente doc && doc.Salario > soglia)
                 {
@@ -66,7 +81,7 @@ namespace EsEreditarietàPersone_BertoldoMatteo
         public string StampaTipo()
         {
             string str = "ELENCO PERSONE :\n";
-            foreach (CPersona p in ListaPersone)
+            foreach (CPersona p in listaPersone)
             {
                 if (p is CDocente) str += "DOCENTE : \n";
                 else str += "STUDENTE : \n";
