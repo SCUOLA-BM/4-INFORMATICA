@@ -2,10 +2,6 @@
 {
     internal class Program
     {
-        public string cod = "";
-        public string nome = "";
-        public string cognome = "";
-
         static void Main(string[] args)
         {
             int max;
