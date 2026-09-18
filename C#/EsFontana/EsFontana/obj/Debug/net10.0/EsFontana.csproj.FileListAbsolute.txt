@@ -1,0 +1,16 @@
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsFontana\EsFontana\bin\Debug\net10.0\EsFontana.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsFontana\EsFontana\bin\Debug\net10.0\EsFontana.deps.json
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsFontana\EsFontana\bin\Debug\net10.0\EsFontana.runtimeconfig.json
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsFontana\EsFontana\bin\Debug\net10.0\EsFontana.dll
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsFontana\EsFontana\bin\Debug\net10.0\EsFontana.pdb
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsFontana\EsFontana\obj\Debug\net10.0\EsFontana.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsFontana\EsFontana\obj\Debug\net10.0\EsFontana.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsFontana\EsFontana\obj\Debug\net10.0\EsFontana.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsFontana\EsFontana\obj\Debug\net10.0\EsFontana.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsFontana\EsFontana\obj\Debug\net10.0\EsFontana.sourcelink.json
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsFontana\EsFontana\obj\Debug\net10.0\EsFontana.dll
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsFontana\EsFontana\obj\Debug\net10.0\refint\EsFontana.dll
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsFontana\EsFontana\obj\Debug\net10.0\EsFontana.pdb
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsFontana\EsFontana\obj\Debug\net10.0\EsFontana.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsFontana\EsFontana\obj\Debug\net10.0\ref\EsFontana.dll
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsFontana\EsFontana\obj\Debug\net10.0\EsFontana.csproj.Up2Date
