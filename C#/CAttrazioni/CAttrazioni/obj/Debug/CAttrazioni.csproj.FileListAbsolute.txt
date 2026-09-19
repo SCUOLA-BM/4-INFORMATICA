@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\CAttrazioni\CAttrazioni\obj\Debug\CAttrazioni.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\CAttrazioni\CAttrazioni\obj\Debug\CAttrazioni.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\CAttrazioni\CAttrazioni\bin\Debug\CAttrazioni.exe.config
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\CAttrazioni\CAttrazioni\bin\Debug\CAttrazioni.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\CAttrazioni\CAttrazioni\bin\Debug\CAttrazioni.pdb
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\CAttrazioni\CAttrazioni\obj\Debug\CAttrazioni.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\CAttrazioni\CAttrazioni\obj\Debug\CAttrazioni.pdb
