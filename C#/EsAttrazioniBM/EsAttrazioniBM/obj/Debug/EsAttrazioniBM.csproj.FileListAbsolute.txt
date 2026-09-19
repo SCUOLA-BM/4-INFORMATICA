@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsAttrazioniBM\EsAttrazioniBM\bin\Debug\EsAttrazioniBM.exe.config
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsAttrazioniBM\EsAttrazioniBM\bin\Debug\EsAttrazioniBM.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsAttrazioniBM\EsAttrazioniBM\bin\Debug\EsAttrazioniBM.pdb
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsAttrazioniBM\EsAttrazioniBM\obj\Debug\EsAttrazioniBM.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsAttrazioniBM\EsAttrazioniBM\obj\Debug\EsAttrazioniBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsAttrazioniBM\EsAttrazioniBM\obj\Debug\EsAttrazioniBM.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsAttrazioniBM\EsAttrazioniBM\obj\Debug\EsAttrazioniBM.pdb
