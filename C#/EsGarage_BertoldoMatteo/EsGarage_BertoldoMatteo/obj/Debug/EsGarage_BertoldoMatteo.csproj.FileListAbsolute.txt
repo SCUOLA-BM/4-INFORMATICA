@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsGarage_BertoldoMatteo\EsGarage_BertoldoMatteo\bin\Debug\EsGarage_BertoldoMatteo.exe.config
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsGarage_BertoldoMatteo\EsGarage_BertoldoMatteo\bin\Debug\EsGarage_BertoldoMatteo.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsGarage_BertoldoMatteo\EsGarage_BertoldoMatteo\bin\Debug\EsGarage_BertoldoMatteo.pdb
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsGarage_BertoldoMatteo\EsGarage_BertoldoMatteo\obj\Debug\EsGarage_BertoldoMatteo.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsGarage_BertoldoMatteo\EsGarage_BertoldoMatteo\obj\Debug\EsGarage_BertoldoMatteo.Form1.resources
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsGarage_BertoldoMatteo\EsGarage_BertoldoMatteo\obj\Debug\EsGarage_BertoldoMatteo.Properties.Resources.resources
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsGarage_BertoldoMatteo\EsGarage_BertoldoMatteo\obj\Debug\EsGarage_BertoldoMatteo.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsGarage_BertoldoMatteo\EsGarage_BertoldoMatteo\obj\Debug\EsGarage_BertoldoMatteo.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsGarage_BertoldoMatteo\EsGarage_BertoldoMatteo\obj\Debug\EsGarage_BertoldoMatteo.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsGarage_BertoldoMatteo\EsGarage_BertoldoMatteo\obj\Debug\EsGarage_BertoldoMatteo.pdb
