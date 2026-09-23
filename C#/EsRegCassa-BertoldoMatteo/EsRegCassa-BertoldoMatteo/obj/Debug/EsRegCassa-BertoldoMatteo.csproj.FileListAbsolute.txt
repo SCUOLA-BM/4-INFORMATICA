@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRegCassa-BertoldoMatteo\EsRegCassa-BertoldoMatteo\obj\Debug\EsRegCassa-BertoldoMatteo.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRegCassa-BertoldoMatteo\EsRegCassa-BertoldoMatteo\obj\Debug\EsRegCassa-BertoldoMatteo.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRegCassa-BertoldoMatteo\EsRegCassa-BertoldoMatteo\bin\Debug\EsRegCassa-BertoldoMatteo.exe.config
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRegCassa-BertoldoMatteo\EsRegCassa-BertoldoMatteo\bin\Debug\EsRegCassa-BertoldoMatteo.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRegCassa-BertoldoMatteo\EsRegCassa-BertoldoMatteo\bin\Debug\EsRegCassa-BertoldoMatteo.pdb
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRegCassa-BertoldoMatteo\EsRegCassa-BertoldoMatteo\obj\Debug\EsRegCassa-BertoldoMatteo.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsRegCassa-BertoldoMatteo\EsRegCassa-BertoldoMatteo\obj\Debug\EsRegCassa-BertoldoMatteo.pdb
