@@ -11,7 +11,7 @@ namespace EsRegCassa_BertoldoMatteo
     {
         public long Codice { get; set; }
         public string Descrizione { get; set; }
-        public int Prezzo { get; set; }
+        public float Prezzo { get; set; }
 
         public CArticolo()
         {

@@ -50,9 +50,9 @@ namespace EsRegCassa_BertoldoMatteo
             }
         }
 
-        public int Somma()
+        public float Somma()
         {
-            int somma = 0;
+            float somma = 0;
             foreach (var a in Articoli)
             {
                 somma += a.Prezzo;

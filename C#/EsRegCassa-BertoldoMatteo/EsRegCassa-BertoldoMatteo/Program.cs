@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Globalization;
 using System.Threading.Tasks;
 using System.Xml.Schema;
 
@@ -11,15 +12,20 @@ namespace EsRegCassa_BertoldoMatteo
     {
         public static List<CCliente> clienti;
         public static string stringa;
-        public static int numint;
-        public static int cl;
+        public static int numint, id, cl, scelta, mes, sett;
+        public static float prezzo;
         public static long codice;
+        public static DateTime data;
+
+
         public static CArticolo articolo;
         public static CCliente cliente;
+        public static CScontrino scontrino;
+        public static CRegistratore registratore;
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8; //per stampare in UTF-8
-
+            registratore = new CRegistratore();
             clienti = new List<CCliente>();
 
             Console.WriteLine("BENVENUTO NEL REGISTRATORE CASSA");
@@ -35,6 +41,7 @@ namespace EsRegCassa_BertoldoMatteo
                 InserimentoArticoli();
                 cliente.AggiornaPrezzo();
             }
+            
             Output();
         }
 
@@ -64,6 +71,7 @@ namespace EsRegCassa_BertoldoMatteo
 
         public static void InserimentoArticoli()
         {
+
             for(int i = 0; i < 5; i++)
             {
                 if(i < 3)
@@ -92,8 +100,8 @@ namespace EsRegCassa_BertoldoMatteo
                 do
                 {
                     Console.Write("PREZZO: ");
-                } while (!int.TryParse(Console.ReadLine(), out numint) || numint < 1);
-                articolo.Prezzo = numint;
+                } while (!float.TryParse(Console.ReadLine(), out prezzo) || prezzo < 1);
+                articolo.Prezzo = prezzo;
 
                 if (articolo is CAlimento alimento)
                 {
@@ -115,19 +123,77 @@ namespace EsRegCassa_BertoldoMatteo
                 }
             }
             clienti.Add(cliente);
+            do
+            {
+                Console.WriteLine("DATA EMISSIONE: (G/M/A)");
+            } while (!DateTime.TryParseExact(Console.ReadLine(), "d/M/yyyy", null, System.Globalization.DateTimeStyles.None, out data));
+
+            registratore.EmettiScontrino(prezzo,data);
         }
 
         public static void Output()
         {
-            cl = 1;
+            numint = 1;
+            prezzo = 0;
+
             foreach (var c in clienti)
             {
-                Console.WriteLine("\n\nCLIENTE N° "+cl);
+                Console.WriteLine("\n\nCLIENTE N° "+numint);
                 Console.WriteLine(c.Print());
                 Console.WriteLine("\nIMPORTA DA PAGARE: "+c.Somma());
-                cl++;
+                prezzo += c.Somma();
+                numint++;
             }
-            
+
+            do
+            {
+                Console.WriteLine("STAMPA PER SETTIMANE = 0/ MESE = 1:");
+            } while (!int.TryParse(Console.ReadLine(), out scelta) || !(scelta == 0 || scelta == 1));
+
+
+
+            if (scelta == 0)
+            {
+                do
+                {
+                    Console.WriteLine("N° SETTIMANA:");
+                } while (!int.TryParse(Console.ReadLine(), out sett) || sett < 1 || sett > 52);
+                StampaPerSett(sett);
+            }
+            else
+            {
+                do
+                {
+                    Console.WriteLine("N° MESE:");
+                } while (!int.TryParse(Console.ReadLine(), out mes) || mes < 1 || mes > 12);
+                StampaPerMes(mes);
+            }
+        }
+
+        public static void StampaPerSett(int sett)
+        {
+            Console.WriteLine("PER SETTIMANA: ");
+            foreach(var s in registratore.Scontrini)
+            {
+                if(numint == CultureInfo.CurrentCulture.Calendar.GetWeekOfYear(s.DataE, CalendarWeekRule.FirstDay, DayOfWeek.Monday))
+                {
+                    Console.WriteLine(s.Print());
+                }
+            }
+
+        }
+
+        public static void StampaPerMes(int mes)
+        {
+            Console.WriteLine("PER MESE: ");
+            foreach (var s in registratore.Scontrini)
+            {
+                if (mes == s.DataE.Month)
+                {
+                    Console.WriteLine(s.Print());
+                }
+            }
+
         }
     }
 }

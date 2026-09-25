@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esregcassa-bertoldomatteo\\esregcassa-bertoldomatteo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\esregcassa-bertoldomatteo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|solutionrelative:esregcassa-bertoldomatteo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esregcassa-bertoldomatteo\\esregcassa-bertoldomatteo\\carticolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|solutionrelative:esregcassa-bertoldomatteo\\carticolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esregcassa-bertoldomatteo\\esregcassa-bertoldomatteo\\cscontrino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|solutionrelative:esregcassa-bertoldomatteo\\cscontrino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esregcassa-bertoldomatteo\\esregcassa-bertoldomatteo\\cregistratore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|solutionrelative:esregcassa-bertoldomatteo\\cregistratore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\esregcassa-bertoldomatteo\\cnonalimentare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|solutionrelative:esregcassa-bertoldomatteo\\cnonalimentare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esregcassa-bertoldomatteo\\esregcassa-bertoldomatteo\\ccliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|solutionrelative:esregcassa-bertoldomatteo\\ccliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esregcassa-bertoldomatteo\\esregcassa-bertoldomatteo\\calimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|solutionrelative:esregcassa-bertoldomatteo\\calimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\esregcassa-bertoldomatteo\\carticolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|solutionrelative:esregcassa-bertoldomatteo\\carticolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esregcassa-bertoldomatteo\\esregcassa-bertoldomatteo\\cnonalimentare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|solutionrelative:esregcassa-bertoldomatteo\\cnonalimentare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\esregcassa-bertoldomatteo\\calimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89FCD6FA-02DF-4978-BFAE-F59A1B04AE94}|EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo.csproj|solutionrelative:esregcassa-bertoldomatteo\\calimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,63 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CNonAlimentare.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CNonAlimentare.cs",
-              "RelativeDocumentMoniker": "EsRegCassa-BertoldoMatteo\\CNonAlimentare.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CNonAlimentare.cs",
-              "RelativeToolTip": "EsRegCassa-BertoldoMatteo\\CNonAlimentare.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwBkAAACdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T14:14:25.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CAlimento.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CAlimento.cs",
-              "RelativeDocumentMoniker": "EsRegCassa-BertoldoMatteo\\CAlimento.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CAlimento.cs",
-              "RelativeToolTip": "EsRegCassa-BertoldoMatteo\\CAlimento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T14:10:23.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CCliente.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CCliente.cs",
-              "RelativeDocumentMoniker": "EsRegCassa-BertoldoMatteo\\CCliente.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CCliente.cs",
-              "RelativeToolTip": "EsRegCassa-BertoldoMatteo\\CCliente.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAA/wDsAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T14:28:17.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CArticolo.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CArticolo.cs",
-              "RelativeDocumentMoniker": "EsRegCassa-BertoldoMatteo\\CArticolo.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CArticolo.cs",
-              "RelativeToolTip": "EsRegCassa-BertoldoMatteo\\CArticolo.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T14:05:54.828Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -96,10 +52,86 @@
               "RelativeDocumentMoniker": "EsRegCassa-BertoldoMatteo\\Program.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\Program.cs",
               "RelativeToolTip": "EsRegCassa-BertoldoMatteo\\Program.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAIwHMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAuwL4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-23T14:04:52.554Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CRegistratore.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CRegistratore.cs",
+              "RelativeDocumentMoniker": "EsRegCassa-BertoldoMatteo\\CRegistratore.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CRegistratore.cs",
+              "RelativeToolTip": "EsRegCassa-BertoldoMatteo\\CRegistratore.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T07:54:05.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CScontrino.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CScontrino.cs",
+              "RelativeDocumentMoniker": "EsRegCassa-BertoldoMatteo\\CScontrino.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CScontrino.cs",
+              "RelativeToolTip": "EsRegCassa-BertoldoMatteo\\CScontrino.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T07:53:52.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CNonAlimentare.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CNonAlimentare.cs",
+              "RelativeDocumentMoniker": "EsRegCassa-BertoldoMatteo\\CNonAlimentare.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CNonAlimentare.cs",
+              "RelativeToolTip": "EsRegCassa-BertoldoMatteo\\CNonAlimentare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAACdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T14:14:25.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CAlimento.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CAlimento.cs",
+              "RelativeDocumentMoniker": "EsRegCassa-BertoldoMatteo\\CAlimento.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CAlimento.cs",
+              "RelativeToolTip": "EsRegCassa-BertoldoMatteo\\CAlimento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T14:10:23.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CCliente.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CCliente.cs",
+              "RelativeDocumentMoniker": "EsRegCassa-BertoldoMatteo\\CCliente.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CCliente.cs",
+              "RelativeToolTip": "EsRegCassa-BertoldoMatteo\\CCliente.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T14:28:17.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CArticolo.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CArticolo.cs",
+              "RelativeDocumentMoniker": "EsRegCassa-BertoldoMatteo\\CArticolo.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsRegCassa-BertoldoMatteo\\EsRegCassa-BertoldoMatteo\\CArticolo.cs",
+              "RelativeToolTip": "EsRegCassa-BertoldoMatteo\\CArticolo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T14:05:54.828Z"
             }
           ]
         }

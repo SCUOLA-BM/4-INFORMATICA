@@ -47,6 +47,8 @@
     <Compile Include="CArticolo.cs" />
     <Compile Include="CCliente.cs" />
     <Compile Include="CNonAlimentare.cs" />
+    <Compile Include="CRegistratore.cs" />
+    <Compile Include="CScontrino.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
