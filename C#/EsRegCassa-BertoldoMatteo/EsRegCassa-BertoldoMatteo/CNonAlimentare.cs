@@ -21,6 +21,11 @@ namespace EsRegCassa_BertoldoMatteo
             Materiale = string.Empty;
         }
 
+        public CNonAlimento(long codice, string descrizione, float prezzo, string materiale) : base(codice, descrizione, prezzo)
+        {
+            Materiale = materiale;
+        }
+
         public override void Sconta()
         {
             if(this.Materiale == Mat.vetro.ToString() || this.Materiale == Mat.carta.ToString() || this.Materiale == Mat.plastica.ToString()) this.Prezzo = Prezzo * 90 / 100;

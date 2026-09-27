@@ -59,5 +59,14 @@ namespace EsRegCassa_BertoldoMatteo
             }
             return somma;
         }
+
+        public bool HaAcquistato(long codice)
+        {
+            foreach (var a in Articoli)
+            {
+                if (a.Codice == codice) return true;
+            }
+            return false;
+        }
     }
 }

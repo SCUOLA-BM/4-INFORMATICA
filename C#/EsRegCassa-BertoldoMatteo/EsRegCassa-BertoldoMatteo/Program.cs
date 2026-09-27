@@ -25,6 +25,7 @@ namespace EsRegCassa_BertoldoMatteo
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8; //per stampare in UTF-8
+
             registratore = new CRegistratore();
             clienti = new List<CCliente>();
 
@@ -40,6 +41,20 @@ namespace EsRegCassa_BertoldoMatteo
                 InserimentoCliente();
                 InserimentoArticoli();
                 cliente.AggiornaPrezzo();
+
+                do
+                {
+                    Console.Write("DATA EMISSIONE SCONTRINO (G/M/A): ");
+                } while (!DateTime.TryParseExact(Console.ReadLine(), "d/M/yyyy", null, System.Globalization.DateTimeStyles.None, out data));
+
+                registratore.EmettiScontrino((int)Math.Round(cliente.Somma()), data);
+
+                do
+                {
+                    Console.Write("VUOI ELIMINARE L'ULTIMO SCONTRINO APPENA EMESSO? (SI/NO): ");
+                    stringa = Console.ReadLine();
+                } while (stringa != "SI" && stringa != "NO");
+                if (stringa == "SI") registratore.Cancella();
             }
             
             Output();
@@ -71,6 +86,7 @@ namespace EsRegCassa_BertoldoMatteo
 
         public static void InserimentoArticoli()
         {
+            float sommaScontrino = 0;
 
             for(int i = 0; i < 5; i++)
             {
@@ -102,6 +118,7 @@ namespace EsRegCassa_BertoldoMatteo
                     Console.Write("PREZZO: ");
                 } while (!float.TryParse(Console.ReadLine(), out prezzo) || prezzo < 1);
                 articolo.Prezzo = prezzo;
+                sommaScontrino += prezzo;
 
                 if (articolo is CAlimento alimento)
                 {
@@ -123,12 +140,6 @@ namespace EsRegCassa_BertoldoMatteo
                 }
             }
             clienti.Add(cliente);
-            do
-            {
-                Console.WriteLine("DATA EMISSIONE: (G/M/A)");
-            } while (!DateTime.TryParseExact(Console.ReadLine(), "d/M/yyyy", null, System.Globalization.DateTimeStyles.None, out data));
-
-            registratore.EmettiScontrino(prezzo,data);
         }
 
         public static void Output()
@@ -144,6 +155,9 @@ namespace EsRegCassa_BertoldoMatteo
                 prezzo += c.Somma();
                 numint++;
             }
+
+            CercaClientiPerProdotto();
+            VisualizzaListaGiornaliera();
 
             do
             {
@@ -170,12 +184,72 @@ namespace EsRegCassa_BertoldoMatteo
             }
         }
 
-        public static void StampaPerSett(int sett)
+        public static void CercaClientiPerProdotto()
+        {
+            do
+            {
+                Console.Write("\nVUOI CERCARE I CLIENTI CHE HANNO ACQUISTATO UN PRODOTTO? (SI/NO): ");
+                stringa = Console.ReadLine();
+            } while (stringa != "SI" && stringa != "NO");
+
+            if (stringa == "SI")
+            {
+                do
+                {
+                    Console.Write("CODICE A BARRE DEL PRODOTTO: ");
+                } while (!long.TryParse(Console.ReadLine(), out codice));
+
+                Console.WriteLine("\nCLIENTI CHE HANNO ACQUISTATO IL PRODOTTO " + codice + ":");
+                bool trovato = false;
+                foreach (var c in clienti)
+                {
+                    if (c.HaAcquistato(codice))
+                    {
+                        Console.WriteLine("- " + c.Nome + " " + c.Cognome);
+                        trovato = true;
+                    }
+                }
+                if (!trovato) Console.WriteLine("NESSUN CLIENTE HA ACQUISTATO QUESTO PRODOTTO.");
+            }
+        }
+
+        public static void VisualizzaListaGiornaliera()
+        {
+            do
+            {
+                Console.Write("\nVUOI VEDERE LA LISTA DEGLI SCONTRINI EMESSI IN UNA DATA? (SI/NO): ");
+                stringa = Console.ReadLine();
+            } while (stringa != "SI" && stringa != "NO");
+
+            if (stringa == "SI")
+            {
+                do
+                {
+                    Console.Write("DATA (G/M/A): ");
+                } while (!DateTime.TryParseExact(Console.ReadLine(), "d/M/yyyy", null, System.Globalization.DateTimeStyles.None, out data));
+
+                var lista = registratore.ListaScontrini(data);
+                if (lista.Count == 0)
+                {
+                    Console.WriteLine("NESSUNO SCONTRINO EMESSO IN QUESTA DATA.");
+                }
+                else
+                {
+                    foreach (var s in lista)
+                    {
+                        Console.WriteLine(s.Print());
+                    }
+                }
+            }
+        }
+
+
+        public static void StampaPerSett(int se)
         {
             Console.WriteLine("PER SETTIMANA: ");
             foreach(var s in registratore.Scontrini)
             {
-                if(numint == CultureInfo.CurrentCulture.Calendar.GetWeekOfYear(s.DataE, CalendarWeekRule.FirstDay, DayOfWeek.Monday))
+                if(se == CultureInfo.CurrentCulture.Calendar.GetWeekOfYear(s.DataE, CalendarWeekRule.FirstDay, DayOfWeek.Monday))
                 {
                     Console.WriteLine(s.Print());
                 }
@@ -183,12 +257,12 @@ namespace EsRegCassa_BertoldoMatteo
 
         }
 
-        public static void StampaPerMes(int mes)
+        public static void StampaPerMes(int m)
         {
             Console.WriteLine("PER MESE: ");
             foreach (var s in registratore.Scontrini)
             {
-                if (mes == s.DataE.Month)
+                if ((int)m == s.DataE.Month)
                 {
                     Console.WriteLine(s.Print());
                 }

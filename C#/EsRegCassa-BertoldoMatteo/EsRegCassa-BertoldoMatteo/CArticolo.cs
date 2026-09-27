@@ -20,6 +20,13 @@ namespace EsRegCassa_BertoldoMatteo
             Prezzo = 0;
         }
 
+        public CArticolo(long codice, string descrizione, float prezzo)
+        {
+            Codice = codice;
+            Descrizione = descrizione;
+            Prezzo = prezzo;
+        }
+
         public virtual void Sconta()
         {
             this.Prezzo = Prezzo * 95 / 100;

@@ -13,6 +13,10 @@ namespace EsRegCassa_BertoldoMatteo
         {
             AnnoScadenza = 0;
         }
+        public CAlimento(long codice, string descrizione, float prezzo, int annoScadenza) : base(codice, descrizione, prezzo)
+        {
+            AnnoScadenza = annoScadenza;
+        }
 
         public override void Sconta()
         {

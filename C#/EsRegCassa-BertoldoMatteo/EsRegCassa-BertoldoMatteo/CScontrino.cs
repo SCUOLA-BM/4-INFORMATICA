@@ -21,7 +21,7 @@ namespace EsRegCassa_BertoldoMatteo
 
         public string Print()
         {
-            return "\nAMMONTARE: " + Ammontare + "\nDATA EMISSIONE:" + DataE + "\nID: " + Id;
+            return "\nSCONTRINO N. " + Id + "\nDATA EMISSIONE: " + DataE.ToString("dd/MM/yyyy") + "\nAMMONTARE: " + Ammontare + " \u20AC";
         }
     }
 }
