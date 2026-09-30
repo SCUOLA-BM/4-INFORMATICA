@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2C2FE4-7FC8-468E-BFE0-74AD14DF79B9}|EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esvolatili-bertoldo-matteo\\esvolatili-bertoldo-matteo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2C2FE4-7FC8-468E-BFE0-74AD14DF79B9}|EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO.csproj|solutionrelative:esvolatili-bertoldo-matteo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2C2FE4-7FC8-468E-BFE0-74AD14DF79B9}|EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\esvolatili-bertoldo-matteo\\cpennuto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2C2FE4-7FC8-468E-BFE0-74AD14DF79B9}|EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO.csproj|solutionrelative:esvolatili-bertoldo-matteo\\cpennuto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2C2FE4-7FC8-468E-BFE0-74AD14DF79B9}|EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\esvolatili-bertoldo-matteo\\cavvistamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2C2FE4-7FC8-468E-BFE0-74AD14DF79B9}|EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO.csproj|solutionrelative:esvolatili-bertoldo-matteo\\cavvistamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2C2FE4-7FC8-468E-BFE0-74AD14DF79B9}|EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\esvolatili-bertoldo-matteo\\ccanterino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2C2FE4-7FC8-468E-BFE0-74AD14DF79B9}|EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO.csproj|solutionrelative:esvolatili-bertoldo-matteo\\ccanterino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2C2FE4-7FC8-468E-BFE0-74AD14DF79B9}|EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\esvolatili-bertoldo-matteo\\cacquatico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2C2FE4-7FC8-468E-BFE0-74AD14DF79B9}|EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO.csproj|solutionrelative:esvolatili-bertoldo-matteo\\cacquatico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2C2FE4-7FC8-468E-BFE0-74AD14DF79B9}|EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\esvolatili-bertoldo-matteo\\crapace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2C2FE4-7FC8-468E-BFE0-74AD14DF79B9}|EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO.csproj|solutionrelative:esvolatili-bertoldo-matteo\\crapace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO\\Program.cs",
+              "RelativeDocumentMoniker": "EsVolatili-BERTOLDO-MATTEO\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO\\Program.cs",
+              "RelativeToolTip": "EsVolatili-BERTOLDO-MATTEO\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCwAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T11:03:07.811Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CAvvistamento.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO\\CAvvistamento.cs",
+              "RelativeDocumentMoniker": "EsVolatili-BERTOLDO-MATTEO\\CAvvistamento.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO\\CAvvistamento.cs",
+              "RelativeToolTip": "EsVolatili-BERTOLDO-MATTEO\\CAvvistamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T11:33:46.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CRapace.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO\\CRapace.cs",
+              "RelativeDocumentMoniker": "EsVolatili-BERTOLDO-MATTEO\\CRapace.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO\\CRapace.cs",
+              "RelativeToolTip": "EsVolatili-BERTOLDO-MATTEO\\CRapace.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T11:35:02.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CCanterino.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO\\CCanterino.cs",
+              "RelativeDocumentMoniker": "EsVolatili-BERTOLDO-MATTEO\\CCanterino.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO\\CCanterino.cs",
+              "RelativeToolTip": "EsVolatili-BERTOLDO-MATTEO\\CCanterino.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvwwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T20:32:43.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CAcquatico.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO\\CAcquatico.cs",
+              "RelativeDocumentMoniker": "EsVolatili-BERTOLDO-MATTEO\\CAcquatico.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO\\CAcquatico.cs",
+              "RelativeToolTip": "EsVolatili-BERTOLDO-MATTEO\\CAcquatico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T20:35:43.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CPennuto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO\\CPennuto.cs",
+              "RelativeDocumentMoniker": "EsVolatili-BERTOLDO-MATTEO\\CPennuto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsVolatili-BERTOLDO-MATTEO\\EsVolatili-BERTOLDO-MATTEO\\CPennuto.cs",
+              "RelativeToolTip": "EsVolatili-BERTOLDO-MATTEO\\CPennuto.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwCIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T11:26:21.163Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

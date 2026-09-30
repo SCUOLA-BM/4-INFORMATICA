@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsVolatili-BERTOLDO-MATTEO\EsVolatili-BERTOLDO-MATTEO\bin\Debug\EsVolatili-BERTOLDO-MATTEO.exe.config
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsVolatili-BERTOLDO-MATTEO\EsVolatili-BERTOLDO-MATTEO\bin\Debug\EsVolatili-BERTOLDO-MATTEO.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsVolatili-BERTOLDO-MATTEO\EsVolatili-BERTOLDO-MATTEO\bin\Debug\EsVolatili-BERTOLDO-MATTEO.pdb
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsVolatili-BERTOLDO-MATTEO\EsVolatili-BERTOLDO-MATTEO\obj\Debug\EsVolatili-BERTOLDO-MATTEO.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsVolatili-BERTOLDO-MATTEO\EsVolatili-BERTOLDO-MATTEO\obj\Debug\EsVolatili-BERTOLDO-MATTEO.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsVolatili-BERTOLDO-MATTEO\EsVolatili-BERTOLDO-MATTEO\obj\Debug\EsVolatili-BERTOLDO-MATTEO.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsVolatili-BERTOLDO-MATTEO\EsVolatili-BERTOLDO-MATTEO\obj\Debug\EsVolatili-BERTOLDO-MATTEO.pdb
