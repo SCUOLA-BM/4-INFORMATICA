@@ -118,6 +118,7 @@ namespace EsVolatili_BERTOLDO_MATTEO
 
         public void VisualizzaPennuti()
         {
+            Console.WriteLine("\nPENNUTI: ");
             foreach (var p in pennuti)
             {
                 Console.WriteLine(p.ToString());
@@ -129,7 +130,7 @@ namespace EsVolatili_BERTOLDO_MATTEO
             int cod = 0;
             do
             {
-                Console.WriteLine("INSERISCI CODICE DEL PENNUTO CHE VUOI ELIMINARE: ");
+                Console.Write("INSERISCI CODICE DEL PENNUTO CHE VUOI ELIMINARE: ");
             } while (!int.TryParse(Console.ReadLine(), out cod) || cod < 0 || cod >= pennuti.Count);
 
             pennuti.RemoveAt(cod);
@@ -142,8 +143,8 @@ namespace EsVolatili_BERTOLDO_MATTEO
             int cod = 0, navv = 0;
             do
             {
-                Console.Write("\nINSERISCI CODICE UNIVOCO DEL PENNUTO A CUI VUOI AGGIUNGERE AVVISTAMENTO");
-            } while (!int.TryParse(Console.ReadLine(), out cod) || cod < 0 || cod > pennuti.Count);
+                Console.Write("\nINSERISCI CODICE UNIVOCO DEL PENNUTO A CUI VUOI AGGIUNGERE AVVISTAMENTO: ");
+            } while (!int.TryParse(Console.ReadLine(), out cod) || cod < 0 || cod >= pennuti.Count);
 
 
             do
@@ -154,61 +155,83 @@ namespace EsVolatili_BERTOLDO_MATTEO
             for (int i = 1; i <= navv; i++)
             {
                 avvistamento = new CAvvistamento();
-                Console.Write("AVVISTAMENTO N° " + i);
+                Console.WriteLine("AVVISTAMENTO N° " + i);
 
                 do
                 {
                     Console.Write("DATA: ");
-                } while (!DateTime.TryParseExact(Console.ReadLine(), "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.None, out data));
+                } while (!DateTime.TryParseExact(Console.ReadLine(), "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.None, out data) || data > DateTime.Now);
                 avvistamento.Data = data;
 
                 do
                 {
                     Console.Write("LUOGO: ");
                     avvistamento.Luogo = Console.ReadLine();
-                } while (avvistamento.Luogo != "");
+                } while (avvistamento.Luogo == "");
 
                 do
                 {
                     Console.Write("NOTE: ");
                     avvistamento.Note = Console.ReadLine();
-                } while (avvistamento.Note != "");
+                } while (avvistamento.Note == "");
 
 
                 pennuti[cod].AddAvvist(avvistamento);
             }
-
-            foreach(var a in pennuti[cod].Avvistamenti)
-            {
-                Console.WriteLine("\nAVVISTAMENTI : "+ a.ToString());
-            }
+            Console.WriteLine("\nAVVISTAMENTI : "+ pennuti[cod].AvvistToString());
         }
 
         public void CercaMigratori()
         {
+            bool tr = false;
+            Console.WriteLine("\nRICERCA PER CATEGORIA DI MIGRATORI");
             do
             {
-                Console.WriteLine("TIPO PENNUTO :\n-RAPACE -> 0\n-CANTERINO -> 1 ACQUATICO -> 2");
+                Console.Write("\n RAPACE -> 0\n CANTERINO -> 1 \n ACQUATICO -> 21\nTIPO PENNUTO :");
                 str = Console.ReadLine();
             } while (str != "0" && str != "1" && str != "2");
 
             if (str == "0")
             {
                 foreach (var p in pennuti)
+                {
                     if (p is CRapace rapace && p.Migratore)
+                    {
                         Console.WriteLine(rapace.ToString());
+                        tr = true;
+                    }
+
+                }
+                    
             }
             else if (str == "1")
             {
                 foreach (var pe in pennuti)
+                {
                     if (pe is CCanterino canterino && pe.Migratore)
+                    {
                         Console.WriteLine(canterino.ToString());
+                        tr = true;
+                    }
+                        
+                }
+                    
             }
             else
             {
                 foreach (var pen in pennuti)
+                {
                     if (pen is CAcquatico acquatico && pen.Migratore)
+                    {
                         Console.WriteLine(acquatico.ToString());
+                        tr = true;
+                    }
+                        
+                }    
+            }
+            if (!tr)
+            {
+                Console.WriteLine("NESSUN AVVISTAMENTO");
             }
 
         }

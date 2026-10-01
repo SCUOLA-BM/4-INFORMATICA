@@ -17,7 +17,7 @@ namespace EsVolatili_BERTOLDO_MATTEO
 
         public override string ToString()
         {
-            return base.ToString() + "\nTIPO ACQUA : " + TipoAcqua; 
+            return base.ToString() + "\nTIPO ACQUA : " + (TipoAcqua ? "DOLCE" : "SALATA"); 
         }
     }
 }

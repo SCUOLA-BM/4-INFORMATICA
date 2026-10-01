@@ -9,7 +9,7 @@ namespace EsVolatili_BERTOLDO_MATTEO
     internal class CRapace : CPennuto
     {
         public string Dieta { get; set; }
-        public CRapace()
+        public CRapace() : base()
         {
             Dieta = String.Empty;
         }

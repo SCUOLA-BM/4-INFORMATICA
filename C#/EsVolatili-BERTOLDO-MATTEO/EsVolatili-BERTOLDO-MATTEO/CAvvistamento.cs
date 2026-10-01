@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EsVolatili_BERTOLDO_MATTEO
 {
-    internal class CAvvistamento
+    internal class CAvvistamento : CPennuto
     {
         public DateTime Data { get; set; }
         public string Luogo { get; set; }
@@ -18,9 +18,9 @@ namespace EsVolatili_BERTOLDO_MATTEO
             Note = String.Empty;
         }
 
-        public virtual string ToString()
+        public override string ToString()
         {
-            return "\nData: " + Data + "\nLuogo: " + Luogo + "\nNote: " + Note;
+            return "Data: " + Data + "\nLuogo: " + Luogo + "\nNote: " + Note;
         }
 
     }

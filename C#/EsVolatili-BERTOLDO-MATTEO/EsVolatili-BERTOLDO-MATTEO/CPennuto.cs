@@ -27,7 +27,7 @@ namespace EsVolatili_BERTOLDO_MATTEO
 
         public virtual string ToString()
         {
-            return "\nCodUniv: "+CodUniv+"\nSpecie: "+Specie+"\nHabitat: "+Habitat+"\nMigratore: "+Migratore+"\nAlare: "+Alare;
+            return "\nCodUniv: "+CodUniv+"\nSpecie: "+Specie+"\nHabitat: "+Habitat+"\nMigratore: "+(Migratore ? "SI" : "NO")+"\nAlare: "+Alare;
         }
 
         public void AddAvvist(CAvvistamento avvistamento)
@@ -38,9 +38,14 @@ namespace EsVolatili_BERTOLDO_MATTEO
         public string AvvistToString()
         {
             string result = "";
-            foreach (CAvvistamento avvistamento in Avvistamenti)
+            int n = 0;
+            if (Avvistamenti.Count > 0)
             {
-                result += avvistamento.ToString() + "\n";
+                foreach (CAvvistamento avvistamento in Avvistamenti)
+                {
+                    n++;
+                    result += "\n\nAVVISTAMENTO N° " + n + "\n" + avvistamento.ToString();
+                }
             }
             return result;
         }
