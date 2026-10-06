@@ -4,71 +4,77 @@ classDiagram
     %% CLASSI PRINCIPALI
     
     class Program{
-        + pennuti : List<cPennuto>
-        + str : string
-        + alare : float
-        + data : DateTime
+        + Macchinari : List~CMacchinari~
 
         + Input()
-        + Avvistamenti()
-        + CercaMigratori() 
+        + 
 
     }
 
-    class Pennuto {
-        + CodUniv : int
-        + Specie : string
-        + Habitat : string
-        + Migratore : bool
-        + Alare : float
-        + Avvistamenti : List<Avvistamento>
+    class CMacchinario{
+        <<abstarct>>
+        + Targa : string
+        + Modello : string
+        + Anno : int
+        + Volume : string
+        + Stato : bool
+
+        + Descrizione() : string
+
+    }
+
+    class CRuspa {
+        + Benna : enum~benna~
         
-        + Pennuto()
-        + ToString() string
-        + AddAvvist(Avvistamento)
-        + AvvistToString() string
+        + Benna(enum~benna~)
+        + Descrizione() : string
     }
 
-    class Avvistamento {
-        + Data : DateTime
-        + Luogo : string
-        + Note : string
-
-        + Avvistamento()
-        + ToString() string
+    class benna{
+        <<enumeration>>
+        300
+        500
+        700
+        1000
+        1500
+        2000
     }
 
-    class Rapace {
-        + Dieta : string
+    class CGru {
+        + Portata : int
+        + Altezza : int
+
+        + Alza()
+        + Abbassa()
+        + Descrizione() : string
+    }
+
+    class CBetoniera {
+        + Capacità : int
         
-        + Rapace()
+        + Carica(int q) : string
+        + Versa(int q) : string
         + ToString() string
     }
 
-    class Canterino {
-        + CantoCaratt : string
-        
-        + Canterino()
-        + ToString() string
+    class IAssegnabile{
+        <<interface>>
+        Assegna()
+        Liberarlo
     }
 
-    class Acquatico {
-        + TipoAcqua : bool
-        
-        + Acquatico()
-        + ToString() string
-    }
+    
 
     %% RELAZIONI
 
-    %% COMPOSIZIONE: il pennuto crea e gestisce gli avvistamenti
-    Pennuto *-- Avvistamento
+    %%ENUMERAZIONI
+    benna --|> CRuspa
 
     %% EREDITARIETÀ
-    Pennuto <|-- Rapace
-    Pennuto <|-- Canterino
-    Pennuto <|-- Acquatico
+    CMacchinario <|-- CRuspa
+    CMacchinario <|-- CGru
+    CMacchinario <|-- CBetoniera
 
     %% Program usa le classi ma non le possiede
-    Program --> Pennuto
+    Program --> CMacchinario
 ```

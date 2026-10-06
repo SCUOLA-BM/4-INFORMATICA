@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsSchedaLavoro\EsSchedaLavoro\bin\Debug\EsSchedaLavoro.exe.config
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsSchedaLavoro\EsSchedaLavoro\bin\Debug\EsSchedaLavoro.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsSchedaLavoro\EsSchedaLavoro\bin\Debug\EsSchedaLavoro.pdb
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsSchedaLavoro\EsSchedaLavoro\obj\Debug\EsSchedaLavoro.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsSchedaLavoro\EsSchedaLavoro\obj\Debug\EsSchedaLavoro.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsSchedaLavoro\EsSchedaLavoro\obj\Debug\EsSchedaLavoro.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsSchedaLavoro\EsSchedaLavoro\obj\Debug\EsSchedaLavoro.pdb

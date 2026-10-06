@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsMacchinari\EsMacchinari\obj\Debug\EsMacchinari.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsMacchinari\EsMacchinari\obj\Debug\EsMacchinari.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsMacchinari\EsMacchinari\bin\Debug\EsMacchinari.exe.config
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsMacchinari\EsMacchinari\bin\Debug\EsMacchinari.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsMacchinari\EsMacchinari\bin\Debug\EsMacchinari.pdb
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsMacchinari\EsMacchinari\obj\Debug\EsMacchinari.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsMacchinari\EsMacchinari\obj\Debug\EsMacchinari.pdb
