@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EsMacchinari
 {
-    internal class CCantiere
+    internal class CCantiere : IAssegnabile
     {
         //PROPRIETA'
         public List<CMacchinario> Macchinari { get; set; }

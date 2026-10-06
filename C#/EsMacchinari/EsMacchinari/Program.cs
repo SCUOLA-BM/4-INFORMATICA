@@ -9,6 +9,7 @@ namespace EsMacchinari
     internal class Program
     {
         public static List<CMacchinario> macchinari;
+        public static CCantiere cantiere;
         static void Main(string[] args)
         {
             Program p = new Program();
@@ -29,7 +30,7 @@ namespace EsMacchinari
             CBetoniera betoniera;
             try
             {
-                CCantiere cantiere = new CCantiere("Caldogno");
+                cantiere = new CCantiere("Caldogno");
                 gru = new CGru("CD345LX", "MERCEDES", 2009, 67, true, 51, 50);
                 macchinari.Add(gru);
                 cantiere.Assegna(gru);
@@ -86,6 +87,7 @@ namespace EsMacchinari
             else
             {
                 macchinari[id].Stato = true;
+                cantiere.Assegna(macchinari[id]);
                 Console.WriteLine("MACCHINARIO ASSEGNATO CORRETTAMANETE");
             }
         }
@@ -97,10 +99,11 @@ namespace EsMacchinari
             {
                 Console.Write("INSERISCI ID DEL MACCHINARIO DA LIBERARE DAL CANTIERE: ");
             } while (!int.TryParse(Console.ReadLine(), out id) || id < 0 || id >= macchinari.Count);
-            if (!macchinari[id - 1].Stato) Console.WriteLine("MACCHINARIO GIA' LIBERO");
+            if (!macchinari[id].Stato) Console.WriteLine("MACCHINARIO GIA' LIBERO");
             else
             {
-                macchinari[id - 1].Stato = true;
+                macchinari[id].Stato = true;
+                cantiere.Libera(id);
                 Console.WriteLine("MACCHINARIO LIBERATO CORRETTAMANETE");
             }
         }

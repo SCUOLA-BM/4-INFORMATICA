@@ -7,17 +7,22 @@ classDiagram
         + Cantieri : List~CCantiere~
 
         + Input()
-        + PrintMacchinari() string
-        + PrintDescrMacchinari() string
-        + AssegnaCantiere(CMacchinario, CCantiere)
-        + OpSpecifica()
+        + MacchParch() 
+        + Macch()
+        + Assegna()
+        + Libera()
+        + Spec()
+        + Betoniera(CBetoniera)
+        + Gru(CGru)
+        + Ruspa(CRuspa)
     }
 
     class CCantiere{
-        + List~CMacchinaro~
+        + Macchinari : List~CMacchinaro~
+        + Name : string
 
         + Assegna(CMacchinario)
-        + Libera(id) string
+        + Libera(id) bool
         + PrintMacchinari() string
     }
 
@@ -38,7 +43,7 @@ classDiagram
     class CRuspa {
         + Benna : enum~Benna~
         
-        + CambiaBenna(Benna) 
+        + CambiaBenna(string) 
         + Descrizione() string
     }
 
@@ -56,23 +61,23 @@ classDiagram
         + Portata : int
         + Altezza : int
 
-        + Alza()string
-        + Abbassa()string
+        + Alza()
+        + Abbassa()
         + Descrizione() string
     }
 
     class CBetoniera {
         + Capacità : int
         
-        + Carica(int q) string
-        + Versa(int q) string
-        + ToString() string
+        + Carica(int) string
+        + Versa(int) string
+        + Descrizione() string
     }
 
     class IAssegnabile{
         <<interface>>
-        Assegna()
-        Libera()
+        void Assegna()
+        bool Libera()
     }
 
     
