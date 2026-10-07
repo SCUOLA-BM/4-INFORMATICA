@@ -9,14 +9,15 @@ namespace EsMacchinari
 {
     public abstract class CMacchinario
     {
-        //PROPRIETA'
+        //ATTRIBUTI
         private static int id = 0;
+        //PROPRIETA'
         public int Id { get; }
-        public string Targa { get; set; }
-        public string Modello { get; set; }
-        public int Anno { get; set; }
-        public int Volume { get; set; }
-        public bool Stato { get; set; }
+        protected string Targa { get; }
+        protected string Modello { get;}
+        protected int Anno { get;}
+        protected int Volume { get;}
+        protected bool Stato { get;}
 
         //COSTRUTTORE
         public CMacchinario(string targa, string modello, int anno, int volume, bool stato)
@@ -29,11 +30,8 @@ namespace EsMacchinari
             Stato = stato; //true -> occupato / false -> libero
             id++;
         }
-        
+
         //METODI
-        public string Descrizione()
-        {
-            return "\nID: "+Id+"\nTARGA: " + Targa + "\nMODELLO: " + Modello + "\nANNO: " + Anno + "\nVOLUME: " + Volume + "\nSTATO: " + (Stato ? "LIBERO" : "OCCUPATO");
-        }
+        public abstract string Descrizione();     }
     }
 }

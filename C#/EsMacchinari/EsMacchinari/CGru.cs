@@ -9,31 +9,32 @@ namespace EsMacchinari
     public class CGru : CMacchinario
     {
         //PROPRIETA'
-        public int Portata {  get; set; }
-        public int Altezza {  get; set; }
+        private int portata;
+        private int altezza;
 
         //COSTRUTTORE
-        public CGru(string targa, string modello, int anno, int volume, bool stato, int portata, int altezza) : base(targa,modello,anno,volume,stato)
+        public CGru(string targa, string modello, int anno, int volume, bool stato, int port, int alt) : base(targa,modello,anno,volume,stato)
         {
-            Portata = portata;
-            Altezza = altezza;
+            portata = port;
+            altezza = alt;
         }
 
         //METODO
-        public string Descrizione()
+        public override string Descrizione()
         {
-            return base.Descrizione() + "\nPORTATA: " + Portata + "\nALTEZZA: " + Altezza;
+            return "\nID: " + Id + "\nTARGA: " + Targa + "\nMODELLO: " + Modello + "\nANNO: " + Anno + "\nVOLUME: " + Volume + "\nSTATO: " + (Stato ? "LIBERO" : "OCCUPATO") + "\nPORTATA: " + Portata + "\nALTEZZA: " + Altezza;
         }
 
         public void Alza()
         {
-            Altezza++;
+            if (altezza >= 263) throw new ArgumentException("ALTEZZA NON VALIDA");
+            else altezza++;
         }
 
         public void Abbassa()
         {
-            if (Altezza == 1) throw new ArgumentException("ALTEZZA NON VALIDA");
-            else Altezza--;
+            if (altezza == 1) throw new ArgumentException("ALTEZZA NON VALIDA");
+            else altezza--;
             
         }
 

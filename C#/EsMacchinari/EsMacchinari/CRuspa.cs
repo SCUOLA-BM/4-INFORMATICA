@@ -19,19 +19,18 @@ namespace EsMacchinari
 
     internal class CRuspa : CMacchinario
     {
-        public Benna Benna { get; set; }
-        public int Altezza { get; set; }
+        private Benna benna;
 
         //COSTRUTTORE
-        public CRuspa(string targa, string modello, int anno, int volume, bool stato, Benna benna) : base(targa, modello, anno, volume, stato)
+        public CRuspa(string targa, string modello, int anno, int volume, bool stato, Benna ben) : base(targa, modello, anno, volume, stato)
         {
-            Benna = benna;
+            benna = ben;
         }
 
         //METODO
-        public string Descrizione()
+        public override string Descrizione()
         {
-            return base.Descrizione() + "\nBENNA: " + Benna;
+            return "\nID: " + Id + "\nTARGA: " + Targa + "\nMODELLO: " + Modello + "\nANNO: " + Anno + "\nVOLUME: " + Volume + "\nSTATO: " + (Stato ? "LIBERO" : "OCCUPATO") + "\nBENNA: " + benna;
         }
         
         public bool CambiaBenna(string n)
@@ -39,7 +38,7 @@ namespace EsMacchinari
             Benna b = new Benna();
             if (Enum.TryParse<Benna>(n, out b))
             {
-                Benna = b;
+                benna = b;
                 return true;
             }
             else return false;

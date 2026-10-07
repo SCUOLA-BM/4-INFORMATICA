@@ -9,41 +9,41 @@ namespace EsMacchinari
     internal class CBetoniera : CMacchinario
     {
         //PROPRIETA'
-        public int Capacità { get; set; }
-        public int Cemento { get; set; }
+        private int capacità;
+        private int cemento;
 
         //COSTRUTTORE
-        public CBetoniera(string targa, string modello, int anno, int volume, bool stato, int capacità, int cemento) : base(targa, modello, anno, volume, stato)
+        public CBetoniera(string targa, string modello, int anno, int volume, bool stato, int cap, int cem) : base(targa, modello, anno, volume, stato)
         {
-            Capacità = capacità;
-            if (capacità < cemento) throw new ArgumentException("SUPERATO LIMITE DI SERBATOIO");
-            Cemento = cemento;
+            capacità = cap;
+            if (capacità < cem) throw new ArgumentException("SUPERATO LIMITE DI SERBATOIO");
+            cemento = cem;
         }
 
         //METODI
         public string Carica(int c)
         {
-            if (Cemento + c >= Capacità) return "\nSUPERATO LIMITE CAPACITA'";
+            if (cemento + c >= capacità) return "\nSUPERATO LIMITE CAPACITA'";
             else
             {
-                Cemento += c;
+                cemento += c;
                 return "\nCEMENTO CARICATO CON SUCCESSO!!";
             }
         }
 
         public string Versa(int c)
         {
-            if (Cemento - c < 0) return "\nCEMENTO INSUFFICIENTE";
+            if (cemento - c < 0) return "\nCEMENTO INSUFFICIENTE";
             else
             {
-                Cemento -= c;
+                cemento -= c;
                 return "\nCEMENTO VERSATO CON SUCCESSO!!";
             }
         }
 
-        public string Descrizione()
+        public override string Descrizione()
         {
-            return base.Descrizione() + "\nCAPACITA': " + Capacità + "\nCEMENTO: " + Cemento;
+            return "\nID: " + Id + "\nTARGA: " + Targa + "\nMODELLO: " + Modello + "\nANNO: " + Anno + "\nVOLUME: " + Volume + "\nSTATO: " + (Stato ? "LIBERO" : "OCCUPATO") + "\nCAPACITA': " + capacità + "\nCEMENTO: " + cemento;
         }
 
     }

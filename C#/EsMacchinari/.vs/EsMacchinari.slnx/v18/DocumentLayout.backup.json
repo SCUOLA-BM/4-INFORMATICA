@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esmacchinari\\esmacchinari\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|solutionrelative:esmacchinari\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\esmacchinari\\cbetoniera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|solutionrelative:esmacchinari\\cbetoniera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\esmacchinari\\cmacchinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|solutionrelative:esmacchinari\\cmacchinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\esmacchinari\\cgru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|solutionrelative:esmacchinari\\cgru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\esmacchinari\\ccantiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|solutionrelative:esmacchinari\\ccantiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\esmacchinari\\cbetoniera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|solutionrelative:esmacchinari\\cbetoniera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\esmacchinari\\cmacchinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|solutionrelative:esmacchinari\\cmacchinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esmacchinari\\esmacchinari\\iassegnabile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|solutionrelative:esmacchinari\\iassegnabile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esmacchinari\\esmacchinari\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|solutionrelative:esmacchinari\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\esmacchinari\\cruspa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|solutionrelative:esmacchinari\\cruspa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\esmacchinari\\cgru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F99FBC4-7643-44D6-8C6C-D19B7E595D21}|EsMacchinari\\EsMacchinari.csproj|solutionrelative:esmacchinari\\cgru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,59 +46,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CRuspa.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\CRuspa.cs",
-              "RelativeDocumentMoniker": "EsMacchinari\\CRuspa.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\CRuspa.cs",
-              "RelativeToolTip": "EsMacchinari\\CRuspa.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T09:31:32.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CGru.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\CGru.cs",
-              "RelativeDocumentMoniker": "EsMacchinari\\CGru.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\CGru.cs",
-              "RelativeToolTip": "EsMacchinari\\CGru.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCIAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T09:20:24.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CMacchinario.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\CMacchinario.cs",
-              "RelativeDocumentMoniker": "EsMacchinari\\CMacchinario.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\CMacchinario.cs",
-              "RelativeToolTip": "EsMacchinari\\CMacchinario.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAqwAwAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T09:01:06.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\Program.cs",
               "RelativeDocumentMoniker": "EsMacchinari\\Program.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\Program.cs",
               "RelativeToolTip": "EsMacchinari\\Program.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAADwv4wAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwGcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T08:58:03.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CCantiere.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\CCantiere.cs",
+              "RelativeDocumentMoniker": "EsMacchinari\\CCantiere.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\CCantiere.cs",
+              "RelativeToolTip": "EsMacchinari\\CCantiere.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T09:00:17.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CMacchinario.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\CMacchinario.cs",
+              "RelativeDocumentMoniker": "EsMacchinari\\CMacchinario.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\CMacchinario.cs",
+              "RelativeToolTip": "EsMacchinari\\CMacchinario.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T09:01:06.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CRuspa.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\CRuspa.cs",
+              "RelativeDocumentMoniker": "EsMacchinari\\CRuspa.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\CRuspa.cs",
+              "RelativeToolTip": "EsMacchinari\\CRuspa.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wB8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T09:31:32.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CGru.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\CGru.cs",
+              "RelativeDocumentMoniker": "EsMacchinari\\CGru.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\CGru.cs",
+              "RelativeToolTip": "EsMacchinari\\CGru.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwCIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T09:20:24.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "CBetoniera.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\CBetoniera.cs",
               "RelativeDocumentMoniker": "EsMacchinari\\CBetoniera.cs",
@@ -107,15 +124,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CCantiere.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\CCantiere.cs",
-              "RelativeDocumentMoniker": "EsMacchinari\\CCantiere.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\CCantiere.cs",
-              "RelativeToolTip": "EsMacchinari\\CCantiere.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IAssegnabile.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\IAssegnabile.cs",
+              "RelativeDocumentMoniker": "EsMacchinari\\IAssegnabile.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsMacchinari\\EsMacchinari\\IAssegnabile.cs",
+              "RelativeToolTip": "EsMacchinari\\IAssegnabile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T09:00:17.917Z",
+              "WhenOpened": "2026-10-06T19:10:09.979Z",
               "EditorCaption": ""
             }
           ]

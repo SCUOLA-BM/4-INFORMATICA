@@ -8,8 +8,8 @@ namespace EsMacchinari
 {
     internal interface IAssegnabile
     {
-        void Assegna();
-        bool Libera();
+        void Assegna(CMacchinario m);
+        bool Libera(int id);
         
     }
 }
