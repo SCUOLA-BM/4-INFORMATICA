@@ -1,0 +1,204 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\fantasilandia\\fantasilandia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|solutionrelative:fantasilandia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\fantasilandia\\csalagiochi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|solutionrelative:fantasilandia\\csalagiochi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\fantasilandia\\cgiostra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|solutionrelative:fantasilandia\\cgiostra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\fantasilandia\\cvisitatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|solutionrelative:fantasilandia\\cvisitatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\fantasilandia\\cchiosco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|solutionrelative:fantasilandia\\cchiosco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\fantasilandia\\ifixable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|solutionrelative:fantasilandia\\ifixable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\fantasilandia\\csaltovuoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|solutionrelative:fantasilandia\\csaltovuoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\fantasilandia\\cmontagnarussa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|solutionrelative:fantasilandia\\cmontagnarussa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\fantasilandia\\cbagni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|solutionrelative:fantasilandia\\cbagni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\fantasilandia\\cattrazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35310B98-88D3-4113-9558-E85A7B69D48F}|FantasiLandia\\FantasiLandia.csproj|solutionrelative:fantasilandia\\cattrazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IFixable.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\IFixable.cs",
+              "RelativeDocumentMoniker": "FantasiLandia\\IFixable.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\IFixable.cs",
+              "RelativeToolTip": "FantasiLandia\\IFixable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T09:33:44.535Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CVisitatore.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\CVisitatore.cs",
+              "RelativeDocumentMoniker": "FantasiLandia\\CVisitatore.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\CVisitatore.cs",
+              "RelativeToolTip": "FantasiLandia\\CVisitatore.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwB0AAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T07:13:49.59Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CChiosco.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\CChiosco.cs",
+              "RelativeDocumentMoniker": "FantasiLandia\\CChiosco.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\CChiosco.cs",
+              "RelativeToolTip": "FantasiLandia\\CChiosco.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBcAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T07:16:34.755Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CAttrazione.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\CAttrazione.cs",
+              "RelativeDocumentMoniker": "FantasiLandia\\CAttrazione.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\CAttrazione.cs",
+              "RelativeToolTip": "FantasiLandia\\CAttrazione.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA+wBEAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T09:33:33.139Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CBagni.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\CBagni.cs",
+              "RelativeDocumentMoniker": "FantasiLandia\\CBagni.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\CBagni.cs",
+              "RelativeToolTip": "FantasiLandia\\CBagni.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBcAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T07:27:49.067Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CMontagnaRussa.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\CMontagnaRussa.cs",
+              "RelativeDocumentMoniker": "FantasiLandia\\CMontagnaRussa.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\CMontagnaRussa.cs",
+              "RelativeToolTip": "FantasiLandia\\CMontagnaRussa.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAewBEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T07:28:31.955Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CSaltoVuoto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\CSaltoVuoto.cs",
+              "RelativeDocumentMoniker": "FantasiLandia\\CSaltoVuoto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\CSaltoVuoto.cs",
+              "RelativeToolTip": "FantasiLandia\\CSaltoVuoto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAjwBkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T16:48:29.268Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CGiostra.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\CGiostra.cs",
+              "RelativeDocumentMoniker": "FantasiLandia\\CGiostra.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\CGiostra.cs",
+              "RelativeToolTip": "FantasiLandia\\CGiostra.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAywBkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T16:23:21.401Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CSalaGiochi.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\CSalaGiochi.cs",
+              "RelativeDocumentMoniker": "FantasiLandia\\CSalaGiochi.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\CSalaGiochi.cs",
+              "RelativeToolTip": "FantasiLandia\\CSalaGiochi.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T16:34:58.112Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\Program.cs",
+              "RelativeDocumentMoniker": "FantasiLandia\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\FantasiLandia\\FantasiLandia\\Program.cs",
+              "RelativeToolTip": "FantasiLandia\\Program.cs",
+              "ViewState": "AgIAAFkBAAAAAAAAAAAwwGkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T09:31:57.954Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

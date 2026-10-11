@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\FantasiLandia\FantasiLandia\obj\Debug\FantasiLandia.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\FantasiLandia\FantasiLandia\obj\Debug\FantasiLandia.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\FantasiLandia\FantasiLandia\bin\Debug\FantasiLandia.exe.config
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\FantasiLandia\FantasiLandia\bin\Debug\FantasiLandia.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\FantasiLandia\FantasiLandia\bin\Debug\FantasiLandia.pdb
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\FantasiLandia\FantasiLandia\obj\Debug\FantasiLandia.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\FantasiLandia\FantasiLandia\obj\Debug\FantasiLandia.pdb
