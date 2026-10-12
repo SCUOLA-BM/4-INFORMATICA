@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsTorteBM\EsTorteBM\obj\Debug\EsTorteBM.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsTorteBM\EsTorteBM\obj\Debug\EsTorteBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsTorteBM\EsTorteBM\bin\Debug\EsTorteBM.exe.config
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsTorteBM\EsTorteBM\bin\Debug\EsTorteBM.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsTorteBM\EsTorteBM\bin\Debug\EsTorteBM.pdb
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsTorteBM\EsTorteBM\obj\Debug\EsTorteBM.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsTorteBM\EsTorteBM\obj\Debug\EsTorteBM.pdb
