@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsTorteBM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{209103D8-7D34-4B6F-99DA-66E4BA5E2F5C}|EsTorteBM\\EsTorteBM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsTorteBM\\estortebm\\ccrostata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{209103D8-7D34-4B6F-99DA-66E4BA5E2F5C}|EsTorteBM\\EsTorteBM.csproj|solutionrelative:estortebm\\ccrostata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{209103D8-7D34-4B6F-99DA-66E4BA5E2F5C}|EsTorteBM\\EsTorteBM.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\estortebm\\estortebm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{209103D8-7D34-4B6F-99DA-66E4BA5E2F5C}|EsTorteBM\\EsTorteBM.csproj|solutionrelative:estortebm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{209103D8-7D34-4B6F-99DA-66E4BA5E2F5C}|EsTorteBM\\EsTorteBM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsTorteBM\\estortebm\\ctorta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{209103D8-7D34-4B6F-99DA-66E4BA5E2F5C}|EsTorteBM\\EsTorteBM.csproj|solutionrelative:estortebm\\ctorta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209103D8-7D34-4B6F-99DA-66E4BA5E2F5C}|EsTorteBM\\EsTorteBM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsTorteBM\\estortebm\\ccrostata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209103D8-7D34-4B6F-99DA-66E4BA5E2F5C}|EsTorteBM\\EsTorteBM.csproj|solutionrelative:estortebm\\ccrostata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{209103D8-7D34-4B6F-99DA-66E4BA5E2F5C}|EsTorteBM\\EsTorteBM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsTorteBM\\estortebm\\cdolci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -36,49 +36,46 @@
               "RelativeDocumentMoniker": "EsTorteBM\\CDolci.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsTorteBM\\EsTorteBM\\CDolci.cs",
               "RelativeToolTip": "EsTorteBM\\CDolci.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAD4vwsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-12T11:08:46.206Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CCrostata.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsTorteBM\\EsTorteBM\\CCrostata.cs",
               "RelativeDocumentMoniker": "EsTorteBM\\CCrostata.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsTorteBM\\EsTorteBM\\CCrostata.cs",
               "RelativeToolTip": "EsTorteBM\\CCrostata.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowBwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-12T11:24:28.465Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CTorta.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsTorteBM\\EsTorteBM\\CTorta.cs",
               "RelativeDocumentMoniker": "EsTorteBM\\CTorta.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsTorteBM\\EsTorteBM\\CTorta.cs",
               "RelativeToolTip": "EsTorteBM\\CTorta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwCQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-12T11:18:58.534Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsTorteBM\\EsTorteBM\\Program.cs",
               "RelativeDocumentMoniker": "EsTorteBM\\Program.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsTorteBM\\EsTorteBM\\Program.cs",
               "RelativeToolTip": "EsTorteBM\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAADwvw0AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAA1wBoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-12T10:55:58.583Z",
               "IsPinned": true,

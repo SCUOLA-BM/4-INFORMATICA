@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsPreVerificaMultimediali_BM\EsPreVerificaMultimediali_BM\obj\Debug\EsPreVerificaMultimediali_BM.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsPreVerificaMultimediali_BM\EsPreVerificaMultimediali_BM\obj\Debug\EsPreVerificaMultimediali_BM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsPreVerificaMultimediali_BM\EsPreVerificaMultimediali_BM\bin\Debug\EsPreVerificaMultimediali_BM.exe.config
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsPreVerificaMultimediali_BM\EsPreVerificaMultimediali_BM\bin\Debug\EsPreVerificaMultimediali_BM.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsPreVerificaMultimediali_BM\EsPreVerificaMultimediali_BM\bin\Debug\EsPreVerificaMultimediali_BM.pdb
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsPreVerificaMultimediali_BM\EsPreVerificaMultimediali_BM\obj\Debug\EsPreVerificaMultimediali_BM.exe
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsPreVerificaMultimediali_BM\EsPreVerificaMultimediali_BM\obj\Debug\EsPreVerificaMultimediali_BM.pdb

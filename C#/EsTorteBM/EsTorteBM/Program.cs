@@ -36,12 +36,13 @@ namespace EsTorteBM
             Console.WriteLine("2 -> AGGIUNGI CROSTATA");
             if (dolci.Count > 0)
             {
-                lim = 7;
+                lim = 8;
                 Console.WriteLine("3 -> VISUALIZZA STATO DOLCI");
                 Console.WriteLine("4 -> PROVA DI CROCCANTEZZA");
                 Console.WriteLine("5 -> PROVA DI SOFFICENZA");
                 Console.WriteLine("6 -> RAFFINAZIONE");
                 Console.WriteLine("7 -> FINALE DI DEGUSTAZIONE");
+                Console.WriteLine("8 -> MODIFICHE DOLCI(CROSTATE/DOLCI)");
             }
             do
             {
@@ -73,6 +74,9 @@ namespace EsTorteBM
                 case 7:
                     Finale();
                     break;
+                case 8:
+                    Modifiche();
+                    break;
                 default:
                     Console.Error.WriteLine("ERRORE NEL PROGRAMMA");
                     return;
@@ -82,6 +86,7 @@ namespace EsTorteBM
 
         public void AggTorta()
         {
+            int strati = 0;
             Console.Write("DOLCE N° "+ (dolci.Count+1));
             do
             {
@@ -92,12 +97,17 @@ namespace EsTorteBM
             {
                 Console.Write("PUNTEGGIO: ");
             } while (!int.TryParse(Console.ReadLine(), out punteggio) || punteggio < 0 || punteggio > 10);
+            do
+            {
+                Console.Write("STRATI: ");
+            } while (!int.TryParse(Console.ReadLine(), out strati) || strati < 0 || strati > 10);
             btorta = true;
             dolci.Add(new CTorta(nome,punteggio));
         }
 
         public void AggCrostata()
         {
+            string str= String.Empty;
             Console.Write("DOLCE N° " + dolci.Count + 1);
             do
             {
@@ -244,6 +254,29 @@ namespace EsTorteBM
             }
             Console.WriteLine("\nDOPO");
             Print();
+        }
+
+        public void Modifiche()
+        {
+            foreach(var d in dolci)
+            {
+                if(d is CTorta t)
+                {
+                    Console.WriteLine("\nPRIMA");
+                    Console.WriteLine(t.Print());
+                    Console.WriteLine(t.AggStrato() ? "STRATO AGGIUNTO CON SUCCESSO" : "IMPOSSIBILE AGGIUNGERE STRATO");
+                    Console.WriteLine("\nDOPO");
+                    Console.WriteLine(t.Print());
+                }
+                else if(d is CCrostata c)
+                {
+                    Console.WriteLine("\nPRIMA");
+                    Console.WriteLine(c.Print());
+                    Console.WriteLine(c.Glassa() ? "GLASSATURA AVVENITA CON SUCCESSO" : "GLASSATURA GIA' ESEGUITA");
+                    Console.WriteLine("\nDOPO");
+                    Console.WriteLine(c.Print());
+                }
+            }
         }
     }
 }
