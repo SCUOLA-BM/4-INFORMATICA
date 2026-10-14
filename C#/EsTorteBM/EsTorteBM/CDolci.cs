@@ -12,6 +12,7 @@ namespace EsTorteBM
         public int Id { get; }
         protected string Nome {  get; set; }
         protected int Punteggio { get; set; }
+        Random r = new Random();
 
         public CDolce(string n, int p)
         {
@@ -23,8 +24,6 @@ namespace EsTorteBM
 
         public void Raffinare()
         {
-            Random r = new Random();
-
             Punteggio += r.Next(3, 8);
             Punteggio = Punteggio >= 10 ? 10 : Punteggio; 
         }

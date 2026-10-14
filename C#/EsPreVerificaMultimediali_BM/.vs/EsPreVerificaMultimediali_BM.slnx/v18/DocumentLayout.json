@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE0AF14-C533-4928-85D1-D6C01E3E4AF4}|EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\espreverificamultimediali_bm\\caudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE0AF14-C533-4928-85D1-D6C01E3E4AF4}|EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM.csproj|solutionrelative:espreverificamultimediali_bm\\caudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE0AF14-C533-4928-85D1-D6C01E3E4AF4}|EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\espreverificamultimediali_bm\\cfilmato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE0AF14-C533-4928-85D1-D6C01E3E4AF4}|EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM.csproj|solutionrelative:espreverificamultimediali_bm\\cfilmato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE0AF14-C533-4928-85D1-D6C01E3E4AF4}|EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\espreverificamultimediali_bm\\cimmagine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE0AF14-C533-4928-85D1-D6C01E3E4AF4}|EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM.csproj|solutionrelative:espreverificamultimediali_bm\\cimmagine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE0AF14-C533-4928-85D1-D6C01E3E4AF4}|EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\espreverificamultimediali_bm\\espreverificamultimediali_bm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE0AF14-C533-4928-85D1-D6C01E3E4AF4}|EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM.csproj|solutionrelative:espreverificamultimediali_bm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE0AF14-C533-4928-85D1-D6C01E3E4AF4}|EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\espreverificamultimediali_bm\\cmultimediale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE0AF14-C533-4928-85D1-D6C01E3E4AF4}|EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM.csproj|solutionrelative:espreverificamultimediali_bm\\cmultimediale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE0AF14-C533-4928-85D1-D6C01E3E4AF4}|EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\espreverificamultimediali_bm\\iriproducibile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE0AF14-C533-4928-85D1-D6C01E3E4AF4}|EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM.csproj|solutionrelative:espreverificamultimediali_bm\\iriproducibile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE0AF14-C533-4928-85D1-D6C01E3E4AF4}|EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\espreverificamultimediali_bm\\iluminosit\u00E0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE0AF14-C533-4928-85D1-D6C01E3E4AF4}|EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM.csproj|solutionrelative:espreverificamultimediali_bm\\iluminosit\u00E0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ILuminosit\u00E0.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM\\ILuminosit\u00E0.cs",
+              "RelativeDocumentMoniker": "EsPreVerificaMultimediali_BM\\ILuminosit\u00E0.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM\\ILuminosit\u00E0.cs",
+              "RelativeToolTip": "EsPreVerificaMultimediali_BM\\ILuminosit\u00E0.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:37:57.425Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRiproducibile.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM\\IRiproducibile.cs",
+              "RelativeDocumentMoniker": "EsPreVerificaMultimediali_BM\\IRiproducibile.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM\\IRiproducibile.cs",
+              "RelativeToolTip": "EsPreVerificaMultimediali_BM\\IRiproducibile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:36:08.124Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CMultimediale.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM\\CMultimediale.cs",
+              "RelativeDocumentMoniker": "EsPreVerificaMultimediali_BM\\CMultimediale.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM\\CMultimediale.cs",
+              "RelativeToolTip": "EsPreVerificaMultimediali_BM\\CMultimediale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:40:52.42Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CAudio.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM\\CAudio.cs",
+              "RelativeDocumentMoniker": "EsPreVerificaMultimediali_BM\\CAudio.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM\\CAudio.cs",
+              "RelativeToolTip": "EsPreVerificaMultimediali_BM\\CAudio.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:34:40.124Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CFilmato.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM\\CFilmato.cs",
+              "RelativeDocumentMoniker": "EsPreVerificaMultimediali_BM\\CFilmato.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM\\CFilmato.cs",
+              "RelativeToolTip": "EsPreVerificaMultimediali_BM\\CFilmato.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAwwEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:46:42.291Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CImmagine.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM\\CImmagine.cs",
+              "RelativeDocumentMoniker": "EsPreVerificaMultimediali_BM\\CImmagine.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM\\CImmagine.cs",
+              "RelativeToolTip": "EsPreVerificaMultimediali_BM\\CImmagine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:52:13.71Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM\\Program.cs",
+              "RelativeDocumentMoniker": "EsPreVerificaMultimediali_BM\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsPreVerificaMultimediali_BM\\EsPreVerificaMultimediali_BM\\Program.cs",
+              "RelativeToolTip": "EsPreVerificaMultimediali_BM\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:15:11.546Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
