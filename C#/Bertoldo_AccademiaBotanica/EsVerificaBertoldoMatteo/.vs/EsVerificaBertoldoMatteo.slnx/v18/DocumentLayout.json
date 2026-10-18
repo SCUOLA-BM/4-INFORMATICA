@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{536FDEDD-DC07-4B1C-8870-BA2D02F1A0A0}|EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo.csproj|C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CCondAmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536FDEDD-DC07-4B1C-8870-BA2D02F1A0A0}|EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo.csproj|solutionrelative:EsVerificaBertoldoMatteo\\CCondAmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536FDEDD-DC07-4B1C-8870-BA2D02F1A0A0}|EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\bertoldo_accademiabotanica\\esverificabertoldomatteo\\esverificabertoldomatteo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536FDEDD-DC07-4B1C-8870-BA2D02F1A0A0}|EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo.csproj|solutionrelative:esverificabertoldomatteo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536FDEDD-DC07-4B1C-8870-BA2D02F1A0A0}|EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo.csproj|C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\IPerdeFoglie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536FDEDD-DC07-4B1C-8870-BA2D02F1A0A0}|EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo.csproj|solutionrelative:EsVerificaBertoldoMatteo\\IPerdeFoglie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536FDEDD-DC07-4B1C-8870-BA2D02F1A0A0}|EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo.csproj|C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CHabitat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536FDEDD-DC07-4B1C-8870-BA2D02F1A0A0}|EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo.csproj|solutionrelative:EsVerificaBertoldoMatteo\\CHabitat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536FDEDD-DC07-4B1C-8870-BA2D02F1A0A0}|EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo.csproj|C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CTemperata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536FDEDD-DC07-4B1C-8870-BA2D02F1A0A0}|EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo.csproj|solutionrelative:EsVerificaBertoldoMatteo\\CTemperata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536FDEDD-DC07-4B1C-8870-BA2D02F1A0A0}|EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo.csproj|C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CMediterranea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536FDEDD-DC07-4B1C-8870-BA2D02F1A0A0}|EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo.csproj|solutionrelative:EsVerificaBertoldoMatteo\\CMediterranea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536FDEDD-DC07-4B1C-8870-BA2D02F1A0A0}|EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo.csproj|C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CTropicale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536FDEDD-DC07-4B1C-8870-BA2D02F1A0A0}|EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo.csproj|solutionrelative:EsVerificaBertoldoMatteo\\CTropicale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536FDEDD-DC07-4B1C-8870-BA2D02F1A0A0}|EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo.csproj|C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CPianta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536FDEDD-DC07-4B1C-8870-BA2D02F1A0A0}|EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo.csproj|solutionrelative:EsVerificaBertoldoMatteo\\CPianta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CPianta.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CPianta.cs",
+              "RelativeDocumentMoniker": "EsVerificaBertoldoMatteo\\CPianta.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CPianta.cs",
+              "RelativeToolTip": "EsVerificaBertoldoMatteo\\CPianta.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T17:26:24.992Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CTropicale.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CTropicale.cs",
+              "RelativeDocumentMoniker": "EsVerificaBertoldoMatteo\\CTropicale.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CTropicale.cs",
+              "RelativeToolTip": "EsVerificaBertoldoMatteo\\CTropicale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T17:26:24.995Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CMediterranea.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CMediterranea.cs",
+              "RelativeDocumentMoniker": "EsVerificaBertoldoMatteo\\CMediterranea.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CMediterranea.cs",
+              "RelativeToolTip": "EsVerificaBertoldoMatteo\\CMediterranea.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T17:26:24.996Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CTemperata.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CTemperata.cs",
+              "RelativeDocumentMoniker": "EsVerificaBertoldoMatteo\\CTemperata.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CTemperata.cs",
+              "RelativeToolTip": "EsVerificaBertoldoMatteo\\CTemperata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T17:26:24.997Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CHabitat.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CHabitat.cs",
+              "RelativeDocumentMoniker": "EsVerificaBertoldoMatteo\\CHabitat.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CHabitat.cs",
+              "RelativeToolTip": "EsVerificaBertoldoMatteo\\CHabitat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T17:26:24.998Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPerdeFoglie.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\IPerdeFoglie.cs",
+              "RelativeDocumentMoniker": "EsVerificaBertoldoMatteo\\IPerdeFoglie.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\IPerdeFoglie.cs",
+              "RelativeToolTip": "EsVerificaBertoldoMatteo\\IPerdeFoglie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T17:26:24.999Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\Program.cs",
+              "RelativeDocumentMoniker": "EsVerificaBertoldoMatteo\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\Program.cs",
+              "RelativeToolTip": "EsVerificaBertoldoMatteo\\Program.cs",
+              "ViewState": "AgIAAIsBAAAAAAAAAAAAAJwBAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T17:26:25.004Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CCondAmb.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CCondAmb.cs",
+              "RelativeDocumentMoniker": "EsVerificaBertoldoMatteo\\CCondAmb.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Bertoldo_AccademiaBotanica\\EsVerificaBertoldoMatteo\\EsVerificaBertoldoMatteo\\CCondAmb.cs",
+              "RelativeToolTip": "EsVerificaBertoldoMatteo\\CCondAmb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T17:26:25.011Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

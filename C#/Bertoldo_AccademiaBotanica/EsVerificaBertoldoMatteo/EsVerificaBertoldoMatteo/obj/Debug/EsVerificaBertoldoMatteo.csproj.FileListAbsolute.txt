@@ -1,0 +1,8 @@
+C:\Users\ASUS\Desktop\Bertoldo_AccademiaBotanica\EsVerificaBertoldoMatteo\EsVerificaBertoldoMatteo\obj\Debug\EsVerificaBertoldoMatteo.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Bertoldo_AccademiaBotanica\EsVerificaBertoldoMatteo\EsVerificaBertoldoMatteo\obj\Debug\EsVerificaBertoldoMatteo.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Bertoldo_AccademiaBotanica\EsVerificaBertoldoMatteo\EsVerificaBertoldoMatteo\bin\Debug\EsVerificaBertoldoMatteo.exe.config
+C:\Users\ASUS\Desktop\Bertoldo_AccademiaBotanica\EsVerificaBertoldoMatteo\EsVerificaBertoldoMatteo\bin\Debug\EsVerificaBertoldoMatteo.exe
+C:\Users\ASUS\Desktop\Bertoldo_AccademiaBotanica\EsVerificaBertoldoMatteo\EsVerificaBertoldoMatteo\bin\Debug\EsVerificaBertoldoMatteo.pdb
+C:\Users\ASUS\Desktop\Bertoldo_AccademiaBotanica\EsVerificaBertoldoMatteo\EsVerificaBertoldoMatteo\obj\Debug\EsVerificaBertoldoMatteo.exe
+C:\Users\ASUS\Desktop\Bertoldo_AccademiaBotanica\EsVerificaBertoldoMatteo\EsVerificaBertoldoMatteo\obj\Debug\EsVerificaBertoldoMatteo.pdb
+C:\Users\ASUS\Desktop\Bertoldo_AccademiaBotanica\EsVerificaBertoldoMatteo\EsVerificaBertoldoMatteo\obj\Debug\EsVerificaBertoldoMatteo.exe.config
