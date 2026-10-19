@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionatoJsonBM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE12AA40-9821-4804-873B-B0238CFF0F50}|EsCampionatoJsonBM\\EsCampionatoJsonBM.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\escampionatojsonbm\\escampionatojsonbm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE12AA40-9821-4804-873B-B0238CFF0F50}|EsCampionatoJsonBM\\EsCampionatoJsonBM.csproj|solutionrelative:escampionatojsonbm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE12AA40-9821-4804-873B-B0238CFF0F50}|EsCampionatoJsonBM\\EsCampionatoJsonBM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionatoJsonBM\\escampionatojsonbm\\cpartita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE12AA40-9821-4804-873B-B0238CFF0F50}|EsCampionatoJsonBM\\EsCampionatoJsonBM.csproj|solutionrelative:escampionatojsonbm\\cpartita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionatoJsonBM\\EsCampionatoJsonBM\\Program.cs",
+              "RelativeDocumentMoniker": "EsCampionatoJsonBM\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionatoJsonBM\\EsCampionatoJsonBM\\Program.cs",
+              "RelativeToolTip": "EsCampionatoJsonBM\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwBMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T11:10:40.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CPartita.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionatoJsonBM\\EsCampionatoJsonBM\\CPartita.cs",
+              "RelativeDocumentMoniker": "EsCampionatoJsonBM\\CPartita.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionatoJsonBM\\EsCampionatoJsonBM\\CPartita.cs",
+              "RelativeToolTip": "EsCampionatoJsonBM\\CPartita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T11:11:09.736Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
