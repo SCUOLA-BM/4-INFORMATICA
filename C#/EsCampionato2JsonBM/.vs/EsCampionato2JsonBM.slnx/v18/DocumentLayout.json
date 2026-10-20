@@ -1,0 +1,217 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\escampionato2jsonbm\\escampionato2jsonbm\\cpartita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|solutionrelative:escampionato2jsonbm\\cpartita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\escampionato2jsonbm\\cpartitagirone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|solutionrelative:escampionato2jsonbm\\cpartitagirone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\escampionato2jsonbm\\cpartitafinale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|solutionrelative:escampionato2jsonbm\\cpartitafinale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\escampionato2jsonbm\\cpartitaeliminazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|solutionrelative:escampionato2jsonbm\\cpartitaeliminazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\escampionato2jsonbm\\irisultato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|solutionrelative:escampionato2jsonbm\\irisultato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\escampionato2jsonbm\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|solutionrelative:escampionato2jsonbm\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\escampionato2jsonbm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|solutionrelative:escampionato2jsonbm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\escampionato2jsonbm\\istampabile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|solutionrelative:escampionato2jsonbm\\istampabile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\escampionato2jsonbm\\cstatistichesquadra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|solutionrelative:escampionato2jsonbm\\cstatistichesquadra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\escampionato2jsonbm\\repositorymemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|solutionrelative:escampionato2jsonbm\\repositorymemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\escampionato2jsonbm\\repositoryjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|solutionrelative:escampionato2jsonbm\\repositoryjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\escampionato2jsonbm\\esito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741EC829-FE8F-4DAF-AD59-3DA4B6BC8098}|EsCampionato2JsonBM\\EsCampionato2JsonBM.csproj|solutionrelative:escampionato2jsonbm\\esito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CPartita.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\CPartita.cs",
+              "RelativeDocumentMoniker": "EsCampionato2JsonBM\\CPartita.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\CPartita.cs",
+              "RelativeToolTip": "EsCampionato2JsonBM\\CPartita.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAwwAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T15:29:54.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CPartitaGirone.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\CPartitaGirone.cs",
+              "RelativeDocumentMoniker": "EsCampionato2JsonBM\\CPartitaGirone.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\CPartitaGirone.cs",
+              "RelativeToolTip": "EsCampionato2JsonBM\\CPartitaGirone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T15:45:08.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CPartitaFinale.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\CPartitaFinale.cs",
+              "RelativeDocumentMoniker": "EsCampionato2JsonBM\\CPartitaFinale.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\CPartitaFinale.cs",
+              "RelativeToolTip": "EsCampionato2JsonBM\\CPartitaFinale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T17:47:08.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CPartitaEliminazione.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\CPartitaEliminazione.cs",
+              "RelativeDocumentMoniker": "EsCampionato2JsonBM\\CPartitaEliminazione.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\CPartitaEliminazione.cs",
+              "RelativeToolTip": "EsCampionato2JsonBM\\CPartitaEliminazione.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwEgAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T15:57:03.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRisultato.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\IRisultato.cs",
+              "RelativeDocumentMoniker": "EsCampionato2JsonBM\\IRisultato.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\IRisultato.cs",
+              "RelativeToolTip": "EsCampionato2JsonBM\\IRisultato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T15:26:22.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\IRepository.cs",
+              "RelativeDocumentMoniker": "EsCampionato2JsonBM\\IRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\IRepository.cs",
+              "RelativeToolTip": "EsCampionato2JsonBM\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T15:27:51.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\Program.cs",
+              "RelativeDocumentMoniker": "EsCampionato2JsonBM\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\Program.cs",
+              "RelativeToolTip": "EsCampionato2JsonBM\\Program.cs",
+              "ViewState": "AgIAACwBAAAAAAAAAAAiwDcBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T15:22:14.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IStampabile.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\IStampabile.cs",
+              "RelativeDocumentMoniker": "EsCampionato2JsonBM\\IStampabile.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\IStampabile.cs",
+              "RelativeToolTip": "EsCampionato2JsonBM\\IStampabile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T15:27:00.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CStatisticheSquadra.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\CStatisticheSquadra.cs",
+              "RelativeDocumentMoniker": "EsCampionato2JsonBM\\CStatisticheSquadra.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\CStatisticheSquadra.cs",
+              "RelativeToolTip": "EsCampionato2JsonBM\\CStatisticheSquadra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T16:25:07.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RepositoryMemoria.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\RepositoryMemoria.cs",
+              "RelativeDocumentMoniker": "EsCampionato2JsonBM\\RepositoryMemoria.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\RepositoryMemoria.cs",
+              "RelativeToolTip": "EsCampionato2JsonBM\\RepositoryMemoria.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwB8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T17:41:29.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RepositoryJson.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\RepositoryJson.cs",
+              "RelativeDocumentMoniker": "EsCampionato2JsonBM\\RepositoryJson.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\RepositoryJson.cs",
+              "RelativeToolTip": "EsCampionato2JsonBM\\RepositoryJson.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T16:41:00.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Esito.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\Esito.cs",
+              "RelativeDocumentMoniker": "EsCampionato2JsonBM\\Esito.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsCampionato2JsonBM\\EsCampionato2JsonBM\\Esito.cs",
+              "RelativeToolTip": "EsCampionato2JsonBM\\Esito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T16:22:01.783Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
