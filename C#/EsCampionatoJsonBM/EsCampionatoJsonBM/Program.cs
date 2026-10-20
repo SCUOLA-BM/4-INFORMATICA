@@ -23,7 +23,7 @@ namespace EsCampionatoJsonBM
                 scelta = Console.ReadLine();
             } while (scelta != "0");
             string jsonString = JsonSerializer.Serialize(partite);
-            File.WriteAllText(fileName,jsonString);
+            File.AppendAllText(fileName,jsonString+Environment.NewLine);
             Console.WriteLine(File.ReadAllText(fileName));
         }
 
