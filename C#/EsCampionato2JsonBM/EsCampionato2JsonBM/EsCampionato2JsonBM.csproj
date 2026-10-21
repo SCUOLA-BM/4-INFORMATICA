@@ -84,13 +84,12 @@
     <Compile Include="CPartitaGirone.cs" />
     <Compile Include="CStatisticheSquadra.cs" />
     <Compile Include="Esito.cs" />
-    <Compile Include="IRepository.cs" />
-    <Compile Include="IRisultato.cs" />
-    <Compile Include="IStampabile.cs" />
+    <Compile Include="Interfacce\IRepository.cs" />
+    <Compile Include="Interfacce\IRisultato.cs" />
+    <Compile Include="Interfacce\IStampabile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RepositoryJson.cs" />
-    <Compile Include="RepositoryMemoria.cs" />
+    <Compile Include="CRepositoryPartite.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

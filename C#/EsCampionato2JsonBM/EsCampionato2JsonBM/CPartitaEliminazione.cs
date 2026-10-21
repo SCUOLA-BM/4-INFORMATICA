@@ -2,55 +2,58 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace EsCampionato2JsonBM
 {
     internal class CPartitaEliminazione : CPartita
     {
-        private int? rigoriC;
-        private int? rigoriO;
+        private int? rigoriCasa;
+        private int? rigoriOspite;
 
-        public int? RigoriC
+        public int? RigoriCasa
         {
-            get { return rigoriC; }
+            get { return rigoriCasa; }
             set
             {
                 if (value < 0)
                     throw new ArgumentException("N° RIGORI CASA NON VALIDO");
-                rigoriC = value;
+                rigoriCasa = value;
             }
         }
 
-        public int? RigoriO
+        public int? RigoriOspite
         {
-            get { return rigoriO; }
+            get { return rigoriOspite; }
             set
             {
                 if (value < 0)
                     throw new ArgumentException("N° RIGORI OSPITI NON VALIDO");
-                rigoriO = value;
+                rigoriOspite = value;
             }
         }
 
+        [JsonIgnore]
         public override string Fase
         {
             get { return "Eliminazione"; }
         }
 
-        public CPartitaEliminazione(int g, string nc, string no, int gc, int go, int? rc = null, int? ro = null) : base(g, nc, no, gc, go)
+        public CPartitaEliminazione(int giornata, string squadraCasa, string squadraOspite, int golCasa, int golOspite, int? rigoriCasa = null, int? rigoriOspite = null, DateTime? data = null)
+            : base(giornata, squadraCasa, squadraOspite, golCasa, golOspite, data)
         {
-            RigoriC = rc;
-            RigoriO = ro;
+            RigoriCasa = rigoriCasa;
+            RigoriOspite = rigoriOspite;
         }
 
         public void VerificaRigori()
         {
             if (CalcolaEsito() == Esito.Pareggio)
             {
-                if (RigoriC is null || RigoriO is null)
+                if (RigoriCasa is null || RigoriOspite is null)
                     throw new InvalidOperationException("PARITA', SI PASSA AI RIGORI");
-                if (RigoriC == RigoriO)
+                if (RigoriCasa == RigoriOspite)
                     throw new InvalidOperationException("RIGONI IN PARITA', SI DEVE DECIDERE VINCITORE");
             }
         }
@@ -60,20 +63,20 @@ namespace EsCampionato2JsonBM
             if (CalcolaEsito() != Esito.Pareggio)
                 return base.CalcolaVincitore();
 
-            if (RigoriC is null || RigoriO is null)
+            if (RigoriCasa is null || RigoriOspite is null)
                 return null;
 
-            if (RigoriC > RigoriO)
-                return NomeC;
-            return NomeO;
+            if (RigoriCasa > RigoriOspite)
+                return SquadraCasa;
+            return SquadraOspite;
         }
 
         public override string Descrizione()
         {
-            if (CalcolaEsito() != Esito.Pareggio || RigoriC == null || RigoriO == null)
+            if (CalcolaEsito() != Esito.Pareggio || RigoriCasa == null || RigoriOspite == null)
                 return base.Descrizione();
 
-            return base.Descrizione() + " (d.c.r. " + RigoriC + "-" + RigoriO + ", passa " + CalcolaVincitore() + ")";
+            return base.Descrizione() + " (d.c.r. " + RigoriCasa + "-" + RigoriOspite + ", passa " + CalcolaVincitore() + ")";
         }
 
         public override int PuntiPer(string squadra)
