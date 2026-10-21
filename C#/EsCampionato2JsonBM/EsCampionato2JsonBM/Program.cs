@@ -1,40 +1,39 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.IO.Ports;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace EsCampionato2JsonBM
 {
-    public class Program
+    internal class Program
     {
         private const string NomeFile = "partite.json";
 
 
         private static void Main()
         {
-            IRepository<CPartita> repository = new RepositoryJson<CPartita>(NomeFile);
+            CRepositoryPartite repository = new CRepositoryPartite(NomeFile);
 
             try
             {
                 repository.Carica();
-                Console.WriteLine("Partite caricate: " + repository.GetElenco().Count);
+                Console.WriteLine("PARTITE CARICATE: " + repository.GetElenco().Count);
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Errore nella lettura di " + NomeFile + ": " + ex.Message);
+                Console.WriteLine("ERRORE DI LETTURA DI " + NomeFile + ": " + ex.Message);
             }
 
             bool esci = false;
             while (!esci)
             {
                 StampaMenu();
-                int scelta = LeggiIntero("Scelta: ", 0, 7);
+                int scelta = LeggiIntero("SCELTA: ", 0, 6);
 
                 try
                 {
-                    if (scelta == 0 || scelta == 7)
+                    if (scelta == 0)
                     {
                         esci = true;
                     }
@@ -44,7 +43,7 @@ namespace EsCampionato2JsonBM
                     }
                     else if (scelta == 2)
                     {
-                        
+                        VisualizzaPartiteOrdinate(repository);
                     }
                     else if (scelta == 3)
                     {
@@ -83,50 +82,94 @@ namespace EsCampionato2JsonBM
             Console.WriteLine("4. Mostra la classifica dei gironi");
             Console.WriteLine("5. Cerca le partite di una squadra");
             Console.WriteLine("6. Elimina una partita");
-            Console.WriteLine("7. Esci (tasto 0)");
+            Console.WriteLine("0. Esci");
         }
 
         // 1. VISUALIZZA IN ORDINE NATURALE
 
-        private static void VisualizzaOrdineNaturale(IRepository<CPartita> repository)
+        private static void VisualizzaOrdineNaturale(CRepositoryPartite r)
         {
-            List<CPartita> copia = new List<CPartita>(repository.GetElenco());
+            CPartita.Criterio = "naturale";   // FORZO L'ORDINE NATURALE (IL CRITERIO E' STATICO)
+            List<CPartita> copia = new List<CPartita>(r.GetElenco());
+
             copia.Sort();
             StampaElenco(copia);
         }
 
         // 2. ORDINARE CON COMPARATORI
 
-        
+        private static void VisualizzaPartiteOrdinate(CRepositoryPartite r)
+        {
+            Console.WriteLine("TIPO ORDINAMENTO:");
+            Console.WriteLine("1. NATURALE");
+            Console.WriteLine("2. GOAL DECRESCENTE");
+            Console.WriteLine("3. SCARTO VITTORIA DECRESCENTE");
+            Console.WriteLine("4. SQUADRA DI CASA (A-Z)");
+            Console.WriteLine("5. SQUADRA DI CASA (Z-A)");
+            Console.WriteLine("6. DATA");
+            int tipo = LeggiIntero("TIPO: ", 1, 6);
+            List<CPartita> copia = new List<CPartita>(r.GetElenco());
+
+
+            switch (tipo)
+            {
+                case 1:
+                    CPartita.Criterio = "naturale";
+                    break;
+                case 2:
+                    CPartita.Criterio = "gol";
+                    break;
+                case 3:
+                    CPartita.Criterio = "scarto";
+                    break;
+                case 4:
+                    CPartita.Criterio = "casaAZ";
+                    break;
+                case 5:
+                    CPartita.Criterio = "casaZA";
+                    break;
+                case 6:
+                    CPartita.Criterio = "data";
+                    break;
+                default:
+                    throw new ArgumentException("ERRORE NELLA SCELTA DELL'ORDINAMENTO");
+            }
+            copia.Sort();
+            StampaElenco(copia);
+        }
+
 
         // 3. INSERIMENTO DI UNA PARTITA(gironi/eliminazione, rigoti chiesti solo in caso di pareggio)
 
-        private static void InserisciPartita(IRepository<CPartita> repository)
+        private static void InserisciPartita(CRepositoryPartite repository)
         {
-            Console.WriteLine("Tipo di partita:");
-            Console.WriteLine("  1. Fase a gironi");
-            Console.WriteLine("  2. Eliminazione diretta");
-            Console.WriteLine("  3. Finale (bonus)");
-            int tipo = LeggiIntero("Tipo: ", 1, 3);
+            Console.WriteLine("TIPO PARTITA:");
+            Console.WriteLine("1. FASE GIRONI");
+            Console.WriteLine("2. ELIMINAZIONE DIRETTA");
+            Console.WriteLine("3. FINALE (bonus)");
+            int tipo = LeggiIntero("TIPO: ", 1, 3);
 
-            int giornata = LeggiIntero("Giornata: ", 1, 100);
+            int g = LeggiIntero("Giornata: ", 1, 100);
             string casa = LeggiTesto("Squadra di casa: ");
             string ospite = LeggiTesto("Squadra ospite: ");
 
-            if (string.Equals(casa, ospite, StringComparison.OrdinalIgnoreCase))
+            if (casa.ToUpper().Trim() == ospite.ToUpper().Trim())
             {
-                Console.WriteLine("Una squadra non puo' giocare contro se stessa.");
+                Console.WriteLine("IMPOSSIBILE AVERE SQUADRE CON LO STESSO NOME");
                 return;
             }
 
-            int golCasa = LeggiIntero("Gol di " + casa + ": ", 0, 99);
-            int golOspite = LeggiIntero("Gol di " + ospite + ": ", 0, 99);
+            int goalc = LeggiIntero("GOAL DI " + casa + ": ", 0, 99);
+            int goalo = LeggiIntero("GOAL DI " + ospite + ": ", 0, 99);
+
+            // DATA DELLA PARTITA (OPZIONALE, INVIO PER SALTARE)
+            DateTime? dataPartita = LeggiData("Data della partita (dd/MM/yyyy, Invio per saltare): ");
 
             CPartita partita;
 
             if (tipo == 1)
             {
-                partita = new CPartitaGirone(giornata, casa, ospite, golCasa, golOspite);
+                partita = new CPartitaGirone(g, casa, ospite, goalc, goalo, dataPartita);
             }
             else if (tipo == 2)
             {
@@ -134,21 +177,21 @@ namespace EsCampionato2JsonBM
                 int? rigoriOspite = null;
 
                 // RIGORI CHIESTI IN CASO DI PARITA'
-                if (golCasa == golOspite)
+                if (goalc == goalo)
                 {
-                    Console.WriteLine("Partita in parita': i rigori sono obbligatori.");
-                    rigoriCasa = LeggiIntero("Rigori di " + casa + ": ", 0, 99);
-                    rigoriOspite = LeggiIntero("Rigori di " + ospite + ": ", 0, 99);
+                    Console.WriteLine("PARTITA IN PARITA', RIGORI OBBLIGATORI.");
+                    rigoriCasa = LeggiIntero("RIGORI DI " + casa + ": ", 0, 99);
+                    rigoriOspite = LeggiIntero("RIGORI DI " + ospite + ": ", 0, 99);
                 }
 
                 CPartitaEliminazione eliminazione =
-                    new CPartitaEliminazione(giornata, casa, ospite, golCasa, golOspite, rigoriCasa, rigoriOspite);
+                    new CPartitaEliminazione(g, casa, ospite, goalc, goalo, rigoriCasa, rigoriOspite, dataPartita);
                 eliminazione.VerificaRigori();   // DEVE ESSERCI UN VINCITORE
                 partita = eliminazione;
             }
             else
             {
-                partita = new CPartitaFinale(giornata, casa, ospite, golCasa, golOspite);
+                partita = new CPartitaFinale(g, casa, ospite, goalc, goalo, dataPartita);
             }
 
             if (repository.Aggiungi(partita))
@@ -164,18 +207,18 @@ namespace EsCampionato2JsonBM
 
         // 4. CLASSIFICA GIRONI
 
-        private static void MostraClassifica(IRepository<CPartita> repository)
+        private static void MostraClassifica(CRepositoryPartite repository)
         {
             List<CStatisticheSquadra> classifica = new List<CStatisticheSquadra>();
 
             foreach (CPartita partita in repository.GetElenco())
             {
-                // La classifica considera SOLO le partite dei gironi.
+                // LA CLASSIFICA CONSIDERA SOLO GIRONI.
                 if (!(partita is CPartitaGirone))
                     continue;
 
-                TrovaOAggiungi(classifica, partita.NomeC).Aggiungi(partita);
-                TrovaOAggiungi(classifica, partita.NomeO).Aggiungi(partita);
+                TrovaOAggiungi(classifica, partita.SquadraCasa).Aggiungi(partita);
+                TrovaOAggiungi(classifica, partita.SquadraOspite).Aggiungi(partita);
             }
 
             if (classifica.Count == 0)
@@ -184,7 +227,7 @@ namespace EsCampionato2JsonBM
                 return;
             }
 
-            classifica.Sort();   // usa IComparable<StatisticheSquadra>.CompareTo
+            classifica.Sort();   // USA IComparable<CStatisticheSquadra>.CompareTo
 
             Console.WriteLine("{0,-4}{1,-20}{2,4}{3,4}{4,4}{5,4}{6,5}{7,5}{8,5}{9,6}",
                 "Pos", "Squadra", "G", "V", "P", "S", "GF", "GS", "DR", "Pti");
@@ -203,7 +246,7 @@ namespace EsCampionato2JsonBM
         {
             foreach (CStatisticheSquadra riga in classifica)
             {
-                if (string.Equals(riga.Squadra, squadra, StringComparison.OrdinalIgnoreCase))
+                if (riga.Squadra.ToUpper().Trim() == squadra.ToUpper().Trim())
                     return riga;
             }
 
@@ -214,15 +257,15 @@ namespace EsCampionato2JsonBM
 
         // 5. CERCA PARTITE DI UNA SQUADRA
 
-        private static void CercaSquadra(IRepository<CPartita> repository)
+        private static void CercaSquadra(CRepositoryPartite repository)
         {
             string nome = LeggiTesto("Nome della squadra: ");
 
             List<CPartita> trovate = new List<CPartita>();
             foreach (CPartita partita in repository.GetElenco())
             {
-                bool inCasa = string.Equals(partita.NomeC, nome, StringComparison.OrdinalIgnoreCase);
-                bool fuori = string.Equals(partita.NomeO, nome, StringComparison.OrdinalIgnoreCase);
+                bool inCasa = string.Equals(partita.SquadraCasa, nome, StringComparison.OrdinalIgnoreCase);
+                bool fuori = string.Equals(partita.SquadraOspite, nome, StringComparison.OrdinalIgnoreCase);
                 if (inCasa || fuori)
                     trovate.Add(partita);
             }
@@ -233,6 +276,7 @@ namespace EsCampionato2JsonBM
                 return;
             }
 
+            CPartita.Criterio = "naturale";   // FORZO L'ORDINE NATURALE (IL CRITERIO E' STATICO)
             trovate.Sort();   // ordine naturale (giornata, poi squadra di casa)
             Console.WriteLine("Partite trovate per " + nome + ":");
             StampaElenco(trovate);
@@ -240,13 +284,13 @@ namespace EsCampionato2JsonBM
 
         // 6. ELIMINA PARTITA
 
-        private static void EliminaPartita(IRepository<CPartita> repository)
+        private static void EliminaPartita(CRepositoryPartite repository)
         {
             IReadOnlyList<CPartita> elenco = repository.GetElenco();
 
             if (elenco.Count == 0)
             {
-                Console.WriteLine("L'repository e' vuoto.");
+                Console.WriteLine("L'elenco e' vuoto.");
                 return;
             }
 
@@ -282,20 +326,23 @@ namespace EsCampionato2JsonBM
                 Console.WriteLine("  (nessuna partita)");
         }
 
-        private static int LeggiIntero(string messaggio, int minimo, int massimo)
+        private static int LeggiIntero(string m, int min, int max)
         {
             while (true)
             {
-                Console.Write(messaggio);
+                Console.Write(m);
                 string? risposta = Console.ReadLine();
 
+                if (risposta is null)   // INPUT TERMINATO (EOF): EVITA IL LOOP INFINITO
+                    return min;
+
                 int valore;
-                if (int.TryParse(risposta, out valore) && valore >= minimo && valore <= massimo)
+                if (int.TryParse(risposta, out valore) && valore >= min && valore <= max)
                     return valore;
 
-                Console.WriteLine("Valore non valido: inserire un numero fra " + minimo + " e " + massimo + ".");
+                Console.WriteLine("VALORE NON VALIDO: INSERIRE NUMERO NELL'INTERVALLO: " + min + " - " + max);
             }
-        }
+        } //LEGGE NUMERO INTERO IN INPUT INSERENDO MESSAGGIO, VALORE MAX E MIN
 
         private static string LeggiTesto(string messaggio)
         {
@@ -304,10 +351,33 @@ namespace EsCampionato2JsonBM
                 Console.Write(messaggio);
                 string? risposta = Console.ReadLine();
 
+                if (risposta is null)   // INPUT TERMINATO (EOF)
+                    throw new InvalidOperationException("INPUT TERMINATO");
+
                 if (!string.IsNullOrWhiteSpace(risposta))
                     return risposta.Trim();
 
                 Console.WriteLine("Il testo non puo' essere vuoto.");
+            }
+        }
+
+        private static DateTime? LeggiData(string messaggio)
+        {
+            while (true)
+            {
+                Console.Write(messaggio);
+                string? risposta = Console.ReadLine();
+
+                if (risposta is null || string.IsNullOrWhiteSpace(risposta))
+                    return null;   // DATA OPZIONALE: INVIO PER SALTARE
+
+                DateTime data;
+                if (DateTime.TryParseExact(risposta.Trim(), "dd/MM/yyyy",
+                    System.Globalization.CultureInfo.InvariantCulture,
+                    System.Globalization.DateTimeStyles.None, out data))
+                    return data;
+
+                Console.WriteLine("FORMATO NON VALIDO. Usare dd/MM/yyyy (es. 15/06/2026).");
             }
         }
     }

@@ -1,6 +1,5 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.IO.Ports;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,19 +34,19 @@ namespace EsCampionato2JsonBM
             if (partita is null)
                 return;
 
-            casa = string.Equals(partita.NomeC, Squadra, StringComparison.OrdinalIgnoreCase);
-            ospite = string.Equals(partita.NomeO, Squadra, StringComparison.OrdinalIgnoreCase);
+            casa = string.Equals(partita.SquadraCasa, Squadra, StringComparison.OrdinalIgnoreCase);
+            ospite = string.Equals(partita.SquadraOspite, Squadra, StringComparison.OrdinalIgnoreCase);
             if (!casa && !ospite)
                 return;
 
-            goal = casa ? partita.GoalC : partita.GoalO;
-            subiti = ospite ? partita.GoalO : partita.GoalC;
+            goal = casa ? partita.GolCasa : partita.GolOspite;
+            subiti = casa ? partita.GolOspite : partita.GolCasa;
 
             Giocate++;
             GolFatti += goal;
             GolSubiti += subiti;
 
-            if (goal > subiti)
+            if (goal > subiti) //CONTROLLO RISULTATO PARTITA
                 Vinte++;
             else if (goal == subiti)
                 Pareggiate++;
@@ -57,7 +56,7 @@ namespace EsCampionato2JsonBM
             Punti += partita.PuntiPer(Squadra);
         }
 
-        public int CompareTo(CStatisticheSquadra? other)
+        public int CompareTo(CStatisticheSquadra? other) // RIDEFINISCO METODI IComparable
         {
             if (other is null)
                 return -1;
@@ -68,15 +67,15 @@ namespace EsCampionato2JsonBM
             if (risultato == 0)
                 risultato = other.GolFatti.CompareTo(GolFatti);
             if (risultato == 0)
-                risultato = string.Compare(Squadra, other.Squadra, StringComparison.OrdinalIgnoreCase);
+                risultato = other.Squadra.CompareTo(Squadra);
             return risultato;
         }
 
-        public bool Equals(CStatisticheSquadra? other)
+        public bool Equals(CStatisticheSquadra? other) // RIDEFINISCO METODI IEquatable
         {
             if (other is null)
                 return false;
-            return string.Equals(Squadra, other.Squadra, StringComparison.OrdinalIgnoreCase);
+            return Squadra.ToUpper().Trim() == other.Squadra.ToUpper().Trim();
         }
 
         public override string ToString()

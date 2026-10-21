@@ -1,5 +1,3 @@
-C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsCampionato2JsonBM\EsCampionato2JsonBM\obj\Debug\EsCampionato2JsonBM.csproj.AssemblyReference.cache
-C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsCampionato2JsonBM\EsCampionato2JsonBM\obj\Debug\EsCampionato2JsonBM.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsCampionato2JsonBM\EsCampionato2JsonBM\bin\Debug\EsCampionato2JsonBM.exe.config
 C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsCampionato2JsonBM\EsCampionato2JsonBM\bin\Debug\EsCampionato2JsonBM.exe
 C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsCampionato2JsonBM\EsCampionato2JsonBM\bin\Debug\EsCampionato2JsonBM.pdb
@@ -21,6 +19,8 @@ C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsCampionato2JsonBM\EsCamp
 C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsCampionato2JsonBM\EsCampionato2JsonBM\bin\Debug\System.Text.Encodings.Web.xml
 C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsCampionato2JsonBM\EsCampionato2JsonBM\bin\Debug\System.Text.Json.xml
 C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsCampionato2JsonBM\EsCampionato2JsonBM\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsCampionato2JsonBM\EsCampionato2JsonBM\obj\Debug\EsCampionato2JsonBM.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsCampionato2JsonBM\EsCampionato2JsonBM\obj\Debug\EsCampionato2JsonBM.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsCampionato2JsonBM\EsCampionato2JsonBM\obj\Debug\EsCampio.C029A8FD.Up2Date
 C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsCampionato2JsonBM\EsCampionato2JsonBM\obj\Debug\EsCampionato2JsonBM.exe
 C:\Users\ASUS\Desktop\ITISROSSI\4Rossi\INFORMATICA\C#\EsCampionato2JsonBM\EsCampionato2JsonBM\obj\Debug\EsCampionato2JsonBM.pdb
