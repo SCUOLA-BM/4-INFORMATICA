@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace EsCampionato2JsonBM
 {
-    internal class CPartitaFinale : CPartita
+    internal class CPartitaFinale : CPartitaEliminazione
     {
         public const int MoltiplicatorePunti = 2;
 
-        public CPartitaFinale(int giornata, string squadraCasa, string squadraOspite, int golCasa, int golOspite, DateTime? data = null)
-            : base(giornata, squadraCasa, squadraOspite, golCasa, golOspite, data)
+        public CPartitaFinale(int giornata, string squadraCasa, string squadraOspite, int golCasa, int golOspite, int? rigoriCasa = null, int? rigoriOspite = null, DateTime? data = null)
+            : base(giornata, squadraCasa, squadraOspite, golCasa, golOspite, rigoriCasa, rigoriOspite, data)
         {
         }
 
