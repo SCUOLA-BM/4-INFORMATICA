@@ -76,13 +76,13 @@ namespace EsCampionato2JsonBM
         private static void StampaMenu()
         {
             Console.WriteLine(" UEFA MICRONATIONS CHAMPIONCHIP\n");
+            Console.WriteLine("0. Esci");
             Console.WriteLine("1. Visualizza le partite in ordine naturale");
             Console.WriteLine("2. Visualizza le partite con un comparatore");
             Console.WriteLine("3. Inserisci una partita");
             Console.WriteLine("4. Mostra la classifica dei gironi");
             Console.WriteLine("5. Cerca le partite di una squadra");
             Console.WriteLine("6. Elimina una partita");
-            Console.WriteLine("0. Esci");
         }
 
         // 1. VISUALIZZA IN ORDINE NATURALE
@@ -167,11 +167,7 @@ namespace EsCampionato2JsonBM
 
             CPartita partita;
 
-            if (tipo == 1)
-            {
-                partita = new CPartitaGirone(g, casa, ospite, goalc, goalo, dataPartita);
-            }
-            else if (tipo == 2)
+            if (tipo == 2 || tipo == 3)
             {
                 int? rigoriCasa = null;
                 int? rigoriOspite = null;
@@ -183,15 +179,24 @@ namespace EsCampionato2JsonBM
                     rigoriCasa = LeggiIntero("RIGORI DI " + casa + ": ", 0, 99);
                     rigoriOspite = LeggiIntero("RIGORI DI " + ospite + ": ", 0, 99);
                 }
-
-                CPartitaEliminazione eliminazione =
+                if(tipo == 2)
+                {
+                    CPartitaEliminazione eliminazione =
                     new CPartitaEliminazione(g, casa, ospite, goalc, goalo, rigoriCasa, rigoriOspite, dataPartita);
-                eliminazione.VerificaRigori();   // DEVE ESSERCI UN VINCITORE
-                partita = eliminazione;
+                    eliminazione.VerificaRigori();   // DEVE ESSERCI UN VINCITORE
+                    partita = eliminazione;
+                }
+                else
+                {
+                    CPartitaFinale finale =
+                    new CPartitaFinale(g, casa, ospite, goalc, goalo, rigoriCasa, rigoriOspite, dataPartita);
+                    finale.VerificaRigori();   // DEVE ESSERCI UN VINCITORE
+                    partita = finale;
+                }
             }
             else
             {
-                partita = new CPartitaFinale(g, casa, ospite, goalc, goalo, dataPartita);
+                partita = new CPartitaGirone(g, casa, ospite, goalc, goalo, dataPartita);
             }
 
             if (repository.Aggiungi(partita))
@@ -229,13 +234,13 @@ namespace EsCampionato2JsonBM
 
             classifica.Sort();   // USA IComparable<CStatisticheSquadra>.CompareTo
 
-            Console.WriteLine("{0,-4}{1,-20}{2,4}{3,4}{4,4}{5,4}{6,5}{7,5}{8,5}{9,6}",
-                "Pos", "Squadra", "G", "V", "P", "S", "GF", "GS", "DR", "Pti");
+            Console.WriteLine("{0,-4}{1,-20}{2,10}{3,10}{4,10}{5,10}{6,10}{7,10}{8,10}{9,10}",
+                "POS", "SQUADRA", "GIOCATE", "VINTE", "PAREGGIO", "PERSE", "GOAL+", "GOAL-", "DIFF RETI", "PUNTI");
 
             int posizione = 1;
             foreach (CStatisticheSquadra riga in classifica)
             {
-                Console.WriteLine("{0,-4}{1,-20}{2,4}{3,4}{4,4}{5,4}{6,5}{7,5}{8,5}{9,6}",
+                Console.WriteLine("{0,-4}{1,-20}{2,10}{3,10}{4,10}{5,10}{6,10}{7,10}{8,10}{9,10}",
                     posizione, riga.Squadra, riga.Giocate, riga.Vinte, riga.Pareggiate, riga.Perse,
                     riga.GolFatti, riga.GolSubiti, riga.DifferenzaReti, riga.Punti);
                 posizione++;
