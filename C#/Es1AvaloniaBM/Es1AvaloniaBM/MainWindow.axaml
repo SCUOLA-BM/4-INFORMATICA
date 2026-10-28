@@ -1,0 +1,27 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Es1AvaloniaBM.MainWindow"
+        Title="Es1AvaloniaBM">
+    <ScrollViewer>
+        <StackPanel Margin="32" Spacing=" 16">
+            <TextBlock Text="BENVENUTO NELLA MIA CALCOLATRICE" Foreground="Blue" FontWeight="Bold"/>
+            <Border Background="Orange" CornerRadius="12" Padding="24">
+                <StackPanel Spacing="14">
+                    <TextBox x:Name="n1" PlaceholderText="Inserisci primo numero" TextWrapping="Wrap" FontSize="18"/>
+                    <TextBox x:Name="n2" PlaceholderText="Inserisci secondo numero" TextWrapping="Wrap" FontSize="18"/>
+                    <WrapPanel>
+                        <Button Click="Somma" Padding="22" Margin="20" FontSize="67">+</Button>
+                        <Button Click="Differenza" Padding="22,22" Margin="20" FontSize="67">-</Button>
+                        <Button Click="Prodotto" Padding="22" Margin="20" FontSize="67">*</Button>
+                        <Button Click="Divisione" Padding="22" Margin="20" FontSize="67">/</Button>
+                    </WrapPanel>
+                    <Label>Risultato:</Label>
+                    <TextBlock x:Name="ris" TextWrapping="Wrap" FontSize="18"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</Window>
