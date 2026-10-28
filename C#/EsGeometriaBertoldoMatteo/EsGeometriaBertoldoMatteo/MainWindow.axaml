@@ -24,7 +24,10 @@
             <StackPanel>
                 <Label Content="PERIMETRO E AREA"/>
                 <TextBox Name="per" Background="CadetBlue" PlaceholderText="PERIMETRO" Margin="10"/>
-                <TextBox Name="are" Background="CadetBlue" PlaceholderText="PERIMETRO" Margin="10"/>
+                <TextBox Name="are" Background="CadetBlue" PlaceholderText="AREA" Margin="10"/>
+                <Label Content="DESCRIZIONE"/>
+                <TextBox Name="desc" Background="CadetBlue" PlaceholderText="DESCRIZIONE" Margin="10" />
+
             </StackPanel>
         </StackPanel>
     </ScrollViewer>

@@ -16,12 +16,12 @@ namespace EsGeometriaBertoldoMatteo
 
         public override double CalcolaArea()
         {
-            return Math.Pow(Raggio,2)*double.Pi;
+            return Area =  Math.Pow(Raggio,2)*double.Pi;
         }
 
         public override double CalcolaPerimetro()
         {
-            return 2 * Raggio * double.Pi;
+            return Perimetro = 2 * Raggio * double.Pi;
         }
     }
 }
