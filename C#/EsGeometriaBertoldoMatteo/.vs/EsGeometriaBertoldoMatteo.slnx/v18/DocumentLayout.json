@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esgeometriabertoldomatteo\\esgeometriabertoldomatteo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|solutionrelative:esgeometriabertoldomatteo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esgeometriabertoldomatteo\\esgeometriabertoldomatteo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|solutionrelative:esgeometriabertoldomatteo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esgeometriabertoldomatteo\\esgeometriabertoldomatteo\\ccerchio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|solutionrelative:esgeometriabertoldomatteo\\ccerchio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esgeometriabertoldomatteo\\esgeometriabertoldomatteo\\crettangolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|solutionrelative:esgeometriabertoldomatteo\\crettangolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esgeometriabertoldomatteo\\esgeometriabertoldomatteo\\cquadrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|solutionrelative:esgeometriabertoldomatteo\\cquadrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esgeometriabertoldomatteo\\esgeometriabertoldomatteo\\cfigura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|solutionrelative:esgeometriabertoldomatteo\\cfigura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CFigura.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\CFigura.cs",
+              "RelativeDocumentMoniker": "EsGeometriaBertoldoMatteo\\CFigura.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\CFigura.cs",
+              "RelativeToolTip": "EsGeometriaBertoldoMatteo\\CFigura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T06:58:29.125Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CRettangolo.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\CRettangolo.cs",
+              "RelativeDocumentMoniker": "EsGeometriaBertoldoMatteo\\CRettangolo.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\CRettangolo.cs",
+              "RelativeToolTip": "EsGeometriaBertoldoMatteo\\CRettangolo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T07:03:28.294Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CQuadrato.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\CQuadrato.cs",
+              "RelativeDocumentMoniker": "EsGeometriaBertoldoMatteo\\CQuadrato.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\CQuadrato.cs",
+              "RelativeToolTip": "EsGeometriaBertoldoMatteo\\CQuadrato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T07:08:36.578Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CCerchio.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\CCerchio.cs",
+              "RelativeDocumentMoniker": "EsGeometriaBertoldoMatteo\\CCerchio.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\CCerchio.cs",
+              "RelativeToolTip": "EsGeometriaBertoldoMatteo\\CCerchio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T07:17:29.896Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "EsGeometriaBertoldoMatteo\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\MainWindow.axaml",
+              "RelativeToolTip": "EsGeometriaBertoldoMatteo\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-28T06:57:26.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "EsGeometriaBertoldoMatteo\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\MainWindow.axaml.cs",
+              "RelativeToolTip": "EsGeometriaBertoldoMatteo\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T06:57:23.769Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

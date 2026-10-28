@@ -1,0 +1,31 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="EsGeometriaBertoldoMatteo.MainWindow"
+        Title="EsGeometriaBertoldoMatteo">
+    <ScrollViewer>
+        <StackPanel Orientation="Vertical">
+            <TextBox Text="BENVENUTO NEL PROGRAMMA CALCOLO FIGURE GEOMETRICHE" Margin="22" BorderThickness="5" Background="CadetBlue"/>
+            <Label Content="INSERISCI FIGURA" Margin="2"/>
+            <ComboBox SelectedIndex="0" Margin="10" Background="CadetBlue" x:Name="Combo" SelectionChanged="Combo_SelectionChanged">
+                <ComboBoxItem Content="RETTANGOLO"/>
+                <ComboBoxItem Content="QUADRATO"/>
+                <ComboBoxItem Content="CERCHIO"/>
+            </ComboBox>
+            <StackPanel>
+                <Label Name="l1" Content="INSERISCI BASE"/>
+                <TextBox Name="t1" IsVisible="true" Background="CadetBlue" PlaceholderText="INSERISCI QUI" Margin="10"/>
+                <Label Name="l2" IsVisible ="true" Content="INSERISCI ALTEZZA"/>
+                <TextBox Name="t2" IsVisible ="true" Background="CadetBlue" PlaceholderText="INSERISCI QUI" Margin="10"/>
+                <Button Click="Button_Click" Background="CadetBlue" Margin="10" Content="CALCOLA"/>
+            </StackPanel>
+            <StackPanel>
+                <Label Content="PERIMETRO E AREA"/>
+                <TextBox Name="per" Background="CadetBlue" PlaceholderText="PERIMETRO" Margin="10"/>
+                <TextBox Name="are" Background="CadetBlue" PlaceholderText="PERIMETRO" Margin="10"/>
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

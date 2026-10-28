@@ -1,0 +1,12 @@
+﻿<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Es1AvaloniBM.App"
+             RequestedThemeVariant="Dark">
+    <!-- "Default" segue il tema di sistema; qui scegliamo Dark per tutto l'esercizio. -->
+
+    <Application.Styles>
+        <FluentTheme />
+        <!-- Il DataGrid vive in un pacchetto separato: serve includerne il tema. -->
+        <StyleInclude Source="avares://Avalonia.Controls.DataGrid/Themes/Fluent.xaml" />
+    </Application.Styles>
+</Application>

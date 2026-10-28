@@ -1,0 +1,1072 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="using:Es1AvaloniBM.ViewModels"
+        xmlns:models="using:Es1AvaloniBM.Models"
+        mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="880"
+        x:Class="Es1AvaloniBM.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        x:CompileBindings="True"
+        Title="Laboratorio XAML · esercizio unico"
+        Width="1280" Height="880"
+        MinWidth="1060" MinHeight="680"
+        Background="#0E1015"
+        WindowStartupLocation="CenterScreen">
+
+    <!--
+        ESERCIZIO UNICO - CATALOGO DI TAG XAML
+        ======================================
+        Ogni scheda (TabItem) raccoglie un gruppo di tag. Per ogni tag trovi:
+          1. il nome del tag in viola;
+          2. una spiegazione breve delle proprietà importanti;
+          3. un esempio vivo, cioè il controllo realmente funzionante.
+
+        La parte C# segue il flusso MVVM delle slide:
+          MainWindow.axaml.cs  -> assegna DataContext = new MainWindowViewModel()
+          MainWindowViewModel -> [ObservableProperty], ObservableCollection, [RelayCommand]
+          Models/Utente.cs    -> dati puri mostrati da ListBox e DataGrid
+    -->
+
+    <Window.Resources>
+        <!-- Risorse riutilizzabili: evitano di ripetere gli stessi colori. -->
+        <Color x:Key="AccentColor">#8B7CFF</Color>
+        <Color x:Key="MintColor">#4CD7B0</Color>
+        <Color x:Key="AmberColor">#F5B54B</Color>
+        <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}" />
+        <SolidColorBrush x:Key="MintBrush" Color="{StaticResource MintColor}" />
+        <SolidColorBrush x:Key="AmberBrush" Color="{StaticResource AmberColor}" />
+        <SolidColorBrush x:Key="SurfaceBrush" Color="#171A21" />
+        <SolidColorBrush x:Key="LineBrush" Color="#2A3040" />
+        <SolidColorBrush x:Key="MutedBrush" Color="#98A2B3" />
+    </Window.Resources>
+
+    <Window.Styles>
+        <!-- Stili con selettore di classe: si applicano a chi ha Classes="..." -->
+        <Style Selector="TextBlock.h1">
+            <Setter Property="FontSize" Value="26" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Foreground" Value="#F2F4FA" />
+        </Style>
+        <Style Selector="TextBlock.h2">
+            <Setter Property="FontSize" Value="17" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Foreground" Value="#E8EBF2" />
+        </Style>
+        <Style Selector="TextBlock.tag">
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Foreground" Value="{StaticResource AccentBrush}" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+        <Style Selector="TextBlock.body">
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="#A9B2C3" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+        </Style>
+        <Style Selector="TextBlock.small">
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="Foreground" Value="#8A93A5" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+        </Style>
+        <Style Selector="TextBlock.label">
+            <Setter Property="FontSize" Value="11" />
+            <Setter Property="Foreground" Value="{StaticResource MutedBrush}" />
+            <Setter Property="Margin" Value="0,0,0,4" />
+        </Style>
+        <Style Selector="TextBlock.value">
+            <Setter Property="Foreground" Value="{StaticResource MintBrush}" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+        <Style Selector="Border.card">
+            <Setter Property="Background" Value="{StaticResource SurfaceBrush}" />
+            <Setter Property="BorderBrush" Value="{StaticResource LineBrush}" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="CornerRadius" Value="14" />
+            <Setter Property="Padding" Value="18" />
+        </Style>
+        <Style Selector="Border.demo">
+            <Setter Property="Background" Value="#12151C" />
+            <Setter Property="BorderBrush" Value="#242A36" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="CornerRadius" Value="10" />
+            <Setter Property="Padding" Value="14" />
+        </Style>
+        <Style Selector="Border.chip">
+            <Setter Property="Background" Value="#221F33" />
+            <Setter Property="BorderBrush" Value="#3A3360" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="CornerRadius" Value="20" />
+            <Setter Property="Padding" Value="10,4" />
+        </Style>
+        <Style Selector="TextBlock.chipText">
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="Foreground" Value="#C9C4FF" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+        <Style Selector="Button.accent">
+            <Setter Property="Background" Value="{StaticResource AccentBrush}" />
+            <Setter Property="Foreground" Value="#0E1015" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="CornerRadius" Value="8" />
+            <Setter Property="Padding" Value="14,8" />
+        </Style>
+        <Style Selector="Button.accent:pointerover">
+            <Setter Property="Opacity" Value="0.85" />
+        </Style>
+        <Style Selector="Button.ghost">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Foreground" Value="#D5DBE7" />
+            <Setter Property="BorderBrush" Value="{StaticResource LineBrush}" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="CornerRadius" Value="8" />
+            <Setter Property="Padding" Value="12,7" />
+        </Style>
+        <Style Selector="Button.ghost:pointerover">
+            <Setter Property="Background" Value="#232837" />
+        </Style>
+        <Style Selector="TabItem">
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Padding" Value="16,8" />
+        </Style>
+    </Window.Styles>
+
+    <DockPanel Margin="26,22,26,20">
+        <!-- Intestazione comune a tutte le schede -->
+        <Grid DockPanel.Dock="Top" ColumnDefinitions="Auto,*,Auto">
+            <Image Grid.Column="0"
+                   Source="avares://Es1AvaloniBM/Assets/logo.png"
+                   Width="46" Height="46" Stretch="Uniform" />
+            <StackPanel Grid.Column="1" Margin="14,0,0,0" Spacing="3" VerticalAlignment="Center">
+                <TextBlock Classes="h1" Text="Laboratorio XAML · esercizio unico" />
+                <TextBlock Classes="body"
+                           Text="Un solo progetto, tante schede: ogni riquadro spiega un tag e lo mostra in funzione." />
+            </StackPanel>
+            <Border Grid.Column="2" Classes="chip" VerticalAlignment="Center">
+                <TextBlock Classes="chipText" Text="Avalonia 12 · MVVM" />
+            </Border>
+        </Grid>
+
+        <TabControl Margin="0,16,0,0">
+            <!-- ============================================================= -->
+            <!-- SCHEDA 1 - LAYOUT                                             -->
+            <!-- ============================================================= -->
+            <TabItem Header="1 · Layout">
+                <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                    <StackPanel Spacing="16" Margin="0,16,14,22">
+
+                        <Border Classes="card">
+                            <StackPanel Spacing="6">
+                                <TextBlock Classes="h2" Text="Contenitori di layout" />
+                                <TextBlock Classes="body"
+                                           Text="I pannelli non hanno un aspetto proprio (tranne Border): sistemano i figli nello spazio disponibile. Qui sotto trovi i più usati; la finestra stessa usa un DockPanel per l'intestazione." />
+                            </StackPanel>
+                        </Border>
+
+                        <!-- DockPanel -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;DockPanel&gt;" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Divide lo spazio in zone: i figli con DockPanel.Dock occupano un bordo (Top, Bottom, Left, Right) e l'ultimo riempie lo spazio rimasto se LastChildFill è True." />
+                                <Border Classes="demo">
+                                    <DockPanel Height="130" LastChildFill="True">
+                                        <Border DockPanel.Dock="Top" Background="#342A5E" Height="30" CornerRadius="6">
+                                            <TextBlock Text="DockPanel.Dock = Top" Margin="10,0" VerticalAlignment="Center"
+                                                       Foreground="#D9D2FF" FontSize="12" />
+                                        </Border>
+                                        <Border DockPanel.Dock="Left" Background="#1E3A44" Width="95" CornerRadius="6" Margin="0,6,0,0">
+                                            <TextBlock Text="Left" Margin="10" VerticalAlignment="Center"
+                                                       Foreground="#B7EDE1" FontSize="12" />
+                                        </Border>
+                                        <Border Background="#1B2130" CornerRadius="6" Margin="6,6,0,0">
+                                            <TextBlock Text="Ultimo figlio: riempie lo spazio (LastChildFill)"
+                                                       Margin="10" VerticalAlignment="Center" TextWrapping="Wrap"
+                                                       Foreground="#D5DBE7" FontSize="12" />
+                                        </Border>
+                                    </DockPanel>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Grid -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;Grid&gt; + ColumnDefinition / RowDefinition" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="La griglia è il pannello più usato. Le colonne e le righe si possono dichiarare come attributi (RowDefinitions=&quot;Auto,*&quot;) oppure con i tag ColumnDefinition e RowDefinition. Le unità sono pixel, Auto (misura il contenuto) e * (spazio proporzionale). I figli scelgono la cella con Grid.Row e Grid.Column; Grid.RowSpan / Grid.ColumnSpan occupano più celle." />
+                                <Border Classes="demo">
+                                    <Grid Height="150">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="2*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*" />
+                                            <RowDefinition Height="*" />
+                                        </Grid.RowDefinitions>
+                                        <Border Grid.Row="0" Grid.Column="0" Background="#2A2350" CornerRadius="8" Margin="0,0,8,8">
+                                            <TextBlock Text="Riga 0 · Colonna 0 · larghezza 2*" Margin="10" VerticalAlignment="Center"
+                                                       Foreground="#D9D2FF" FontSize="12" />
+                                        </Border>
+                                        <Border Grid.Row="0" Grid.Column="1" Background="#1E3A44" CornerRadius="8" Margin="0,0,8,8">
+                                            <TextBlock Text="Colonna 1 · *" Margin="10" VerticalAlignment="Center"
+                                                       Foreground="#B7EDE1" FontSize="12" TextWrapping="Wrap" />
+                                        </Border>
+                                        <Border Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Background="#1B2130" CornerRadius="8" Margin="0,0,8,0">
+                                            <TextBlock Text="Grid.ColumnSpan = 2 su due colonne" Margin="10" VerticalAlignment="Center"
+                                                       Foreground="#D5DBE7" FontSize="12" />
+                                        </Border>
+                                        <Border Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" Background="#3A2F1A" CornerRadius="8" Padding="10">
+                                            <TextBlock Text="Auto + RowSpan 2" VerticalAlignment="Center" TextWrapping="Wrap"
+                                                       Foreground="#F5D9A6" FontSize="12" />
+                                        </Border>
+                                    </Grid>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- StackPanel -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;StackPanel&gt;" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Impila i figli in verticale (default) o in orizzontale. Spacing regola la distanza tra un figlio e l'altro; HorizontalAlignment e VerticalAlignment li allineano. Non gestisce l'overflow: per contenuti lunghi serve uno ScrollViewer." />
+                                <Border Classes="demo">
+                                    <StackPanel Spacing="10">
+                                        <StackPanel Orientation="Horizontal" Spacing="8">
+                                            <Button Classes="ghost" Content="Primo" />
+                                            <Button Classes="ghost" Content="Secondo" />
+                                            <Button Classes="ghost" Content="Terzo" />
+                                        </StackPanel>
+                                        <TextBlock Classes="small"
+                                                   Text="StackPanel orizzontale: Spacing = 8." />
+                                    </StackPanel>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- WrapPanel -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;WrapPanel&gt;" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Mette i figli uno dopo l'altro e va a capo quando finisce lo spazio. È l'ideale per etichette e chip; con ItemWidth e ItemHeight si possono forzare celle tutte uguali." />
+                                <Border Classes="demo">
+                                    <WrapPanel>
+                                        <Border Classes="chip" Margin="0,0,8,8"><TextBlock Classes="chipText" Text="C#"/></Border>
+                                        <Border Classes="chip" Margin="0,0,8,8"><TextBlock Classes="chipText" Text="AXAML"/></Border>
+                                        <Border Classes="chip" Margin="0,0,8,8"><TextBlock Classes="chipText" Text="Binding"/></Border>
+                                        <Border Classes="chip" Margin="0,0,8,8"><TextBlock Classes="chipText" Text="MVVM"/></Border>
+                                        <Border Classes="chip" Margin="0,0,8,8"><TextBlock Classes="chipText" Text="DataGrid"/></Border>
+                                        <Border Classes="chip" Margin="0,0,8,8"><TextBlock Classes="chipText" Text="Styles"/></Border>
+                                        <Border Classes="chip" Margin="0,0,8,8"><TextBlock Classes="chipText" Text="Canvas"/></Border>
+                                        <Border Classes="chip" Margin="0,0,8,8"><TextBlock Classes="chipText" Text="ScrollViewer"/></Border>
+                                    </WrapPanel>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Canvas -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;Canvas&gt;" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Posizionamento assoluto: i figli usano Canvas.Left / Canvas.Top (oppure Right / Bottom) e possono sovrapporsi. Canvas non ridimensiona i figli, quindi è comodo per disegni e grafica, non per form che devono adattarsi." />
+                                <Border Classes="demo">
+                                    <Canvas Height="150">
+                                        <Rectangle Canvas.Left="8" Canvas.Top="16" Width="150" Height="80"
+                                                   Fill="#2A2350" Stroke="#8B7CFF" StrokeThickness="2"
+                                                   RadiusX="10" RadiusY="10" />
+                                        <Ellipse Canvas.Left="115" Canvas.Top="38" Width="90" Height="90"
+                                                 Fill="#8B7CFF" Opacity="0.75" />
+                                        <Line StartPoint="20,124" EndPoint="270,44"
+                                              Stroke="#4CD7B0" StrokeThickness="2" />
+                                        <Polygon Points="285,110 325,40 365,110"
+                                                 Fill="#F5B54B" Opacity="0.85" />
+                                    </Canvas>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Border -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;Border&gt;" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Contiene un solo figlio e disegna lo sfondo attorno a lui. Le proprietà principali sono Background, BorderBrush, BorderThickness, CornerRadius, Padding e BoxShadow. È la base delle schede che stai leggendo." />
+                                <Border Classes="demo">
+                                    <Border Background="#1B2130" BorderBrush="{StaticResource AccentBrush}"
+                                            BorderThickness="1" CornerRadius="14" Padding="16"
+                                            BoxShadow="0 8 24 0 #40000000">
+                                        <StackPanel Spacing="4">
+                                            <TextBlock Text="Border con CornerRadius, Padding e BoxShadow"
+                                                       FontWeight="SemiBold" Foreground="#E8EBF2" />
+                                            <TextBlock Classes="small" Text="Un solo figlio: qui uno StackPanel." />
+                                        </StackPanel>
+                                    </Border>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- UniformGrid -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;UniformGrid&gt;" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Divide lo spazio in celle tutte uguali: basta indicare Columns e Rows. Comodo per dashboard, gallerie e tastiere; a differenza di Grid non serve dichiarare le righe e le colonne una per una." />
+                                <Border Classes="demo">
+                                    <UniformGrid Columns="3" Rows="2" Height="120">
+                                        <Border Background="#221F33" Margin="4" CornerRadius="8">
+                                            <TextBlock Text="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#C9C4FF" />
+                                        </Border>
+                                        <Border Background="#1E3A44" Margin="4" CornerRadius="8">
+                                            <TextBlock Text="2" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#B7EDE1" />
+                                        </Border>
+                                        <Border Background="#3A2F1A" Margin="4" CornerRadius="8">
+                                            <TextBlock Text="3" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#F5D9A6" />
+                                        </Border>
+                                        <Border Background="#1B2130" Margin="4" CornerRadius="8">
+                                            <TextBlock Text="4" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#D5DBE7" />
+                                        </Border>
+                                        <Border Background="#2A2350" Margin="4" CornerRadius="8">
+                                            <TextBlock Text="5" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#D9D2FF" />
+                                        </Border>
+                                        <Border Background="#243B4A" Margin="4" CornerRadius="8">
+                                            <TextBlock Text="6" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#B7EDE1" />
+                                        </Border>
+                                    </UniformGrid>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- ScrollViewer -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;ScrollViewer&gt;" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Rende scorrevole un contenuto più grande dello spazio disponibile. VerticalScrollBarVisibility e HorizontalScrollBarVisibility decidono quando mostrare le barre. Ogni scheda di questo esercizio è avvolta in uno ScrollViewer." />
+                                <Border Classes="demo">
+                                    <ScrollViewer Height="110" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                                        <StackPanel Spacing="6">
+                                            <Border Background="#1B2130" CornerRadius="6" Padding="10">
+                                                <TextBlock Classes="small" Text="Riga 1 · contenuto più alto del riquadro" />
+                                            </Border>
+                                            <Border Background="#1B2130" CornerRadius="6" Padding="10">
+                                                <TextBlock Classes="small" Text="Riga 2 · prova a scorrere" />
+                                            </Border>
+                                            <Border Background="#1B2130" CornerRadius="6" Padding="10">
+                                                <TextBlock Classes="small" Text="Riga 3 · la barra appare da sola" />
+                                            </Border>
+                                            <Border Background="#1B2130" CornerRadius="6" Padding="10">
+                                                <TextBlock Classes="small" Text="Riga 4 · VerticalScrollBarVisibility = Auto" />
+                                            </Border>
+                                            <Border Background="#1B2130" CornerRadius="6" Padding="10">
+                                                <TextBlock Classes="small" Text="Riga 5 · ultima riga" />
+                                            </Border>
+                                        </StackPanel>
+                                    </ScrollViewer>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+
+            <!-- ============================================================= -->
+            <!-- SCHEDA 2 - CONTROLLI                                          -->
+            <!-- ============================================================= -->
+            <TabItem Header="2 · Controlli">
+                <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                    <StackPanel Spacing="16" Margin="0,16,14,22">
+
+                        <Border Classes="card">
+                            <StackPanel Spacing="6">
+                                <TextBlock Classes="h2" Text="Controlli di input e comandi" />
+                                <TextBlock Classes="body"
+                                           Text="I controlli ricevono dati o mostrano informazioni. Le proprietà ricorrenti sono Content (cosa mostra il controllo), Text, ItemsSource, IsChecked e Command. Quelle collegate con {Binding} si aggiornano insieme al ViewModel." />
+                            </StackPanel>
+                        </Border>
+
+                        <!-- TextBlock con inline -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;TextBlock&gt; + Run / Bold / Italic / LineBreak" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="TextBlock mostra testo in sola lettura. Oltre a Text si possono usare elementi inline: Run per un frammento, Bold e Italic per lo stile, LineBreak per andare a capo. TextWrapping gestisce le righe lunghe." />
+                                <Border Classes="demo">
+                                    <TextBlock TextWrapping="Wrap" Foreground="#D5DBE7">
+                                        <Run Text="Questo è un " />
+                                        <Bold>TextBlock</Bold>
+                                        <Run Text=" con inline: " />
+                                        <Italic>Italic</Italic>
+                                        <Run Text=", " />
+                                        <Bold>Bold</Bold>
+                                        <Run Text=" e un " />
+                                        <Run Text="Run colorato" Foreground="{StaticResource AccentBrush}" FontWeight="SemiBold" />
+                                        <Run Text="." />
+                                        <LineBreak />
+                                        <Run Text="LineBreak porta a capo; TextWrapping = Wrap gestisce il resto." FontSize="12" Foreground="#8A93A5" />
+                                    </TextBlock>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- TextBox -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;TextBox&gt;" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Casella di testo modificabile. PlaceholderText mostra un suggerimento quando è vuota, MaxLength limita i caratteri e Text è la proprietà da collegare. Con Mode=TwoWay ogni carattere aggiorna il ViewModel." />
+                                <Border Classes="demo">
+                                    <StackPanel Spacing="8">
+                                        <TextBox Text="{Binding Nome, Mode=TwoWay}"
+                                                 PlaceholderText="Scrivi un nome..." MaxLength="40" />
+                                        <StackPanel Orientation="Horizontal" Spacing="6">
+                                            <TextBlock Classes="small" Text="Valore nel ViewModel:" />
+                                            <TextBlock Classes="value" Text="{Binding Nome}" />
+                                        </StackPanel>
+                                    </StackPanel>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Button: Command e Click -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;Button&gt; · Command e Click" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Button ha un contenuto (testo o un altro controllo) e scatena un'azione. In MVVM si usa Command, che chiama un metodo del ViewModel (qui IncrementaCommand). In alternativa Click richiama un gestore nel code-behind: è il modo classico, più accoppiato all'interfaccia." />
+                                <Border Classes="demo">
+                                    <StackPanel Spacing="10">
+                                        <StackPanel Orientation="Horizontal" Spacing="10">
+                                            <Button Classes="accent" Content="Command → ViewModel"
+                                                    Command="{Binding IncrementaCommand}" />
+                                            <Button Classes="ghost" Content="Click → code-behind"
+                                                    Click="OnClickDemo" />
+                                            <StackPanel Orientation="Horizontal" Spacing="6">
+                                                <TextBlock Classes="small" Text="Esecuzioni:" />
+                                                <TextBlock Classes="value" Text="{Binding Clic}" />
+                                            </StackPanel>
+                                        </StackPanel>
+                                        <TextBlock x:Name="ClickResult" Classes="small"
+                                                   Text="Il pulsante Click non ha ancora eseguito il gestore." />
+                                    </StackPanel>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- CheckBox / RadioButton / Toggle -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;CheckBox&gt; / &lt;RadioButton&gt; / &lt;ToggleButton&gt; / &lt;ToggleSwitch&gt;" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Controlli a stati. CheckBox è una scelta indipendente e con IsThreeState può essere true, false o null; RadioButton serve per scegliere un'opzione sola e usa GroupName per raggruppare; ToggleButton e ToggleSwitch sono interruttori, con IsChecked di tipo bool?." />
+                                <Border Classes="demo">
+                                    <StackPanel Spacing="12">
+                                        <WrapPanel>
+                                            <CheckBox Content="CheckBox (IsChecked)" IsChecked="{Binding Ricorda}" Margin="0,0,20,8" />
+                                            <CheckBox Content="Tre stati (IsThreeState)" IsThreeState="True" Margin="0,0,20,8" />
+                                            <ToggleButton Content="ToggleButton" Margin="0,0,20,8" />
+                                            <ToggleSwitch Content="ToggleSwitch" IsChecked="{Binding Notifiche}" Margin="0,0,20,8" />
+                                        </WrapPanel>
+                                        <StackPanel Orientation="Horizontal" Spacing="18">
+                                            <RadioButton GroupName="turno" Content="Mattina" IsChecked="True" />
+                                            <RadioButton GroupName="turno" Content="Pomeriggio" />
+                                            <RadioButton GroupName="turno" Content="Notte" />
+                                        </StackPanel>
+                                    </StackPanel>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- ComboBox -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;ComboBox&gt; + ComboBoxItem" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Menu a tendina. Le voci possono essere scritte una per una con ComboBoxItem, oppure arrivate da una collezione con ItemsSource; SelectedItem e SelectedIndex dicono quale voce è scelta. Nel secondo esempio la selezione è collegata al ViewModel." />
+                                <Border Classes="demo">
+                                    <StackPanel Spacing="10">
+                                        <StackPanel Orientation="Horizontal" Spacing="12">
+                                            <ComboBox SelectedIndex="0" MinWidth="170">
+                                                <ComboBoxItem Content="ComboBoxItem statico" />
+                                                <ComboBoxItem Content="Seconda voce" />
+                                            </ComboBox>
+                                            <ComboBox ItemsSource="{Binding Reparti}"
+                                                      SelectedItem="{Binding Reparto}"
+                                                      MinWidth="180" />
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal" Spacing="6">
+                                            <TextBlock Classes="small" Text="Reparto scelto:" />
+                                            <TextBlock Classes="value" Text="{Binding Reparto}" />
+                                        </StackPanel>
+                                    </StackPanel>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Slider + ProgressBar -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;Slider&gt; + &lt;ProgressBar&gt;" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Slider sceglie un valore numerico tra Minimum e Maximum; ProgressBar lo visualizza. Qui entrambi sono collegati alla stessa proprietà Valore: muovendo lo slider cambiano la barra e il numero, senza scrivere codice. La seconda barra è indeterminata (IsIndeterminate)." />
+                                <Border Classes="demo">
+                                    <StackPanel Spacing="8">
+                                        <Grid ColumnDefinitions="*,Auto">
+                                            <Slider Grid.Column="0" Minimum="0" Maximum="100"
+                                                    Value="{Binding Valore, Mode=TwoWay}" />
+                                            <TextBlock Grid.Column="1" Classes="value" Text="{Binding Valore}"
+                                                       Margin="12,0,0,0" />
+                                        </Grid>
+                                        <ProgressBar Minimum="0" Maximum="100" Value="{Binding Valore}" Height="8" />
+                                        <ProgressBar IsIndeterminate="True" Height="5" />
+                                    </StackPanel>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Input specializzati -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;NumericUpDown&gt; / &lt;DatePicker&gt; / &lt;TimePicker&gt;" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Input specializzati: NumericUpDown è una casella numerica con pulsanti e limiti Minimum/Maximum/Increment; DatePicker sceglie una data (SelectedDate) e TimePicker un orario (SelectedTime). Tutti e tre sono collegati ai rispettivi valori nel ViewModel." />
+                                <Border Classes="demo">
+                                    <Grid ColumnDefinitions="*,*,*">
+                                        <StackPanel Margin="0,0,10,0">
+                                            <TextBlock Classes="label" Text="NumericUpDown" />
+                                            <NumericUpDown Value="{Binding Quantita}" Minimum="1" Maximum="99" Increment="1" />
+                                        </StackPanel>
+                                        <StackPanel Grid.Column="1" Margin="0,0,10,0">
+                                            <TextBlock Classes="label" Text="DatePicker" />
+                                            <DatePicker SelectedDate="{Binding Data}" />
+                                        </StackPanel>
+                                        <StackPanel Grid.Column="2">
+                                            <TextBlock Classes="label" Text="TimePicker" />
+                                            <TimePicker SelectedTime="{Binding Ora}" />
+                                        </StackPanel>
+                                    </Grid>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Expander -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;Expander&gt;" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Mostra un'intestazione (Header) e nasconde o mostra il contenuto. IsExpanded decide lo stato iniziale: è utile per dettagli facoltativi e per non riempire subito la schermata." />
+                                <Border Classes="demo">
+                                    <Expander Header="Dettagli dell'esercizio" IsExpanded="True">
+                                        <StackPanel Spacing="8" Margin="0,8,0,0">
+                                            <TextBlock Classes="small"
+                                                       Text="Il contenuto dell'Expander può essere qualsiasi cosa: testo, pannelli, altri controlli." />
+                                            <ProgressBar IsIndeterminate="True" Height="4" />
+                                        </StackPanel>
+                                    </Expander>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Menu -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;Menu&gt; + MenuItem / Separator" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Menu costruisce una barra di voci. I MenuItem possono annidarsi per creare sottomenu e Separator disegna una linea divisoria. In un'app reale ogni voce avrebbe un Command o un Click." />
+                                <Border Classes="demo">
+                                    <Menu Background="Transparent">
+                                        <MenuItem Header="File">
+                                            <MenuItem Header="Nuovo" />
+                                            <MenuItem Header="Apri..." />
+                                            <Separator />
+                                            <MenuItem Header="Esci" />
+                                        </MenuItem>
+                                        <MenuItem Header="Modifica">
+                                            <MenuItem Header="Annulla" />
+                                            <MenuItem Header="Ripeti" />
+                                        </MenuItem>
+                                        <MenuItem Header="?" />
+                                    </Menu>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- ToolTip / Flyout / ContextMenu -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="ToolTip / Flyout / ContextMenu" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Contenuti che compaiono al momento giusto. ToolTip.Tip mostra un suggerimento al passaggio del mouse; Button.Flyout apre un pannello ancorato al pulsante; Border.ContextMenu si apre con il tasto destro. Sono proprietà allegate o proprietà-elemento, non controlli sempre visibili." />
+                                <Border Classes="demo">
+                                    <WrapPanel>
+                                        <Button Classes="ghost" Content="ToolTip" Margin="0,0,10,10"
+                                                ToolTip.Tip="Suggerimento: ToolTip.Tip accetta testo o un controllo." />
+                                        <Button Classes="ghost" Content="Apri Flyout" Margin="0,0,10,10">
+                                            <Button.Flyout>
+                                                <Flyout Placement="Bottom">
+                                                    <StackPanel Spacing="4" Width="220">
+                                                        <TextBlock Text="Flyout" FontWeight="SemiBold" />
+                                                        <TextBlock Classes="small"
+                                                                   Text="Contenuto leggero, ancorato al controllo che lo apre." />
+                                                    </StackPanel>
+                                                </Flyout>
+                                            </Button.Flyout>
+                                        </Button>
+                                        <Border Background="#1B2130" BorderBrush="#2A3040" BorderThickness="1"
+                                                CornerRadius="8" Padding="12,8" Margin="0,0,0,10">
+                                            <Border.ContextMenu>
+                                                <ContextMenu>
+                                                    <MenuItem Header="Voce del ContextMenu" />
+                                                    <MenuItem Header="Seconda voce" />
+                                                </ContextMenu>
+                                            </Border.ContextMenu>
+                                            <TextBlock Text="Tasto destro qui" FontSize="12" Foreground="#D5DBE7" />
+                                        </Border>
+                                    </WrapPanel>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- ListBox statica -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;ListBox&gt; + ListBoxItem" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="ListBox mostra un elenco e permette di selezionare una voce. Qui le voci sono scritte a mano come ListBoxItem; nella scheda Dati lo stesso controllo riceve una collezione con ItemsSource e la disegna con un DataTemplate." />
+                                <Border Classes="demo">
+                                    <ListBox Height="120" SelectedIndex="0">
+                                        <ListBoxItem Content="ListBoxItem scritto nel XAML" />
+                                        <ListBoxItem Content="Seconda voce" />
+                                        <ListBoxItem Content="Terza voce" />
+                                    </ListBox>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+
+            <!-- ============================================================= -->
+            <!-- SCHEDA 3 - DATI E BINDING                                     -->
+            <!-- ============================================================= -->
+            <TabItem Header="3 · Dati e binding">
+                <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                    <StackPanel Spacing="16" Margin="0,16,14,22">
+
+                        <Border Classes="card">
+                            <StackPanel Spacing="6">
+                                <TextBlock Classes="h2" Text="Il flusso MVVM delle slide" />
+                                <TextBlock Classes="body"
+                                           Text="La Window assegna DataContext = new MainWindowViewModel() nel costruttore. Il ViewModel espone dati notificanti ([ObservableProperty]), una ObservableCollection e comandi ([RelayCommand]). La View si limita a collegarsi con {Binding} e x:DataType abilita i compiled binding, cioè controllati già in compilazione." />
+                                <Border Classes="demo">
+                                    <StackPanel Spacing="4">
+                                        <TextBlock Classes="label" Text="Messaggio di stato (binding OneWay dal ViewModel)" />
+                                        <TextBlock Classes="value" Text="{Binding Messaggio}" TextWrapping="Wrap" />
+                                    </StackPanel>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Form + comandi -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="TextBox + Command → ObservableCollection" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Il form aggiorna Nome, Email ed Età nel ViewModel. Il pulsante Aggiungi richiama AggiungiCommand, che crea un Utente e lo inserisce nella ObservableCollection: ListBox e DataGrid ricevono la notifica e si aggiornano da soli. Rimuovi usa la riga selezionata, Svuota cancella tutto." />
+                                <Border Classes="demo">
+                                    <StackPanel Spacing="12">
+                                        <Grid ColumnDefinitions="2*,2*,Auto">
+                                            <StackPanel Margin="0,0,10,0">
+                                                <TextBlock Classes="label" Text="Nome (TextBox)" />
+                                                <TextBox Text="{Binding Nome, Mode=TwoWay}" PlaceholderText="Nome" />
+                                            </StackPanel>
+                                            <StackPanel Grid.Column="1" Margin="0,0,10,0">
+                                                <TextBlock Classes="label" Text="Email (TextBox)" />
+                                                <TextBox Text="{Binding Email, Mode=TwoWay}" PlaceholderText="Email" />
+                                            </StackPanel>
+                                            <StackPanel Grid.Column="2" Width="120">
+                                                <TextBlock Classes="label" Text="Età (NumericUpDown)" />
+                                                <NumericUpDown Value="{Binding Eta}" Minimum="14" Maximum="99" />
+                                            </StackPanel>
+                                        </Grid>
+                                        <StackPanel Orientation="Horizontal" Spacing="8">
+                                            <Button Classes="accent" Content="Aggiungi" Command="{Binding AggiungiCommand}" />
+                                            <Button Classes="ghost" Content="Rimuovi selezionato" Command="{Binding RimuoviCommand}" />
+                                            <Button Classes="ghost" Content="Svuota" Command="{Binding SvuotaCommand}" />
+                                        </StackPanel>
+                                        <TextBlock Classes="small" Text="{Binding Messaggio}" TextWrapping="Wrap" />
+                                    </StackPanel>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- ListBox + DataTemplate -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;ListBox&gt; + DataTemplate" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="ItemsSource collega la collezione, SelectedItem la riga scelta. ItemTemplate è un DataTemplate: descrive una volta sola l'aspetto di ogni voce e i suoi binding hanno come contesto il singolo Utente (x:DataType=&quot;models:Utente&quot;). La selezione è la stessa del DataGrid qui sotto." />
+                                <Border Classes="demo">
+                                    <Grid ColumnDefinitions="*,*">
+                                        <ListBox ItemsSource="{Binding Persone}"
+                                                 SelectedItem="{Binding Selezionata}" Height="230">
+                                            <ListBox.ItemTemplate>
+                                                <DataTemplate x:DataType="models:Utente">
+                                                    <Grid ColumnDefinitions="*,Auto">
+                                                        <StackPanel Spacing="2">
+                                                            <TextBlock Text="{Binding Nome}" FontWeight="SemiBold" Foreground="#E8EBF2" />
+                                                            <TextBlock Text="{Binding Email}" Classes="small" />
+                                                        </StackPanel>
+                                                        <Border Grid.Column="1" Classes="chip" VerticalAlignment="Center">
+                                                            <TextBlock Classes="chipText" Text="{Binding Eta}" />
+                                                        </Border>
+                                                    </Grid>
+                                                </DataTemplate>
+                                            </ListBox.ItemTemplate>
+                                        </ListBox>
+                                        <StackPanel Grid.Column="1" Margin="16,0,0,0" Spacing="6">
+                                            <TextBlock Classes="label" Text="Dettaglio della selezione" />
+                                            <Border Classes="demo">
+                                                <StackPanel Spacing="6">
+                                                    <TextBlock Classes="value" Text="{Binding Selezionata.Nome}" />
+                                                    <TextBlock Classes="small" Text="{Binding Selezionata.Email}" />
+                                                    <StackPanel Orientation="Horizontal" Spacing="6">
+                                                        <TextBlock Classes="small" Text="Età:" />
+                                                        <TextBlock Classes="value" Text="{Binding Selezionata.Eta}" />
+                                                    </StackPanel>
+                                                    <TextBlock Classes="small" Text="Seleziona una voce nella lista o nel DataGrid." />
+                                                </StackPanel>
+                                            </Border>
+                                        </StackPanel>
+                                    </Grid>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- DataGrid -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;DataGrid&gt; + DataGridTextColumn" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Tabella per dati strutturati. ItemsSource è la collezione; con AutoGenerateColumns=False si dichiarano le colonne, ognuna con Header e Binding verso una proprietà del Model. IsReadOnly impedisce la modifica, GridLinesVisibility regola le linee. La riga scelta è la stessa proprietà Selezionata usata dalla ListBox. In Avalonia 12 il DataGrid è in sola manutenzione (l'alternativa consigliata è TableView), ma resta quello presentato a lezione." />
+                                <Border Classes="demo">
+                                    <DataGrid ItemsSource="{Binding Persone}"
+                                              SelectedItem="{Binding Selezionata}"
+                                              AutoGenerateColumns="False"
+                                              IsReadOnly="True"
+                                              GridLinesVisibility="Horizontal"
+                                              CanUserSortColumns="True"
+                                              CanUserResizeColumns="True"
+                                              Height="230">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="Nome" Binding="{Binding Nome}" Width="2*" />
+                                            <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="3*" />
+                                            <DataGridTextColumn Header="Età" Binding="{Binding Eta}" Width="*" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- ItemsControl -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;ItemsControl&gt; + ItemTemplate / ItemsPanelTemplate" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="ItemsControl ripete un template per ogni elemento della collezione, ma non offre selezione né scorrimento. Qui il pannello interno è un WrapPanel dichiarato con ItemsPanelTemplate, mentre ItemTemplate decide l'aspetto di ogni voce: è il modo più leggero per costruire elenchi e gallerie." />
+                                <Border Classes="demo">
+                                    <ItemsControl ItemsSource="{Binding Persone}">
+                                        <ItemsControl.ItemsPanel>
+                                            <ItemsPanelTemplate>
+                                                <WrapPanel />
+                                            </ItemsPanelTemplate>
+                                        </ItemsControl.ItemsPanel>
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate x:DataType="models:Utente">
+                                                <Border Classes="chip" Margin="0,0,8,8">
+                                                    <TextBlock Classes="chipText" Text="{Binding Nome}" />
+                                                </Border>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- TreeView -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;TreeView&gt; + TreeViewItem" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Visualizza dati gerarchici: ogni TreeViewItem può contenerne altri e IsExpanded decide se il ramo è aperto. Qui la gerarchia è scritta direttamente nel XAML; in un'app con dati dinamici si userebbe ItemsSource con un template." />
+                                <Border Classes="demo">
+                                    <TreeView Height="210">
+                                        <TreeViewItem Header="Scuola" IsExpanded="True">
+                                            <TreeViewItem Header="Informatica" IsExpanded="True">
+                                                <TreeViewItem Header="Avalonia UI" />
+                                                <TreeViewItem Header="C#" />
+                                                <TreeViewItem Header="Basi di dati" />
+                                            </TreeViewItem>
+                                            <TreeViewItem Header="Elettronica" />
+                                            <TreeViewItem Header="Meccanica" />
+                                        </TreeViewItem>
+                                        <TreeViewItem Header="Progetti" />
+                                    </TreeView>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+
+            <!-- ============================================================= -->
+            <!-- SCHEDA 4 - STILI E GRAFICA                                    -->
+            <!-- ============================================================= -->
+            <TabItem Header="4 · Stili e grafica">
+                <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                    <StackPanel Spacing="16" Margin="0,16,14,22">
+
+                        <Border Classes="card">
+                            <StackPanel Spacing="6">
+                                <TextBlock Classes="h2" Text="Risorse, stili, forme e immagini" />
+                                <TextBlock Classes="body"
+                                           Text="Questa parte non serve a inserire dati: costruisce l'identità visiva dell'app. Le risorse evitano di ripetere gli stessi colori, gli stili con selettore applicano più proprietà insieme, le forme disegnano con vector grafica e Image carica un file incluso nel progetto." />
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Risorse -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="Window.Resources + Color / SolidColorBrush" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Le risorse si dichiarano in Window.Resources con una chiave (x:Key) e si richiamano con {StaticResource chiave}. StaticResource viene risolta una volta; DynamicResource si aggiorna se la risorsa cambia (utile con i temi). Qui i colori sono definiti una volta e usati in tutta la finestra." />
+                                <Border Classes="demo">
+                                    <StackPanel Spacing="10">
+                                        <WrapPanel>
+                                            <Border Width="64" Height="36" Background="{StaticResource AccentBrush}" CornerRadius="8" Margin="0,0,10,10" />
+                                            <Border Width="64" Height="36" Background="{StaticResource MintBrush}" CornerRadius="8" Margin="0,0,10,10" />
+                                            <Border Width="64" Height="36" Background="{StaticResource AmberBrush}" CornerRadius="8" Margin="0,0,10,10" />
+                                            <Border Width="64" Height="36" Background="{StaticResource SurfaceBrush}"
+                                                    BorderBrush="{StaticResource LineBrush}" BorderThickness="1"
+                                                    CornerRadius="8" Margin="0,0,10,10" />
+                                        </WrapPanel>
+                                        <TextBlock Classes="small"
+                                                   Text="AccentBrush, MintBrush, AmberBrush e SurfaceBrush sono SolidColorBrush definiti in Window.Resources." />
+                                    </StackPanel>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Stili -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="Window.Styles + Style / Setter" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Uno Style contiene Setter e si applica agli elementi che corrispondono al selettore. Button.accent significa «Button con Classes=accent»; la pseudo-classe :pointerover si attiva col mouse. Così lo stesso aspetto vale per tutti i pulsanti accent senza ripetere le proprietà. L'intestazione e le schede di questa finestra usano gli stili definiti in Window.Styles." />
+                                <Border Classes="demo">
+                                    <StackPanel Orientation="Horizontal" Spacing="10">
+                                        <Button Classes="accent" Content="Button.accent" />
+                                        <Button Classes="ghost" Content="Button.ghost" />
+                                        <TextBlock Classes="small" Text="Passa il mouse: lo stile :pointerover cambia l'opacità."
+                                                   VerticalAlignment="Center" />
+                                    </StackPanel>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Forme -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;Rectangle&gt; / &lt;Ellipse&gt; / &lt;Line&gt; / &lt;Polygon&gt;" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Le forme sono controlli vettoriali: Fill riempie l'interno, Stroke disegna il contorno e StrokeThickness ne regola lo spessore. Rectangle ha RadiusX/RadiusY per gli angoli, Ellipse usa Width e Height, Line collega StartPoint ed EndPoint, Polygon riceve una lista di punti." />
+                                <Border Classes="demo">
+                                    <Canvas Height="150">
+                                        <Rectangle Canvas.Left="10" Canvas.Top="20" Width="120" Height="70"
+                                                   Fill="#2A2350" Stroke="#8B7CFF" StrokeThickness="2"
+                                                   RadiusX="10" RadiusY="10" />
+                                        <Ellipse Canvas.Left="155" Canvas.Top="28" Width="72" Height="72"
+                                                 Fill="#4CD7B0" Opacity="0.8" />
+                                        <Line StartPoint="18,120" EndPoint="210,120"
+                                              Stroke="#F5B54B" StrokeThickness="3" />
+                                        <Polygon Points="255,115 300,35 345,115"
+                                                 Fill="#F5B54B" Opacity="0.85" />
+                                    </Canvas>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Path + Viewbox -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;Path&gt; + &lt;Viewbox&gt;" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Path disegna una geometria descritta in Data con il linguaggio dei comandi: M sposta il punto, L traccia una linea, Z chiude la figura. Viewbox scala il contenuto mantenendo le proporzioni (Stretch=Uniform), quindi lo stesso disegno vettoriale può diventare un'icona piccola o grande senza perdere qualità." />
+                                <Border Classes="demo">
+                                    <StackPanel Orientation="Horizontal" Spacing="20" VerticalAlignment="Center">
+                                        <Viewbox Width="84" Height="84">
+                                            <Path Data="M 10,50 L 35,20 L 60,50 L 35,80 Z M 35,20 L 35,80"
+                                                  Stroke="#8B7CFF" StrokeThickness="4" Fill="Transparent" />
+                                        </Viewbox>
+                                        <Viewbox Width="48" Height="48">
+                                            <Path Data="M 4,16 L 14,26 L 32,6"
+                                                  Stroke="#4CD7B0" StrokeThickness="5" Fill="Transparent" />
+                                        </Viewbox>
+                                        <Viewbox Width="28" Height="28">
+                                            <Path Data="M 4,16 L 14,26 L 32,6"
+                                                  Stroke="#F5B54B" StrokeThickness="5" Fill="Transparent" />
+                                        </Viewbox>
+                                        <TextBlock Classes="small" Text="Tre Viewbox con lo stesso Path a dimensioni diverse."
+                                                   VerticalAlignment="Center" MaxWidth="260" />
+                                    </StackPanel>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Image -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="&lt;Image&gt; + AvaloniaResource" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Image mostra un'immagine. Il file deve essere incluso nel progetto come AvaloniaResource (nel .csproj: &lt;AvaloniaResource Include=&quot;Assets/**&quot; /&gt;) e si richiama con l'URI avares://NomeProgetto/percorso.png. Stretch decide come adattare l'immagine allo spazio: Uniform mantiene le proporzioni." />
+                                <Border Classes="demo">
+                                    <StackPanel Orientation="Horizontal" Spacing="14">
+                                        <Image Source="avares://Es1AvaloniBM/Assets/logo.png"
+                                               Width="72" Height="72" Stretch="Uniform" />
+                                        <StackPanel Spacing="3" VerticalAlignment="Center">
+                                            <TextBlock Text="Assets/logo.png" FontWeight="SemiBold" Foreground="#E8EBF2" />
+                                            <TextBlock Classes="small"
+                                                       Text="Caricata con avares://Es1AvaloniBM/Assets/logo.png" />
+                                        </StackPanel>
+                                    </StackPanel>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Effetti -->
+                        <Border Classes="card">
+                            <StackPanel Spacing="10">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <Border Width="4" Height="18" Background="{StaticResource AccentBrush}" CornerRadius="2" />
+                                    <TextBlock Classes="tag" Text="BoxShadow / Opacity / RenderTransform" />
+                                </StackPanel>
+                                <TextBlock Classes="body"
+                                           Text="Tre effetti applicabili a qualsiasi controllo. BoxShadow aggiunge un'ombra; Opacity rende semitrasparente l'elemento e i figli; RenderTransform applica una trasformazione geometrica senza modificare il layout, per esempio una rotazione con RotateTransform." />
+                                <Border Classes="demo">
+                                    <WrapPanel>
+                                        <Border Width="100" Height="64" Background="#2A2350" CornerRadius="10"
+                                                BoxShadow="0 10 24 0 #66000000" Margin="0,0,16,0" />
+                                        <Border Width="100" Height="64" Background="{StaticResource AccentBrush}"
+                                                CornerRadius="10" Opacity="0.45" Margin="0,0,16,0" />
+                                        <Border Width="100" Height="64" Background="#243B4A" CornerRadius="10"
+                                                Margin="0,0,16,0">
+                                            <Border.RenderTransform>
+                                                <RotateTransform Angle="10" />
+                                            </Border.RenderTransform>
+                                        </Border>
+                                    </WrapPanel>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>
