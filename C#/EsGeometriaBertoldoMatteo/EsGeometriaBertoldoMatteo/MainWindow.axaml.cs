@@ -60,6 +60,13 @@ public partial class MainWindow : Window
                 CRettangolo f = new CRettangolo("RETTANGOLO", n1, n2);
                 per.Text = "PERIMETRO : " + f.CalcolaPerimetro();
                 are.Text = "AREA : " + f.CalcolaArea();
+                desc.Text = f.Descrizione();
+            }
+            else
+            {
+                per.Text = "VALORI NON VALIDI";
+                are.Text = "VALORI NON VALIDI";
+                desc.Text = "ERRORE";
             }
         }
         else if (select == 1)
@@ -69,6 +76,13 @@ public partial class MainWindow : Window
                 CQuadrato q = new CQuadrato("QUADRATO", n1, n1);
                 per.Text = "PERIMETRO : " + q.CalcolaPerimetro();
                 are.Text = "AREA : " + q.CalcolaArea();
+                desc.Text = q.Descrizione();
+            }
+            else
+            {
+                per.Text = "LATO NON VALIDO";
+                are.Text = "LATO NON VALIDO";
+                desc.Text = "ERRORE";
             }
         }
         else
@@ -78,6 +92,13 @@ public partial class MainWindow : Window
                 CCerchio c = new CCerchio("CERCHIO", n1);
                 per.Text = "PERIMETRO : " + c.CalcolaPerimetro();
                 are.Text = "AREA : " + c.CalcolaArea();
+                desc.Text = c.Descrizione();
+            }
+            else
+            {
+                per.Text = "RAGGIO NON VALIDO";
+                are.Text = "RAGGIO NON VALIDO";
+                desc.Text = "ERRORE";
             }
         }
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EsGeometriaBertoldoMatteo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a852804f8d7dd430327a26ab541cca89825a362")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3aa0a247f29de844f487e0aa6faae3389a186d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("EsGeometriaBertoldoMatteo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EsGeometriaBertoldoMatteo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,14 +7,6 @@
       "RelativeMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|solutionrelative:esgeometriabertoldomatteo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esgeometriabertoldomatteo\\esgeometriabertoldomatteo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|solutionrelative:esgeometriabertoldomatteo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esgeometriabertoldomatteo\\esgeometriabertoldomatteo\\ccerchio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|solutionrelative:esgeometriabertoldomatteo\\ccerchio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esgeometriabertoldomatteo\\esgeometriabertoldomatteo\\crettangolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|solutionrelative:esgeometriabertoldomatteo\\crettangolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,8 +15,16 @@
       "RelativeMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|solutionrelative:esgeometriabertoldomatteo\\cquadrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esgeometriabertoldomatteo\\esgeometriabertoldomatteo\\ccerchio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|solutionrelative:esgeometriabertoldomatteo\\ccerchio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esgeometriabertoldomatteo\\esgeometriabertoldomatteo\\cfigura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|solutionrelative:esgeometriabertoldomatteo\\cfigura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esgeometriabertoldomatteo\\esgeometriabertoldomatteo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F9C06A-D7B5-4ADD-A1D5-5FED1D93AB5D}|EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo.csproj|solutionrelative:esgeometriabertoldomatteo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "CFigura.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\CFigura.cs",
               "RelativeDocumentMoniker": "EsGeometriaBertoldoMatteo\\CFigura.cs",
@@ -52,13 +52,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "CRettangolo.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\CRettangolo.cs",
               "RelativeDocumentMoniker": "EsGeometriaBertoldoMatteo\\CRettangolo.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\CRettangolo.cs",
               "RelativeToolTip": "EsGeometriaBertoldoMatteo\\CRettangolo.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-28T07:03:28.294Z",
               "IsPinned": true,
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "CQuadrato.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\CQuadrato.cs",
               "RelativeDocumentMoniker": "EsGeometriaBertoldoMatteo\\CQuadrato.cs",
@@ -80,13 +80,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CCerchio.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\CCerchio.cs",
               "RelativeDocumentMoniker": "EsGeometriaBertoldoMatteo\\CCerchio.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\CCerchio.cs",
               "RelativeToolTip": "EsGeometriaBertoldoMatteo\\CCerchio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-28T07:17:29.896Z",
               "IsPinned": true,
@@ -114,13 +114,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "EsGeometriaBertoldoMatteo\\MainWindow.axaml.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsGeometriaBertoldoMatteo\\EsGeometriaBertoldoMatteo\\MainWindow.axaml.cs",
               "RelativeToolTip": "EsGeometriaBertoldoMatteo\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAmwD4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-28T06:57:23.769Z",
               "EditorCaption": ""

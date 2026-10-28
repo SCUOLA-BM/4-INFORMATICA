@@ -18,12 +18,17 @@ namespace EsGeometriaBertoldoMatteo
 
         public override double CalcolaArea()
         {
-            return Base * Altezza;
+            return Area = Base * Altezza;
         }
 
         public override double CalcolaPerimetro()
         {
-            return Base * 2 + Altezza * 2;
+            return Perimetro = Base * 2 + Altezza * 2;
+        }
+
+        public override string Descrizione()
+        {
+            return base.Descrizione();
         }
 
     }
