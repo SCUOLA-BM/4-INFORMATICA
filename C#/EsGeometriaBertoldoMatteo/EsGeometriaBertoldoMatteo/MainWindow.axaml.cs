@@ -15,7 +15,6 @@ public partial class MainWindow : Window
     }
     private void Combo_SelectionChanged(object? sender, SelectionChangedEventArgs e)
     {
-        if (Combo == null || l1 == null || l2 == null || t2 == null) return;
         select = Combo.SelectedIndex;
         if (select == 0)
         {

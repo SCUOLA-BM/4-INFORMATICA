@@ -1,0 +1,48 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:collections="using:System.Collections"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="EsCanileBeroldoMatteo.MainWindow"
+        Title="EsCanileBeroldoMatteo"
+        Background="LightGoldenrodYellow">
+        <ScrollViewer>
+            <SplitView IsPaneOpen="true"
+                       DisplayMode="Inline"
+                       OpenPaneLength="400">
+                <SplitView.Pane>
+                    <GroupBox Header="INSERIMENTO CANE" FontSize="11" HorizontalAlignment="Center" Margin="16" BorderBrush="Black" Background="DimGray">
+                        <StackPanel Spacing="8">
+                            <TextBox PlaceholderText="Nome" Name="nome"/>
+                            <TextBlock Margin="0 10 0 5" Text="ANNO NASCITA"/>
+                            <DatePicker DayVisible="False" MonthVisible="False" Name="anno"/>
+                            <TextBlock Margin="0 10 0 5" Text="RAZZA"/>
+                            <ComboBox HorizontalAlignment="Left" PlaceholderText="Razza" Name="razza">
+                                <ComboBoxItem Content="Labrador Retriever"/>
+                                <ComboBoxItem Content="Pastore Tedesco"/>
+                                <ComboBoxItem Content="Golden Retriever"/>
+                                <ComboBoxItem Content="Bassotto"/>
+                                <ComboBoxItem Content="Jack Russell Terrier"/>
+                            </ComboBox>
+                            <TextBlock Margin="0 10 0 5" Text="DATA INGRESSO CANILE"/>
+                            <DatePicker Name="data"/>
+                            <TextBlock Margin="0 10 0 5" Text="STATO ATTUALE"/>
+                            <StackPanel Orientation="Horizontal">
+                                <RadioButton  Name="salute" GroupName="Stato" Content="Salute"/>
+                                <RadioButton Name="malato" GroupName="Stato" Content="Malato"/>
+                            </StackPanel>
+                            <TextBlock Margin="0 10 0 5" Text="INFORMAZIONI"/>
+                            <TextBox Height="70" AcceptsReturn="True" TextWrapping="Wrap" Name="descrizione"/>
+                            <Button Click="Button_Click" Content="AGIUNGI" HorizontalAlignment="Center"/>
+                            <TextBox PlaceholderText="ID CANE DA ADOTTARE" Name="Elim" />
+                            <Button Click="Button_Click_1" Content="ADOTTA"/>
+                        </StackPanel>
+                    </GroupBox>
+                </SplitView.Pane>
+                <Border BorderBrush="Black" BorderThickness="4" CornerRadius="10" Padding="5" Margin="2" >
+                <Grid ColumnDefinitions="30,80,140,150,120,60,100" RowDefinitions="Auto" Name="dataGridView" />
+                </Border>
+            </SplitView>
+        </ScrollViewer>
+</Window>

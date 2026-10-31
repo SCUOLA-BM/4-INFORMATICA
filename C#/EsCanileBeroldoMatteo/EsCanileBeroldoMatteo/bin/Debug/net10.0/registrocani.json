@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "Nome": "Giovanni",
+    "AnnoNascita": 2014,
+    "Razza": 1,
+    "DataIngresso": "2022-08-30T00:00:00",
+    "Stato": true,
+    "Informazioni": "gioca solo con i propri giochi"
+  },
+  {
+    "Id": 2,
+    "Nome": "Ronaldo",
+    "AnnoNascita": 2020,
+    "Razza": 2,
+    "DataIngresso": "2020-08-30T00:00:00",
+    "Stato": false,
+    "Informazioni": "prende 10 medicine al giorno"
+  }
+]
