@@ -9,7 +9,7 @@
         <StackPanel Orientation="Vertical">
             <TextBox Text="BENVENUTO NEL PROGRAMMA CALCOLO FIGURE GEOMETRICHE" Margin="22" BorderThickness="5" Background="CadetBlue"/>
             <Label Content="INSERISCI FIGURA" Margin="2"/>
-            <ComboBox SelectedIndex="0" Margin="10" Background="CadetBlue" x:Name="Combo" SelectionChanged="Combo_SelectionChanged">
+            <ComboBox Margin="10" Background="CadetBlue" x:Name="Combo" SelectionChanged="Combo_SelectionChanged">
                 <ComboBoxItem Content="RETTANGOLO"/>
                 <ComboBoxItem Content="QUADRATO"/>
                 <ComboBoxItem Content="CERCHIO"/>
