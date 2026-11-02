@@ -16,5 +16,14 @@
     "DataIngresso": "2020-08-30T00:00:00",
     "Stato": false,
     "Informazioni": "prende 10 medicine al giorno"
+  },
+  {
+    "Id": 3,
+    "Nome": "French",
+    "AnnoNascita": 2015,
+    "Razza": 2,
+    "DataIngresso": "2023-06-30T00:00:00",
+    "Stato": false,
+    "Informazioni": "Cane con molta aura"
   }
 ]
