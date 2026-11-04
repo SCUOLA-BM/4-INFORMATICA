@@ -11,7 +11,7 @@ namespace EsAutonoleggioBM
         protected string Tipo { get; }
         protected double TariffaGiornaliera { get; }
 
-        public CVeicolo(string ta, string m, string ti, double tg)
+        protected CVeicolo(string ta, string m, string ti, double tg)
         {
             Targa = ta;
             Modello = m;
@@ -26,9 +26,14 @@ namespace EsAutonoleggioBM
 
         public override string ToString()
         {
-            return "" + Tipo + " - " + Modello + " - " + TariffaGiornaliera + " €/giorno";
+            return "" + Tipo + " - " + Modello +"("+Targa+")"+ " - " + TariffaGiornaliera + " €/giorno";
         }
 
+        public bool Duplicata(string t)
+        {
+            if (Targa == t) return true;
+            return false;
+        }
 
     }
 }
