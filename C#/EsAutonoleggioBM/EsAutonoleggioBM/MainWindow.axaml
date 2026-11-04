@@ -5,5 +5,43 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="EsAutonoleggioBM.MainWindow"
         Title="EsAutonoleggioBM">
-    Welcome to Avalonia!
+    <ScrollViewer MaxWidth="700">
+        <Grid ColumnDefinitions="300,*" Margin="20">
+            <Border Grid.Column="0" Margin="11" CornerRadius="20" Background="LightGreen" MinWidth="250">
+                <StackPanel Spacing="7" Margin="10" MinWidth="200">
+                    <Label Content="TIPO VEICOLO" HorizontalAlignment="Center"/>
+                    <ComboBox Name="CmbTipo" SelectionChanged="CmbTipo_SelectionChanged" HorizontalAlignment="Center" MinWidth="150">
+                        <ComboBoxItem Name="auto" Content="AUTO"/>
+                        <ComboBoxItem Name="moto" Content="MOTO"/>
+                        <ComboBoxItem Name="furgone" Content="FURGONE"/>
+                        <ComboBoxItem Name="elettrica" Content="AUTO ELETTRICA"/>
+                    </ComboBox>
+                    <Label Content="TARGA" />
+                    <TextBox Name="targa" PlaceholderText="Inserisci targa"/>
+                    <Label Content="MODELLO" />
+                    <TextBox Name="modello" PlaceholderText="Inserisci modello"/>
+                    <StackPanel Name="AutPanel">
+                        <Label Content="AUTONOMIA IN KM"/>
+                        <TextBox Name="autonomia" PlaceholderText="Inserisci autonomia in km"/>
+                    </StackPanel>
+                    <Button Click="AggiungiFlotta" Content="AGGIUNGI ALLA FLOTTA"/>
+                    <Label Content="ERRORI" HorizontalAlignment="Center" Foreground="Red"/>
+                    <TextBlock Name="error" Text="Qui appaiono errori"/>
+                </StackPanel>
+            </Border>
+            
+            <Border Grid.Column="1" CornerRadius="20" Margin="11" Background="LightSkyBlue">
+                <StackPanel Spacing="10"  Margin="7" HorizontalAlignment="Center">
+                    <Label Content="ELENCO VEICOLI"/>
+                    <ListBox Name="listaveicoli"/>
+                    <Label Content="GIORNI NOLEGGIO"/>
+                    <NumericUpDown Maximum="60" Minimum="1"  Value="1" Name="giorni"/>
+                    <CheckBox Content="Assicurazione completa (+15 €/giorno)" Name="assicurazione"/>
+                    <Button Click="CalcolaPreventivo" Content="CALCOLA PREVENTIVO"/>
+                    <TextBlock Name="preventivo" Text="Qui vedrai preventivo"/>
+                </StackPanel>
+            </Border>
+            
+        </Grid>
+    </ScrollViewer>
 </Window>
