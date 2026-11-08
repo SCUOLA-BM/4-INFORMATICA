@@ -1,0 +1,31 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="PrimoProgettoAvalonia.MainWindow"
+        Title="Il mio primo progetto Avalonia"
+        Width="560" Height="460" MinWidth="400" MinHeight="420"
+        WindowStartupLocation="CenterScreen" Background="#F3F5FA">
+    <ScrollViewer>
+        <StackPanel Margin="32" Spacing="16">
+            <TextBlock Text="CIAO, AVALONIA" Foreground="#6554C0" FontWeight="Bold" />
+            <TextBlock Text="La tua prima app in C#" FontSize="27" FontWeight="Bold"
+                       Foreground="#18213A" TextWrapping="Wrap" />
+            <TextBlock Text="Scrivi il tuo nome e premi il pulsante per ricevere un saluto."
+                       Foreground="#536079" TextWrapping="Wrap" />
+            <Border Background="White" CornerRadius="12" Padding="24">
+                <StackPanel Spacing="14">
+                    <Label Content="Come ti chiami?" Target="{Binding #NomeTextBox}" Padding="0" />
+                    <!-- x:Name permette di usare il controllo dal codice C#. -->
+                    <TextBox x:Name="NomeTextBox" PlaceholderText="Per esempio, Marco" MaxLength="60" />
+                    <!-- Click indica il metodo C# da eseguire. -->
+                    <Button Content="Salutami" Click="Saluta_Click" Padding="22,10"
+                            Background="#6554C0" Foreground="White" />
+                    <TextBlock x:Name="SalutoTextBlock" Text="Il tuo saluto apparirà qui."
+                               TextWrapping="Wrap" FontSize="18" />
+                </StackPanel>
+            </Border>
+            <TextBlock Text="XAML disegna la finestra · C# gestisce il clic"
+                       FontSize="12" Foreground="#536079" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Window>
+

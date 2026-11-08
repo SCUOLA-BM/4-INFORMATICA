@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsAutonoleggioBM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esautonoleggiobm\\esautonoleggiobm\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|solutionrelative:esautonoleggiobm\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esautonoleggiobm\\esautonoleggiobm\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|solutionrelative:esautonoleggiobm\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esautonoleggiobm\\esautonoleggiobm\\cveicolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|solutionrelative:esautonoleggiobm\\cveicolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esautonoleggiobm\\esautonoleggiobm\\cauto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|solutionrelative:esautonoleggiobm\\cauto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esautonoleggiobm\\esautonoleggiobm\\ielettrico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|solutionrelative:esautonoleggiobm\\ielettrico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esautonoleggiobm\\esautonoleggiobm\\cmoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,6 +17,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esautonoleggiobm\\esautonoleggiobm\\cautoelettrica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|solutionrelative:esautonoleggiobm\\cautoelettrica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esautonoleggiobm\\esautonoleggiobm\\cveicolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|solutionrelative:esautonoleggiobm\\cveicolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esautonoleggiobm\\esautonoleggiobm\\ielettrico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|solutionrelative:esautonoleggiobm\\ielettrico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esautonoleggiobm\\esautonoleggiobm\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|solutionrelative:esautonoleggiobm\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esautonoleggiobm\\esautonoleggiobm\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{70311839-D5F0-7BE7-47F4-E6EEB07920FE}|EsAutonoleggioBM\\EsAutonoleggioBM.csproj|solutionrelative:esautonoleggiobm\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsAutonoleggioBM\\EsAutonoleggioBM\\MainWindow.axaml",
               "RelativeDocumentMoniker": "EsAutonoleggioBM\\MainWindow.axaml",
@@ -54,18 +54,17 @@
               "RelativeToolTip": "EsAutonoleggioBM\\MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-11-02T12:26:31.661Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsAutonoleggioBM\\EsAutonoleggioBM\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "EsAutonoleggioBM\\MainWindow.axaml.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsAutonoleggioBM\\EsAutonoleggioBM\\MainWindow.axaml.cs",
               "RelativeToolTip": "EsAutonoleggioBM\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAiwJAAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAUwJAAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-02T12:26:29.778Z",
               "IsPinned": true,
@@ -73,13 +72,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CVeicolo.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsAutonoleggioBM\\EsAutonoleggioBM\\CVeicolo.cs",
               "RelativeDocumentMoniker": "EsAutonoleggioBM\\CVeicolo.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsAutonoleggioBM\\EsAutonoleggioBM\\CVeicolo.cs",
               "RelativeToolTip": "EsAutonoleggioBM\\CVeicolo.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBwAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-03T10:36:49.198Z",
               "IsPinned": true,
@@ -87,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "CAuto.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsAutonoleggioBM\\EsAutonoleggioBM\\CAuto.cs",
               "RelativeDocumentMoniker": "EsAutonoleggioBM\\CAuto.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsAutonoleggioBM\\EsAutonoleggioBM\\CAuto.cs",
               "RelativeToolTip": "EsAutonoleggioBM\\CAuto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-03T10:48:25.94Z",
               "IsPinned": true,
@@ -101,13 +100,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "CAutoElettrica.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsAutonoleggioBM\\EsAutonoleggioBM\\CAutoElettrica.cs",
               "RelativeDocumentMoniker": "EsAutonoleggioBM\\CAutoElettrica.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsAutonoleggioBM\\EsAutonoleggioBM\\CAutoElettrica.cs",
               "RelativeToolTip": "EsAutonoleggioBM\\CAutoElettrica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-03T21:29:43.201Z",
               "IsPinned": true,
@@ -115,13 +114,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "CMoto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsAutonoleggioBM\\EsAutonoleggioBM\\CMoto.cs",
+              "RelativeDocumentMoniker": "EsAutonoleggioBM\\CMoto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsAutonoleggioBM\\EsAutonoleggioBM\\CMoto.cs",
+              "RelativeToolTip": "EsAutonoleggioBM\\CMoto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T21:26:30.751Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CFurgone.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsAutonoleggioBM\\EsAutonoleggioBM\\CFurgone.cs",
               "RelativeDocumentMoniker": "EsAutonoleggioBM\\CFurgone.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsAutonoleggioBM\\EsAutonoleggioBM\\CFurgone.cs",
               "RelativeToolTip": "EsAutonoleggioBM\\CFurgone.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-03T21:28:20.549Z",
               "IsPinned": true,
@@ -130,20 +143,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CMoto.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsAutonoleggioBM\\EsAutonoleggioBM\\CMoto.cs",
-              "RelativeDocumentMoniker": "EsAutonoleggioBM\\CMoto.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsAutonoleggioBM\\EsAutonoleggioBM\\CMoto.cs",
-              "RelativeToolTip": "EsAutonoleggioBM\\CMoto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T21:26:30.751Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "IElettrico.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsAutonoleggioBM\\EsAutonoleggioBM\\IElettrico.cs",
               "RelativeDocumentMoniker": "EsAutonoleggioBM\\IElettrico.cs",

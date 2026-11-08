@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esindiabertoldomatteo\\esindiabertoldomatteo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|solutionrelative:esindiabertoldomatteo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esindiabertoldomatteo\\esindiabertoldomatteo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|solutionrelative:esindiabertoldomatteo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esindiabertoldomatteo\\esindiabertoldomatteo\\cstorico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|solutionrelative:esindiabertoldomatteo\\cstorico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esindiabertoldomatteo\\esindiabertoldomatteo\\cmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|solutionrelative:esindiabertoldomatteo\\cmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esindiabertoldomatteo\\esindiabertoldomatteo\\csala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|solutionrelative:esindiabertoldomatteo\\csala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esindiabertoldomatteo\\esindiabertoldomatteo\\ctavolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|solutionrelative:esindiabertoldomatteo\\ctavolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esindiabertoldomatteo\\esindiabertoldomatteo\\cordine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|solutionrelative:esindiabertoldomatteo\\cordine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esindiabertoldomatteo\\esindiabertoldomatteo\\cpiatto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|solutionrelative:esindiabertoldomatteo\\cpiatto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esindiabertoldomatteo\\esindiabertoldomatteo\\csalajson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|solutionrelative:esindiabertoldomatteo\\csalajson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CPiatto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\CPiatto.cs",
+              "RelativeDocumentMoniker": "EsIndiaBertoldoMatteo\\CPiatto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\CPiatto.cs",
+              "RelativeToolTip": "EsIndiaBertoldoMatteo\\CPiatto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T09:26:06.605Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "COrdine.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\COrdine.cs",
+              "RelativeDocumentMoniker": "EsIndiaBertoldoMatteo\\COrdine.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\COrdine.cs",
+              "RelativeToolTip": "EsIndiaBertoldoMatteo\\COrdine.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T10:04:18.348Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CTavolo.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\CTavolo.cs",
+              "RelativeDocumentMoniker": "EsIndiaBertoldoMatteo\\CTavolo.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\CTavolo.cs",
+              "RelativeToolTip": "EsIndiaBertoldoMatteo\\CTavolo.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwEUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T08:38:44.217Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CSala.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\CSala.cs",
+              "RelativeDocumentMoniker": "EsIndiaBertoldoMatteo\\CSala.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\CSala.cs",
+              "RelativeToolTip": "EsIndiaBertoldoMatteo\\CSala.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T09:17:37.743Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CMenu.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\CMenu.cs",
+              "RelativeDocumentMoniker": "EsIndiaBertoldoMatteo\\CMenu.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\CMenu.cs",
+              "RelativeToolTip": "EsIndiaBertoldoMatteo\\CMenu.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwCQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T09:25:40.349Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "EsIndiaBertoldoMatteo\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\MainWindow.axaml.cs",
+              "RelativeToolTip": "EsIndiaBertoldoMatteo\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwBcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T09:10:18.283Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "EsIndiaBertoldoMatteo\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\MainWindow.axaml",
+              "RelativeToolTip": "EsIndiaBertoldoMatteo\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-05T09:10:19.989Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CStorico.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\CStorico.cs",
+              "RelativeDocumentMoniker": "EsIndiaBertoldoMatteo\\CStorico.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\CStorico.cs",
+              "RelativeToolTip": "EsIndiaBertoldoMatteo\\CStorico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T10:21:22.332Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CSalajson.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\CSalajson.cs",
+              "RelativeDocumentMoniker": "EsIndiaBertoldoMatteo\\CSalajson.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\CSalajson.cs",
+              "RelativeToolTip": "EsIndiaBertoldoMatteo\\CSalajson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T14:50:06.423Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

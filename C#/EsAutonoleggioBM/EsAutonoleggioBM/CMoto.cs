@@ -11,11 +11,7 @@ namespace EsAutonoleggioBM
         private string targa;
         private const string tipo = "Moto";
         private const double tariffagiornaliera = 50;
-        public CMoto(string ta, string m) : base(ta, m, tipo, tariffagiornaliera)
-        {
-            modello = m;
-            targa = m;
-        }
+        public CMoto(string ta, string m) : base(ta, m, tipo, tariffagiornaliera){ }
 
         public override double CalcolaCosto(int g)
         {

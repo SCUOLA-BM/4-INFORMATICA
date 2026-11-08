@@ -1,0 +1,127 @@
+[
+  {
+    "Id": 1,
+    "PMax": 2,
+    "Poccupati": 1,
+    "Libero": false,
+    "Ordini": [
+      {
+        "piatti": [
+          {
+            "Nome": "Chicken Curry",
+            "Categoria": "piatto principale",
+            "Prezzo": 14.7
+          },
+          {
+            "Nome": "Chicken Curry",
+            "Categoria": "piatto principale",
+            "Prezzo": 14.7
+          },
+          {
+            "Nome": "Chicken Curry",
+            "Categoria": "piatto principale",
+            "Prezzo": 14.7
+          },
+          {
+            "Nome": "Chicken Curry",
+            "Categoria": "piatto principale",
+            "Prezzo": 14.7
+          },
+          {
+            "Nome": "Chicken Curry",
+            "Categoria": "piatto principale",
+            "Prezzo": 14.7
+          },
+          {
+            "Nome": "Chicken Curry",
+            "Categoria": "piatto principale",
+            "Prezzo": 14.7
+          },
+          {
+            "Nome": "Chicken Curry",
+            "Categoria": "piatto principale",
+            "Prezzo": 14.7
+          },
+          {
+            "Nome": "Chicken Curry",
+            "Categoria": "piatto principale",
+            "Prezzo": 14.7
+          },
+          {
+            "Nome": "Chicken Curry",
+            "Categoria": "piatto principale",
+            "Prezzo": 14.7
+          },
+          {
+            "Nome": "Chicken Curry",
+            "Categoria": "piatto principale",
+            "Prezzo": 14.7
+          },
+          {
+            "Nome": "Chicken Curry",
+            "Categoria": "piatto principale",
+            "Prezzo": 14.7
+          },
+          {
+            "Nome": "Naan",
+            "Categoria": "pane",
+            "Prezzo": 11.2
+          },
+          {
+            "Nome": "Naan",
+            "Categoria": "pane",
+            "Prezzo": 11.2
+          },
+          {
+            "Nome": "Naan",
+            "Categoria": "pane",
+            "Prezzo": 11.2
+          },
+          {
+            "Nome": "Naan",
+            "Categoria": "pane",
+            "Prezzo": 11.2
+          },
+          {
+            "Nome": "Naan",
+            "Categoria": "pane",
+            "Prezzo": 11.2
+          },
+          {
+            "Nome": "Naan",
+            "Categoria": "pane",
+            "Prezzo": 11.2
+          },
+          {
+            "Nome": "Naan",
+            "Categoria": "pane",
+            "Prezzo": 11.2
+          },
+          {
+            "Nome": "Naan",
+            "Categoria": "pane",
+            "Prezzo": 11.2
+          },
+          {
+            "Nome": "Naan",
+            "Categoria": "pane",
+            "Prezzo": 11.2
+          },
+          {
+            "Nome": "Naan",
+            "Categoria": "pane",
+            "Prezzo": 11.2
+          },
+          {
+            "Nome": "Naan",
+            "Categoria": "pane",
+            "Prezzo": 11.2
+          }
+        ]
+      }
+    ],
+    "Lista": [],
+    "Tot": 0,
+    "Data": "2026-11-08T16:49:59.3627505+01:00"
+  }
+]
