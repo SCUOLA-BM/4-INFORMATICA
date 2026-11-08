@@ -1,0 +1,59 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:collections="using:System.Collections"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="EsIndiaBertoldoMatteo.MainWindow"
+        UseLayoutRounding="True"
+        Title="EsIndiaBertoldoMatteo">
+    <ScrollViewer>
+        <Grid ColumnDefinitions="*,*,*">
+            <StackPanel Grid.Column="0" Margin="5" Spacing="5">
+                <GroupBox Header="LISTA TAVOLI" Margin="0,10,0,10">
+                    <ListBox Name="listatavoli" SelectionChanged="listatavoli_SelectionChanged"/> 
+                </GroupBox>
+                <GroupBox Header="PERSONE">
+                    <Grid ColumnDefinitions="150,*" ColumnSpacing="11" HorizontalAlignment="Center">
+                        <TextBox Name="Npersone" PlaceholderText="Inserisci n persone" Grid.Column="0"/>
+                        <Button Content="RISERVA TAVOLO" Name="Riserva" Click="RiservaTavolo" IsEnabled="False" Grid.Column="1"/>
+                    </Grid>
+                </GroupBox>
+                <GroupBox Margin="0,10,0,0" Header="ERRORI">
+                    <TextBlock Name="error"/>
+                </GroupBox>
+                <GroupBox Header="STORICO" Name="STORICO">
+                    <TextBlock Name="Storico"/>
+                </GroupBox>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Spacing="5" Margin="5" IsVisible="false" Name="Input">
+                <GroupBox Name="Ordine" Header="MENU">
+                    <ListBox Name="Menu" SelectionChanged="Menu_SelectionChanged" />
+                </GroupBox>
+                <GroupBox Header="INPUT">
+                    <Grid ColumnDefinitions="*,*,*" ColumnSpacing="11" HorizontalAlignment="Center">
+                        <TextBox Name="Quant" PlaceholderText="Inserisci quantità piatto" Grid.Column="0"/>
+                        <Button Content="AGG ORDINE" Click="AggOrd" Name="aggOrd" Grid.Column="1"/>
+                        <Button Content="INVIA ORDINE" Click="InviaOrd" Name="inviaOrd" Grid.Column="2"/>
+                    </Grid>
+                </GroupBox>
+            </StackPanel>
+            <StackPanel Grid.Column="2" IsVisible="false" Name="ElencoOrdini" Margin="5" Spacing="5">
+                <GroupBox Name="Ordini">
+                    <ListBox Name="ListaOrdini"/>
+                </GroupBox>
+                <GroupBox Header="RESOCONTO TAVOLO">
+                    <StackPanel>
+                        <TextBlock Name="DescrTav"/>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Header="CHIUSURA CONTO">
+                    <StackPanel>
+                        <Button Click="ChiudiConto" Content="TERMINA CONTO" Name="TermConto"/>
+                    <TextBlock Name="ResFinale"/>
+                    </StackPanel>
+                </GroupBox>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Window>

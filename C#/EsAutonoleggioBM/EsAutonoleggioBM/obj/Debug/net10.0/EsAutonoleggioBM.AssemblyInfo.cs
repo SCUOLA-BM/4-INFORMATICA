@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EsAutonoleggioBM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+683ee2d3fa0c77745568b115621f514cc0efd63a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+125dafcf8a444da134efb04654dd5698150e2b66")]
 [assembly: System.Reflection.AssemblyProductAttribute("EsAutonoleggioBM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EsAutonoleggioBM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

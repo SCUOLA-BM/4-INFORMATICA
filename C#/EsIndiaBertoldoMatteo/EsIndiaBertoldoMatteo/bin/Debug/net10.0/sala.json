@@ -1,0 +1,64 @@
+{
+  "tavoli": [
+    {
+      "Id": 0,
+      "PMax": 7,
+      "Poccupati": 0,
+      "Libero": true,
+      "Ordini": [],
+      "Lista": [],
+      "Tot": 0,
+      "Data": "0001-01-01T00:00:00"
+    },
+    {
+      "Id": 1,
+      "PMax": 2,
+      "Poccupati": 1,
+      "Libero": false,
+      "Ordini": [],
+      "Lista": [],
+      "Tot": 284.89999999999986,
+      "Data": "2026-11-08T16:49:59.3627505+01:00"
+    },
+    {
+      "Id": 2,
+      "PMax": 4,
+      "Poccupati": 0,
+      "Libero": true,
+      "Ordini": [],
+      "Lista": [],
+      "Tot": 0,
+      "Data": "0001-01-01T00:00:00"
+    },
+    {
+      "Id": 3,
+      "PMax": 5,
+      "Poccupati": 0,
+      "Libero": true,
+      "Ordini": [],
+      "Lista": [],
+      "Tot": 0,
+      "Data": "0001-01-01T00:00:00"
+    },
+    {
+      "Id": 4,
+      "PMax": 2,
+      "Poccupati": 0,
+      "Libero": true,
+      "Ordini": [],
+      "Lista": [],
+      "Tot": 0,
+      "Data": "0001-01-01T00:00:00"
+    },
+    {
+      "Id": 5,
+      "PMax": 6,
+      "Poccupati": 0,
+      "Libero": true,
+      "Ordini": [],
+      "Lista": [],
+      "Tot": 0,
+      "Data": "0001-01-01T00:00:00"
+    }
+  ]
+}

@@ -7,14 +7,8 @@ namespace EsAutonoleggioBM
 {
     internal class CAuto : CVeicolo
     {
-        private string modello;
-        private string targa;
         private const string tipo = "Auto";
         private const double tariffagiornaliera = 50;
-        public CAuto(string ta, string m) : base( ta , m, tipo, tariffagiornaliera)
-        {
-            modello = m;
-            targa = m;
-        }
+        public CAuto(string ta, string m) : base(ta, m, tipo, tariffagiornaliera) { }
     }
 }
