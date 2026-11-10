@@ -13,12 +13,12 @@
     {
       "Id": 1,
       "PMax": 2,
-      "Poccupati": 1,
-      "Libero": false,
+      "Poccupati": 0,
+      "Libero": true,
       "Ordini": [],
       "Lista": [],
-      "Tot": 284.89999999999986,
-      "Data": "2026-11-08T16:49:59.3627505+01:00"
+      "Tot": 200.20000000000002,
+      "Data": "2026-11-09T13:15:18.115342+01:00"
     },
     {
       "Id": 2,
@@ -43,8 +43,8 @@
     {
       "Id": 4,
       "PMax": 2,
-      "Poccupati": 0,
-      "Libero": true,
+      "Poccupati": 1,
+      "Libero": false,
       "Ordini": [],
       "Lista": [],
       "Tot": 0,
