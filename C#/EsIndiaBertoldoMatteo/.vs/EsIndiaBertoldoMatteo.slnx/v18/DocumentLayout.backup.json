@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|solutionrelative:esindiabertoldomatteo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esindiabertoldomatteo\\esindiabertoldomatteo\\cordine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|solutionrelative:esindiabertoldomatteo\\cordine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esindiabertoldomatteo\\esindiabertoldomatteo\\cstorico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|solutionrelative:esindiabertoldomatteo\\cstorico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esindiabertoldomatteo\\esindiabertoldomatteo\\ctavolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|solutionrelative:esindiabertoldomatteo\\ctavolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esindiabertoldomatteo\\esindiabertoldomatteo\\cordine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|solutionrelative:esindiabertoldomatteo\\cordine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A38C5C2B-7987-AB89-1CD9-EF3E6CBCE3A7}|EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esindiabertoldomatteo\\esindiabertoldomatteo\\cpiatto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,18 +59,17 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-05T09:26:06.605Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "COrdine.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\COrdine.cs",
               "RelativeDocumentMoniker": "EsIndiaBertoldoMatteo\\COrdine.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\COrdine.cs",
               "RelativeToolTip": "EsIndiaBertoldoMatteo\\COrdine.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAsAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-05T10:04:18.348Z",
               "IsPinned": true,
@@ -78,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CTavolo.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\CTavolo.cs",
               "RelativeDocumentMoniker": "EsIndiaBertoldoMatteo\\CTavolo.cs",
@@ -87,12 +86,11 @@
               "ViewState": "AgIAAC0AAAAAAAAAAAAiwEUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-08T08:38:44.217Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CSala.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\CSala.cs",
               "RelativeDocumentMoniker": "EsIndiaBertoldoMatteo\\CSala.cs",
@@ -101,12 +99,11 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-05T09:17:37.743Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CMenu.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\CMenu.cs",
               "RelativeDocumentMoniker": "EsIndiaBertoldoMatteo\\CMenu.cs",
@@ -115,8 +112,7 @@
               "ViewState": "AgIAAAIAAAAAAAAAAAAgwCQAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-05T09:25:40.349Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -126,7 +122,7 @@
               "RelativeDocumentMoniker": "EsIndiaBertoldoMatteo\\MainWindow.axaml.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\MainWindow.axaml.cs",
               "RelativeToolTip": "EsIndiaBertoldoMatteo\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAcwBcAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wBcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-05T09:10:18.283Z",
               "IsPinned": true,
@@ -147,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CStorico.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsIndiaBertoldoMatteo\\EsIndiaBertoldoMatteo\\CStorico.cs",
               "RelativeDocumentMoniker": "EsIndiaBertoldoMatteo\\CStorico.cs",
@@ -156,8 +152,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-08T10:21:22.332Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -170,8 +165,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-08T14:50:06.423Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",

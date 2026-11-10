@@ -3,7 +3,7 @@
     "Id": 1,
     "PMax": 2,
     "Poccupati": 1,
-    "Libero": false,
+    "Libero": true,
     "Ordini": [
       {
         "piatti": [
@@ -121,7 +121,122 @@
       }
     ],
     "Lista": [],
-    "Tot": 0,
+    "Tot": 284.89999999999986,
     "Data": "2026-11-08T16:49:59.3627505+01:00"
+  },
+  {
+    "Id": 1,
+    "PMax": 2,
+    "Poccupati": 1,
+    "Libero": false,
+    "Ordini": [
+      {
+        "piatti": [
+          {
+            "Nome": "Butter Chicken",
+            "Categoria": "piatto principale",
+            "Prezzo": 11.9
+          },
+          {
+            "Nome": "Butter Chicken",
+            "Categoria": "piatto principale",
+            "Prezzo": 11.9
+          },
+          {
+            "Nome": "Palak Paneer",
+            "Categoria": "piatto principale",
+            "Prezzo": 11.3
+          },
+          {
+            "Nome": "Palak Paneer",
+            "Categoria": "piatto principale",
+            "Prezzo": 11.3
+          },
+          {
+            "Nome": "Palak Paneer",
+            "Categoria": "piatto principale",
+            "Prezzo": 11.3
+          },
+          {
+            "Nome": "Pakora",
+            "Categoria": "antipasto",
+            "Prezzo": 11
+          },
+          {
+            "Nome": "Pakora",
+            "Categoria": "antipasto",
+            "Prezzo": 11
+          },
+          {
+            "Nome": "Pakora",
+            "Categoria": "antipasto",
+            "Prezzo": 11
+          },
+          {
+            "Nome": "Biryani",
+            "Categoria": "piatto principale",
+            "Prezzo": 6.7
+          },
+          {
+            "Nome": "Biryani",
+            "Categoria": "piatto principale",
+            "Prezzo": 6.7
+          },
+          {
+            "Nome": "Biryani",
+            "Categoria": "piatto principale",
+            "Prezzo": 6.7
+          },
+          {
+            "Nome": "Mangolassi",
+            "Categoria": "bevanda",
+            "Prezzo": 7.8
+          },
+          {
+            "Nome": "Mangolassi",
+            "Categoria": "bevanda",
+            "Prezzo": 7.8
+          },
+          {
+            "Nome": "Mangolassi",
+            "Categoria": "bevanda",
+            "Prezzo": 7.8
+          },
+          {
+            "Nome": "Chicken Tikka",
+            "Categoria": "piatto principale",
+            "Prezzo": 11
+          },
+          {
+            "Nome": "Chicken Tikka",
+            "Categoria": "piatto principale",
+            "Prezzo": 11
+          },
+          {
+            "Nome": "Chicken Tikka",
+            "Categoria": "piatto principale",
+            "Prezzo": 11
+          },
+          {
+            "Nome": "Chicken Tikka",
+            "Categoria": "piatto principale",
+            "Prezzo": 11
+          },
+          {
+            "Nome": "Chicken Tikka",
+            "Categoria": "piatto principale",
+            "Prezzo": 11
+          },
+          {
+            "Nome": "Chicken Tikka",
+            "Categoria": "piatto principale",
+            "Prezzo": 11
+          }
+        ]
+      }
+    ],
+    "Lista": [],
+    "Tot": 284.89999999999986,
+    "Data": "2026-11-09T13:15:18.115342+01:00"
   }
 ]

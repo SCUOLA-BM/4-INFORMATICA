@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\IntroduzioneEventiDelegati\\IntroduzioneEventiDelegati\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8831F167-85CC-E48F-3B23-408D6375EAAF}|IntroduzioneEventiDelegati\\IntroduzioneEventiDelegati.csproj|c:\\users\\asus\\desktop\\introduzioneeventidelegati\\introduzioneeventidelegati\\introduzioneeventidelegati\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8831F167-85CC-E48F-3B23-408D6375EAAF}|IntroduzioneEventiDelegati\\IntroduzioneEventiDelegati.csproj|solutionrelative:introduzioneeventidelegati\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IntroduzioneEventiDelegati\\IntroduzioneEventiDelegati\\IntroduzioneEventiDelegati\\Program.cs",
+              "RelativeDocumentMoniker": "IntroduzioneEventiDelegati\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\IntroduzioneEventiDelegati\\IntroduzioneEventiDelegati\\IntroduzioneEventiDelegati\\Program.cs",
+              "RelativeToolTip": "IntroduzioneEventiDelegati\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwCsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T10:28:42.652Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
