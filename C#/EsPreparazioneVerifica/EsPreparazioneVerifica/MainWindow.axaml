@@ -1,0 +1,33 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="EsPreparazioneVerifica.MainWindow"
+        Title="EsPreparazioneVerifica">
+    <ScrollViewer Background="Gray">
+        <GroupBox Header="Es PREPARAZIONE VERIFICA" Foreground="Blue" Background="LightBlue" Margin="11">
+            <Grid ColumnDefinitions="700,*">
+                <GroupBox Grid.Column="0" Header="MATERIE" Margin="5">
+                    <ListBox Name="ListaMaterie" Margin="5" Padding="5" SelectionChanged="ListaMaterie_SelectionChanged"/>
+                </GroupBox>
+                
+                <GroupBox Grid.Column="1" Header="INPUT" Margin="5">
+                    <StackPanel Spacing="11">
+                        <Label Content="ORA DEL GIORNO"/>
+                        <NumericUpDown Minimum="1" Maximum="6" Increment="1" Name="Ora"/>
+                        <TextBox Name="Docente" PlaceholderText="Inserisci il nome del docente" PlaceholderForeground="Wheat"/>
+                        <Grid ColumnDefinitions="100,*">
+                            <RadioButton Grid.Column="0" Name="Donna" Content="DONNA"/>
+                            <RadioButton Grid.Column="1" Name="Uomo" Content="MASCHIO"/>
+                        </Grid>
+                        <Border>
+                            <Button Click="Button_Click" Content="AGGIUNGI"/>
+                        </Border>
+                        <TextBlock Name="error"/>
+                    </StackPanel>
+                </GroupBox>
+            </Grid>
+        </GroupBox>
+    </ScrollViewer>
+</Window>
