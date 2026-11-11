@@ -1,0 +1,40 @@
+[
+  {
+    "Nome": "Matematica",
+    "OreSettimanali": 4,
+    "RetribuzioneOrariaDocente": 28.5,
+    "Docente": {
+      "Nome": "1",
+      "Ora": 1,
+      "Sesso": false
+    }
+  },
+  {
+    "Nome": "Informatica",
+    "OreSettimanali": 6,
+    "RetribuzioneOrariaDocente": 32,
+    "Docente": {
+      "Nome": "QUATAR",
+      "Ora": 2,
+      "Sesso": false
+    }
+  },
+  {
+    "Nome": "Sistemi e Reti",
+    "OreSettimanali": 5,
+    "RetribuzioneOrariaDocente": 30.5,
+    "Docente": null
+  },
+  {
+    "Nome": "Inglese",
+    "OreSettimanali": 3,
+    "RetribuzioneOrariaDocente": 27,
+    "Docente": null
+  },
+  {
+    "Nome": "Italiano",
+    "OreSettimanali": 4,
+    "RetribuzioneOrariaDocente": 26.5,
+    "Docente": null
+  }
+]
