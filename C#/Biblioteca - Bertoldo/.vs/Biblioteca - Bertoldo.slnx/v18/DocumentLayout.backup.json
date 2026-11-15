@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\Biblioteca - Bertoldo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4FF0F6-3CEA-15E4-309D-3B57B74DCC01}|Biblioteca - Bertoldo\\Biblioteca - Bertoldo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\biblioteca - bertoldo\\biblioteca - bertoldo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4FF0F6-3CEA-15E4-309D-3B57B74DCC01}|Biblioteca - Bertoldo\\Biblioteca - Bertoldo.csproj|solutionrelative:biblioteca - bertoldo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4FF0F6-3CEA-15E4-309D-3B57B74DCC01}|Biblioteca - Bertoldo\\Biblioteca - Bertoldo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\biblioteca - bertoldo\\biblioteca - bertoldo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{9D4FF0F6-3CEA-15E4-309D-3B57B74DCC01}|Biblioteca - Bertoldo\\Biblioteca - Bertoldo.csproj|solutionrelative:biblioteca - bertoldo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4FF0F6-3CEA-15E4-309D-3B57B74DCC01}|Biblioteca - Bertoldo\\Biblioteca - Bertoldo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\biblioteca - bertoldo\\biblioteca - bertoldo\\clibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4FF0F6-3CEA-15E4-309D-3B57B74DCC01}|Biblioteca - Bertoldo\\Biblioteca - Bertoldo.csproj|solutionrelative:biblioteca - bertoldo\\clibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4FF0F6-3CEA-15E4-309D-3B57B74DCC01}|Biblioteca - Bertoldo\\Biblioteca - Bertoldo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\biblioteca - bertoldo\\biblioteca - bertoldo\\cmateriale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4FF0F6-3CEA-15E4-309D-3B57B74DCC01}|Biblioteca - Bertoldo\\Biblioteca - Bertoldo.csproj|solutionrelative:biblioteca - bertoldo\\cmateriale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4FF0F6-3CEA-15E4-309D-3B57B74DCC01}|Biblioteca - Bertoldo\\Biblioteca - Bertoldo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\biblioteca - bertoldo\\biblioteca - bertoldo\\crivista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4FF0F6-3CEA-15E4-309D-3B57B74DCC01}|Biblioteca - Bertoldo\\Biblioteca - Bertoldo.csproj|solutionrelative:biblioteca - bertoldo\\crivista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4FF0F6-3CEA-15E4-309D-3B57B74DCC01}|Biblioteca - Bertoldo\\Biblioteca - Bertoldo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\biblioteca - bertoldo\\biblioteca - bertoldo\\caudiolibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4FF0F6-3CEA-15E4-309D-3B57B74DCC01}|Biblioteca - Bertoldo\\Biblioteca - Bertoldo.csproj|solutionrelative:biblioteca - bertoldo\\caudiolibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4FF0F6-3CEA-15E4-309D-3B57B74DCC01}|Biblioteca - Bertoldo\\Biblioteca - Bertoldo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\biblioteca - bertoldo\\biblioteca - bertoldo\\cgestionebibioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4FF0F6-3CEA-15E4-309D-3B57B74DCC01}|Biblioteca - Bertoldo\\Biblioteca - Bertoldo.csproj|solutionrelative:biblioteca - bertoldo\\cgestionebibioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\Biblioteca - Bertoldo\\Biblioteca - Bertoldo\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Biblioteca - Bertoldo\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\Biblioteca - Bertoldo\\Biblioteca - Bertoldo\\MainWindow.axaml",
+              "RelativeToolTip": "Biblioteca - Bertoldo\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-12T08:50:06.607Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\Biblioteca - Bertoldo\\Biblioteca - Bertoldo\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Biblioteca - Bertoldo\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\Biblioteca - Bertoldo\\Biblioteca - Bertoldo\\MainWindow.axaml.cs*",
+              "RelativeToolTip": "Biblioteca - Bertoldo\\MainWindow.axaml.cs*",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAqwF8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T08:50:01.765Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CMateriale.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\Biblioteca - Bertoldo\\Biblioteca - Bertoldo\\CMateriale.cs",
+              "RelativeDocumentMoniker": "Biblioteca - Bertoldo\\CMateriale.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\Biblioteca - Bertoldo\\Biblioteca - Bertoldo\\CMateriale.cs",
+              "RelativeToolTip": "Biblioteca - Bertoldo\\CMateriale.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T08:51:45.271Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CRivista.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\Biblioteca - Bertoldo\\Biblioteca - Bertoldo\\CRivista.cs",
+              "RelativeDocumentMoniker": "Biblioteca - Bertoldo\\CRivista.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\Biblioteca - Bertoldo\\Biblioteca - Bertoldo\\CRivista.cs",
+              "RelativeToolTip": "Biblioteca - Bertoldo\\CRivista.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T09:08:18.024Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CLibro.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\Biblioteca - Bertoldo\\Biblioteca - Bertoldo\\CLibro.cs",
+              "RelativeDocumentMoniker": "Biblioteca - Bertoldo\\CLibro.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\Biblioteca - Bertoldo\\Biblioteca - Bertoldo\\CLibro.cs",
+              "RelativeToolTip": "Biblioteca - Bertoldo\\CLibro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T08:58:11.785Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CAudioLibro.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\Biblioteca - Bertoldo\\Biblioteca - Bertoldo\\CAudioLibro.cs",
+              "RelativeDocumentMoniker": "Biblioteca - Bertoldo\\CAudioLibro.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\Biblioteca - Bertoldo\\Biblioteca - Bertoldo\\CAudioLibro.cs",
+              "RelativeToolTip": "Biblioteca - Bertoldo\\CAudioLibro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T09:06:41.075Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CGestioneBibioteca.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\Biblioteca - Bertoldo\\Biblioteca - Bertoldo\\CGestioneBibioteca.cs",
+              "RelativeDocumentMoniker": "Biblioteca - Bertoldo\\CGestioneBibioteca.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\Biblioteca - Bertoldo\\Biblioteca - Bertoldo\\CGestioneBibioteca.cs",
+              "RelativeToolTip": "Biblioteca - Bertoldo\\CGestioneBibioteca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T09:16:53.49Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

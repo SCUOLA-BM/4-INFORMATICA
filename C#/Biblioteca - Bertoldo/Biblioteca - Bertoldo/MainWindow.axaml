@@ -1,0 +1,76 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Biblioteca___Bertoldo.MainWindow"
+        Title="Biblioteca - Bertoldo">
+    <ScrollViewer>
+        <Grid ColumnDefinitions="*,*" RowDefinitions="*,*" ColumnSpacing="11">
+            <GroupBox Header="LISTA MATERIALI" Grid.Column="0" Grid.Row="0">
+                <ListBox Name="ListaMateriali" SelectionChanged="ListaMateriali_SelectionChanged"/>
+            </GroupBox>
+
+            <StackPanel Grid.Row="1" Grid.Column="0">
+                <GroupBox Header="RIEPILOGO">
+                    <StackPanel>
+                        <TextBlock Name="TotMateriali"/>
+                        <TextBlock Name="TotDisponibili"/>
+                        <TextBlock Name="TotPrestito"/>
+                    </StackPanel>
+                </GroupBox>
+
+                <GroupBox Header="ERRORI">
+                    <TextBlock Name="error"/>
+                </GroupBox>
+            </StackPanel>
+
+            <GroupBox Grid.Column="1" Margin="11">
+                <StackPanel Spacing="11">
+                    <ComboBox SelectionChanged="ComboBox_SelectionChanged" Name="cmbMateriale">
+                        <ComboBoxItem Name="Libro" Content="Libro"/>
+                        <ComboBoxItem Name="AudioLibro" Content="AudioLibro"/>
+                        <ComboBoxItem Name="Rivista" Content="Rivista"/>
+                    </ComboBox>
+
+                    <TextBox Name="Codice" PlaceholderText="Inserisci il codice" />
+                    <TextBox Name="Titolo" PlaceholderText="Inserisci il titolo" />
+                    <NumericUpDown Name="Anno" Minimum="0" PlaceholderText="Inserisci anno pubblicazione" Increment="1"/>
+
+                    
+
+                    <StackPanel Name="PanelAutore" IsVisible="False">
+                        <TextBox Name="Autore" PlaceholderText="Inserisci Autore"/>
+                    </StackPanel>
+
+                    <StackPanel Name="PanelNumUscita" IsVisible="False">
+                        <NumericUpDown Name="NumeroUscita" PlaceholderText="Inserisci numero uscita"/>
+                    </StackPanel>
+
+                    <StackPanel Name="PanelDurata" IsVisible="False">
+                        <NumericUpDown Name="DurataMinuti" PlaceholderText="Inserisci durata in minuti"/>
+                    </StackPanel>
+
+                    <Button Name="CreaMateriale" Content="AGGIUNGI" HorizontalAlignment="Center" Click="CreaMateriale_Click"/>
+                </StackPanel>
+
+             </GroupBox>
+            <GroupBox Grid.Column="1" Margin="11" Grid.Row="1">
+                <StackPanel Spacing="5">
+                    <StackPanel Name=" Prestito">
+                        <TextBox Name="Nome" PlaceholderText="Inserisci nome dell'utente" />
+                        <TextBox Name="DataRitorno" PlaceholderText="Data limite restituzione" IsEnabled="false"/>
+                        <Button Content="PRESTITO" Click="Prestito_Click"/>
+                        <TextBlock Name="DataScandeza"/>
+                     </StackPanel>
+
+                    <StackPanel Spacing="11" Name=" Restituzione">
+                        <Button Content="RESTIRUISCI" Click="Restituzione_Click"/>
+                        <TextBox IsEnabled="false" Name="DataRestituzione" PlaceholderText="Data restituzione"/>
+                        <TextBox  IsEnabled="false" Name="Penale" PlaceholderText="Penale"/>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+        </Grid>
+    </ScrollViewer>
+</Window>
