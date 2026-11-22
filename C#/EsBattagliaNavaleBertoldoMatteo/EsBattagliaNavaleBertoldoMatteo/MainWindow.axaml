@@ -1,0 +1,29 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="EsBattagliaNavaleBertoldoMatteo.MainWindow"
+        Title="EsBattagliaNavaleBertoldoMatteo"
+        RequestedThemeVariant="Light"
+        Background="#F1F5F9" Foreground="#0F172A">
+    <ScrollViewer>
+        <StackPanel Margin="24,16,24,0" Spacing="8">
+            <GroupBox Header="Menu Partita" 
+                      Background="#E2E8F0" BorderBrush="#94A3B8" BorderThickness="1" 
+                      Foreground="#000000" Padding="12">
+                <StackPanel Orientation="Horizontal" Spacing="12">
+                    <Button Content="NUOVA PARTITA" Click="Button_Click"
+                            Background="#0284C7" Foreground="#FFFFFF" 
+                            Padding="16,8" FontWeight="SemiBold"
+                            Name="Nuova"/>
+                    <Button Content="TERMINA POSIZIONAMENTO" Click="Button1_Click"
+                            Background="#0F766E" Foreground="#FFFFFF" 
+                            Padding="16,8" FontWeight="SemiBold"
+                            Name="Termina"/>
+                </StackPanel>
+            </GroupBox>
+            <ContentControl Name="Control"/>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

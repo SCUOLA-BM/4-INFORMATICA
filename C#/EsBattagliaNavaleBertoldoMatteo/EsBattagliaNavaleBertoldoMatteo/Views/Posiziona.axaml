@@ -1,0 +1,42 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="EsBattagliaNavaleBertoldoMatteo.Views.Posiziona"
+             Background="#F1F5F9" Foreground="#0F172A">
+  
+    <ScrollViewer>
+        <StackPanel Margin="24">
+            <Grid ColumnDefinitions="400,*">
+                <UniformGrid Name="Griglia" Grid.Column="0" 
+                             Background="#CBD5E1" Margin="0,0,16,0"/>
+                
+                <GroupBox Grid.Column="1" Header="Configurazione Navi" 
+                          Background="#E2E8F0" BorderBrush="#94A3B8" BorderThickness="1" 
+                          Foreground="#000000" Padding="16">
+                    <StackPanel Spacing="16">
+                        <ComboBox Name="ComboNave" 
+                                  Background="#F8FAFC" Foreground="#0F172A" BorderBrush="#94A3B8" 
+                                  HorizontalAlignment="Stretch">
+                            <ComboBoxItem Name="Nave1" Content="NAVE 1"/>
+                            <ComboBoxItem Name="Nave20" Content="NAVE 2"/>
+                            <ComboBoxItem Name="Nave21" Content="NAVE 2"/>
+                            <ComboBoxItem Name="Nave30" Content="NAVE 3"/>
+                            <ComboBoxItem Name="Nave31" Content="NAVE 3"/>
+                            <ComboBoxItem Name="Nave4" Content="NAVE 4"/>
+                        </ComboBox>
+                        
+                        <Button Name="Conferma" Content="POSIZIONA" Click="Conferma_Click"
+                                Background="#0284C7" Foreground="#FFFFFF" 
+                                HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"
+                                Padding="0,10" FontWeight="SemiBold"/>
+                        
+                        <TextBlock Name="error" Text="Qui appaiono errori" 
+                                   Foreground="#DC2626" FontStyle="Italic" TextWrapping="Wrap"/>
+                    </StackPanel>
+                </GroupBox>
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

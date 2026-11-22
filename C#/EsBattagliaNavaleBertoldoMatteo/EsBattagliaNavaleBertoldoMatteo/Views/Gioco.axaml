@@ -1,0 +1,48 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="EsBattagliaNavaleBertoldoMatteo.Views.Gioco"
+             Background="#F1F5F9" Foreground="#0F172A">
+  
+    <ScrollViewer>
+        <StackPanel Margin="24">
+            <Grid ColumnDefinitions="400,*" MaxHeight="400">
+                <UniformGrid Name="Griglia" Grid.Column="0" ColumnSpacing="0"
+                             Background="#CBD5E1" Margin="0,0,16,0"/>
+                
+                <Grid Grid.Column="1" RowDefinitions="Auto,Auto" ColumnDefinitions="*,*"
+                      RowSpacing="12" ColumnSpacing="12">
+                    <GroupBox Header="ERRORI" Grid.Column="0" Grid.Row="0" 
+                              Background="#E2E8F0" BorderBrush="#94A3B8" BorderThickness="1" 
+                              Foreground="#000000" Padding="12">
+                        <TextBlock Text="Nessun errore" Name="error" 
+                                   Foreground="#DC2626" FontStyle="Italic" TextWrapping="Wrap"/>
+                    </GroupBox>
+                    
+                    <GroupBox Header="STATISTICHE" Grid.Column="0" Grid.Row="1"
+                              Background="#E2E8F0" BorderBrush="#94A3B8" BorderThickness="1" 
+                              Foreground="#000000" Padding="12">
+                        <StackPanel Spacing="4">
+                            <TextBlock Name="Mosse" Text="MOSSE 0" Foreground="#0F172A"/>
+                            <TextBlock Name="NaviRim" Text="NAVI 5" Foreground="#0F172A"/>
+                            <TextBlock Name="Colpite" Text="COLPITE 0" Foreground="#0F172A"/>
+                            <TextBlock Name="Acqua" Text="MANCATE 0" Foreground="#0F172A"/>
+                        </StackPanel>
+                    </GroupBox>
+                    
+                    <GroupBox Header="LOG" Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" 
+                              Background="#E2E8F0" BorderBrush="#94A3B8" BorderThickness="1" 
+                              Foreground="#000000" Padding="12" MaxHeight="300">
+                        <ScrollViewer Name="LogScroll"
+                                      HorizontalScrollBarVisibility="Disabled"
+                                      VerticalScrollBarVisibility="Auto">
+                            <TextBlock Name="log" Foreground="#0F172A" TextWrapping="Wrap"/>
+                        </ScrollViewer>
+                    </GroupBox>
+                </Grid>
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

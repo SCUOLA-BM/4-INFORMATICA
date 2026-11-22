@@ -1,0 +1,179 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esbattaglianavalebertoldomatteo\\esbattaglianavalebertoldomatteo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|solutionrelative:esbattaglianavalebertoldomatteo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esbattaglianavalebertoldomatteo\\esbattaglianavalebertoldomatteo\\views\\gioco.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|solutionrelative:esbattaglianavalebertoldomatteo\\views\\gioco.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esbattaglianavalebertoldomatteo\\esbattaglianavalebertoldomatteo\\views\\posiziona.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|solutionrelative:esbattaglianavalebertoldomatteo\\views\\posiziona.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esbattaglianavalebertoldomatteo\\esbattaglianavalebertoldomatteo\\views\\posiziona.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|solutionrelative:esbattaglianavalebertoldomatteo\\views\\posiziona.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esbattaglianavalebertoldomatteo\\esbattaglianavalebertoldomatteo\\views\\gioco.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|solutionrelative:esbattaglianavalebertoldomatteo\\views\\gioco.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esbattaglianavalebertoldomatteo\\esbattaglianavalebertoldomatteo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|solutionrelative:esbattaglianavalebertoldomatteo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esbattaglianavalebertoldomatteo\\esbattaglianavalebertoldomatteo\\views\\cgestione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|solutionrelative:esbattaglianavalebertoldomatteo\\views\\cgestione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esbattaglianavalebertoldomatteo\\esbattaglianavalebertoldomatteo\\cnave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|solutionrelative:esbattaglianavalebertoldomatteo\\cnave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|c:\\users\\asus\\desktop\\itisrossi\\4rossi\\informatica\\c#\\esbattaglianavalebertoldomatteo\\esbattaglianavalebertoldomatteo\\ccella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949E05F5-80FD-EA9F-C4AC-749ED06789DD}|EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo.csproj|solutionrelative:esbattaglianavalebertoldomatteo\\ccella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "EsBattagliaNavaleBertoldoMatteo\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\MainWindow.axaml",
+              "RelativeToolTip": "EsBattagliaNavaleBertoldoMatteo\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-17T10:17:01.995Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "EsBattagliaNavaleBertoldoMatteo\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\MainWindow.axaml.cs",
+              "RelativeToolTip": "EsBattagliaNavaleBertoldoMatteo\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwBoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T10:16:59.966Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Posiziona.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\Views\\Posiziona.axaml.cs",
+              "RelativeDocumentMoniker": "EsBattagliaNavaleBertoldoMatteo\\Views\\Posiziona.axaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\Views\\Posiziona.axaml.cs",
+              "RelativeToolTip": "EsBattagliaNavaleBertoldoMatteo\\Views\\Posiziona.axaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T11:03:20.043Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Posiziona.axaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\Views\\Posiziona.axaml",
+              "RelativeDocumentMoniker": "EsBattagliaNavaleBertoldoMatteo\\Views\\Posiziona.axaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\Views\\Posiziona.axaml",
+              "RelativeToolTip": "EsBattagliaNavaleBertoldoMatteo\\Views\\Posiziona.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-17T11:03:19.99Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Gioco.axaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\Views\\Gioco.axaml",
+              "RelativeDocumentMoniker": "EsBattagliaNavaleBertoldoMatteo\\Views\\Gioco.axaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\Views\\Gioco.axaml",
+              "RelativeToolTip": "EsBattagliaNavaleBertoldoMatteo\\Views\\Gioco.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-17T11:30:16.956Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gioco.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\Views\\Gioco.axaml.cs",
+              "RelativeDocumentMoniker": "EsBattagliaNavaleBertoldoMatteo\\Views\\Gioco.axaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\Views\\Gioco.axaml.cs",
+              "RelativeToolTip": "EsBattagliaNavaleBertoldoMatteo\\Views\\Gioco.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T11:23:21.65Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CGestione.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\Views\\CGestione.cs",
+              "RelativeDocumentMoniker": "EsBattagliaNavaleBertoldoMatteo\\Views\\CGestione.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\Views\\CGestione.cs",
+              "RelativeToolTip": "EsBattagliaNavaleBertoldoMatteo\\Views\\CGestione.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T08:56:56.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CNave.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\CNave.cs",
+              "RelativeDocumentMoniker": "EsBattagliaNavaleBertoldoMatteo\\CNave.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\CNave.cs",
+              "RelativeToolTip": "EsBattagliaNavaleBertoldoMatteo\\CNave.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA7wBEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T14:31:39.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CCella.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\CCella.cs",
+              "RelativeDocumentMoniker": "EsBattagliaNavaleBertoldoMatteo\\CCella.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ITISROSSI\\4Rossi\\INFORMATICA\\C#\\EsBattagliaNavaleBertoldoMatteo\\EsBattagliaNavaleBertoldoMatteo\\CCella.cs",
+              "RelativeToolTip": "EsBattagliaNavaleBertoldoMatteo\\CCella.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T07:07:44.64Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
