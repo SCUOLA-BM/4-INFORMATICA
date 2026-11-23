@@ -1,6 +1,7 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using System;
 using System.Collections.Generic;
 
 namespace EsBattagliaNavaleBertoldoMatteo.Views
@@ -13,7 +14,9 @@ namespace EsBattagliaNavaleBertoldoMatteo.Views
         int numnavi = 0;
         CGestione G;
 
-        public event System.Action? PosizionamentoCompletato;
+
+        public delegate void Cambio();
+        public event Cambio? PosizionamentoCompletato;
         public Posiziona(CGestione g)
         {
             InitializeComponent();
@@ -27,13 +30,12 @@ namespace EsBattagliaNavaleBertoldoMatteo.Views
 
         public void CreaNavi()
         {
-            navi.Add(new CNave(1, 0));
+            navi.Add(new CNave(2, 0));
             navi.Add(new CNave(2, 1));
-            navi.Add(new CNave(2, 2));
-            navi.Add(new CNave(3, 3));
-            navi.Add(new CNave(3, 4));
-            navi.Add(new CNave(4, 5));
-
+            navi.Add(new CNave(3, 2));
+            navi.Add(new CNave(4, 3));
+            navi.Add(new CNave(4, 4));
+            navi.Add(new CNave(5, 5));
         }
 
         public void CreaStruttura()

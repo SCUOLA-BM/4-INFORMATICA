@@ -16,7 +16,8 @@ namespace EsBattagliaNavaleBertoldoMatteo.Views
         public List<CNave> navi;
         public CGestione G;
 
-        public event Action? PartitaFinita;
+        public delegate void Cambio();
+        public event Cambio? PartitaFinita;
 
         int mosse, colpite, acqua;
 
