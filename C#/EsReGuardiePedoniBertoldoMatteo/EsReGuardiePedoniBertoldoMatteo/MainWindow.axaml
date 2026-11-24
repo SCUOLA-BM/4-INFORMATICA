@@ -1,0 +1,45 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:collections="using:System.Collections"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="EsReGuardiePedoniBertoldoMatteo.MainWindow"
+        Title="EsReGuardiePedoniBertoldoMatteo">
+    <ScrollViewer>
+        <Grid ColumnDefinitions="*,*">
+            <GroupBox Grid.Column="0" Margin="11" Header="AREA CASTELLO">
+                  <StackPanel Spacing="11">
+                        <Grid ColumnDefinitions="*,*">
+                            <GroupBox Header="PEDONI" Grid.Column="0" Margin="11">
+                                <ListBox Name="Pedoni" HorizontalAlignment="Center" FontSize="11" />
+                            </GroupBox>
+                            <GroupBox Header="GUARDIE" Grid.Column="1" Margin="11">
+                                <ListBox Name="Guardie"  HorizontalAlignment="Center" FontSize="11"/>
+                            </GroupBox>
+                        </Grid>
+                        <GroupBox Header="RE" HorizontalAlignment="Center">
+                            <Button Name="Re"/>
+                        </GroupBox>
+                        <GroupBox Margin="11">
+                            <Grid ColumnDefinitions="*,*,*" HorizontalAlignment="Center" ColumnSpacing="20" Margin="11">
+                                <Button Click="CaricaFile" Name="CariaFile" Content="CARICA FILE" Grid.Column="0"/>
+                                <Button Click="Passo" Name="Prossimo" Content="PASSO" Grid.Column="1"/>
+                                <Button Click="eseguiTutto" Name="EseguiTutto" Content="ESEGUI TUTTO" Grid.Column="2"/>
+                            </Grid>
+                        </GroupBox>
+                  </StackPanel>
+            </GroupBox>
+            <GroupBox Grid.Column="1" Margin="11" Header="COMANDI E REGISTRO">
+                <Grid ColumnDefinitions="*,*">
+                    <GroupBox Header="FILE INPUT" Grid.Column="0">
+                        <ListBox Name="ListaFileInput" FontSize="11" Padding="0"/>
+                    </GroupBox>
+                    <GroupBox Header="REGISTRO" Grid.Column="1">
+                        <ListBox Name="ListaFileOutput"/>
+                    </GroupBox>
+                </Grid>
+            </GroupBox>
+        </Grid>
+    </ScrollViewer>    
+</Window>
